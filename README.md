@@ -31,8 +31,9 @@ This is a [PopTracker](https://poptracker.github.io/) pack for the **Archipelago
 
 ## Bug Reports
 
-This is my first time creating such a pack, so if you notice any issues or bugs, please create an issue for me to 
-investigate and include the exported state,the pack version, your PopTracker version, and what your expectations were.
+This is my first time creating such a pack, so if you notice any issues or bugs, please 
+[create an issue](https://github.com/ThePhar/APSM64TrackerPack/issues/new/choose) for me to investigate and include the 
+exported state, the pack version, your PopTracker version, and what your expectations were.
 
 ## Compiling from Source
 
