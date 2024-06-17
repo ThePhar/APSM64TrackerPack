@@ -1,5 +1,5 @@
 name: Tracker Bug Report
-description: Template for bug reports.
+description: Report an issue with the tracker pack.
 title: '[Bug]: '
 labels:
   - bug
