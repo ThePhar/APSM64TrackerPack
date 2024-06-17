@@ -2,7 +2,7 @@
     "$schema": "https://poptracker.github.io/schema/packs/strict/manifest.json",
     "name": "Phar's SM64 Archipelago Randomizer Pack",
     "game_name": "Super Mario 64",
-    "package_version": "1.0.0.0",
+    "package_version": "1.0.1",
     "package_uid": "pharware-sm64-pack",
     "min_poptracker_version": "0.25.4",
     "author": "Phar",

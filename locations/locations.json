@@ -34,7 +34,7 @@
             },
             {
                 "name": "Basement Toad",
-                "access_rules": ["$CanAccessBasement,$HasStars|12"]
+                "access_rules": ["$CanAccessBasement,$HasStars|12"],
                 "sections": [
                     {
                         "name": "Basement Toad's Star",
