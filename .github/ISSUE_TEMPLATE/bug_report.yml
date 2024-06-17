@@ -1,0 +1,49 @@
+name: Tracker Bug Report
+description: Template for bug reports.
+title: '[Bug]: '
+labels:
+  - bug
+  - unconfirmed
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Before submitting a bug report, please verify you are using the latest
+        version of this tracker pack (or include justification for using an
+        older pack if a newer pack has additional issues). 
+
+
+        Bug reports for older versions are generally not helpful as issues may
+        be resolved in a newer pack.
+  - type: input
+    id: pack_version
+    attributes:
+      label: Tracker Pack Version
+      description: What version of the tracker pack did you notice this bug?
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: poptracker_version
+    attributes:
+      label: PopTracker Version
+      description: What version of PopTracker are you using?
+      placeholder: 0.25.4
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Issue
+      description: >-
+        Include in as much detail what issue you ran into and what you were
+        expecting instead.
+    validations:
+      required: true
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: >-
+        If there are any additional notes, please include them here. If you have
+        an exported state, please include that as well.
