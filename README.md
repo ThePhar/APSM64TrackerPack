@@ -2,6 +2,8 @@
 
 This is a [PopTracker](https://poptracker.github.io/) pack for the **Archipelago Super Mario 64 Randomizer**.
 
+![Example of SM64 Pack](docs/example.png)
+
 ## Features
 
 - Full Location and Item Tracking
