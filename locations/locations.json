@@ -1,0 +1,85 @@
+[
+    {
+        "name": "Peach's Castle Interior",
+        "chest_opened_img": "images/star_collected.png",
+        "chest_unopened_img": "images/star.png",
+        "children": [
+            {
+                "name": "MIPS the Rabbit",
+                "access_rules": "$CanAccessBasement",
+                "sections": [
+                    {
+                        "name": "MIPS 1",
+                        "hosted_item": "PEACH'S_CASTLE>MIPS_THE_RABBIT",
+                        "access_rules": [
+                            "$HasStars|MIPS1,^$HasMove|dive",
+                            "$HasStars|MIPS1,^$HasLooseMove"
+                        ]
+                    },
+                    {
+                        "name": "MIPS 2",
+                        "hosted_item": "PEACH'S_CASTLE>MIPS_THE_RABBIT_II",
+                        "access_rules": [
+                            "$HasStars|MIPS2,^$HasMove|dive",
+                            "$HasStars|MIPS2,^$HasLooseMove"
+                        ]
+                    }
+                ],
+                "map_locations": [{
+                    "map": "map_castle",
+                    "x": 1166,
+                    "y": 794,
+                    "size": 16
+                }]
+            },
+            {
+                "name": "Basement Toad",
+                "access_rules": ["$CanAccessBasement,$HasStars|12"]
+                "sections": [
+                    {
+                        "name": "Basement Toad's Star",
+                        "hosted_item": "PEACH'S_CASTLE>BASEMENT_TOAD'S_GIFT",
+                    }
+                ],
+                "map_locations": [{
+                    "map": "map_castle",
+                    "x": 1404,
+                    "y": 788,
+                    "size": 16
+                }]
+            },
+            {
+                "name": "Second Floor Toad",
+                "access_rules": ["$CanAccessUpstairs,$HasStars|25"],
+                "sections": [
+                    {
+                        "name": "Second Floor Toad's Star",
+                        "hosted_item": "PEACH'S_CASTLE>SECOND_FLOOR_TOAD'S_GIFT"
+                    }
+                ],
+                "map_locations": [{
+                    "map": "map_castle",
+                    "x": 1401,
+                    "y": 404,
+                    "size": 16
+                }]
+            },
+            {
+                "name": "Third Floor Toad",
+                "access_rules": ["$CanAccessUpstairs,$HasStars|35,$HasStars|F2Door"],
+                "sections": [
+                    {
+                        "name": "Third Floor Toad's Star",
+                        "hosted_item": "PEACH'S_CASTLE>THIRD_FLOOR_TOAD'S_GIFT"
+                    }
+                ],
+                "map_locations": [{
+                    "map": "map_castle",
+                    "x": 1462,
+                    "y": 130,
+                    "size": 16
+                }]
+            }
+        ]
+    }
+]
