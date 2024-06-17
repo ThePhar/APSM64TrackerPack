@@ -2,8 +2,9 @@ todo.*
 .~lock.*
 *.xcf
 
-# Used for definitions locally, but not committing.
-poptracker.lua
+# Ignore these folders.
+lib/
+packs/
 
 ### Linux ###
 *~

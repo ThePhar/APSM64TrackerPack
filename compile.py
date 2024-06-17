@@ -20,11 +20,7 @@ class DataClassJSONEncoder(JSONEncoder):
         if isinstance(value, list):
             return [cls.clean_nones(x) for x in value if x is not None]
         elif isinstance(value, dict):
-            return {
-                key: cls.clean_nones(val)
-                for key, val in value.items()
-                if val is not None
-            }
+            return {key: cls.clean_nones(val) for key, val in value.items() if val is not None}
         else:
             return value
 
@@ -43,7 +39,15 @@ class StageDefinition:
 @dataclass
 class ItemDefinition:
     name: str
-    type: Literal["static", "progressive", "toggle", "consumable", "progressive_toggle", "composite_toggle", "toggle_badged"]
+    type: Literal[
+        "static",
+        "progressive",
+        "toggle",
+        "consumable",
+        "progressive_toggle",
+        "composite_toggle",
+        "toggle_badged",
+    ]
     img: Optional[str] = None
     img_mods: Optional[str] = None
     disabled_img: Optional[str] = None
@@ -82,8 +86,9 @@ er_items: list[ItemDefinition] = [
             type="toggle",
             img=f"images/er_legend/er_{entrance.code}_ent.png",
             disabled_img_mods="none",
-            codes=f"__er_{entrance.code}_ent"
-        ) for entrance in entrances
+            codes=f"__er_{entrance.code}_ent",
+        )
+        for entrance in entrances
     ],
     *[
         ItemDefinition(
@@ -104,15 +109,17 @@ er_items: list[ItemDefinition] = [
                         name=f"{inner_entrance.name} - Destination",
                         inherit_codes=False,
                         img=f"images/er_legend/er_{inner_entrance.code}_dst.png",
-                    ) for inner_entrance in entrances
-                ]
-            ]
-        ) for entrance in entrances
-    ]
+                    )
+                    for inner_entrance in entrances
+                ],
+            ],
+        )
+        for entrance in entrances
+    ],
 ]
 
 
-if __name__ == "__main__":
+def compile_all():
     with open("items/er_items.json", "w") as file:
         file.write("// This file is auto-generated. Do not make modifications to this file directly.\n")
         file.write(dumps(er_items, cls=DataClassJSONEncoder))
@@ -128,7 +135,7 @@ if __name__ == "__main__":
             if location.code == 0:
                 continue
 
-            file.write(f"    [{location.code}] = {{\"{location.get_code_name()}\"}},\n")
+            file.write(f'    [{location.code}] = {{"{location.get_code_name()}"}},\n')
         file.write("}")
 
     with open(f"locations/entrances.json", "w") as file:
@@ -142,41 +149,45 @@ if __name__ == "__main__":
                         "name": "Unknown Destination",
                         "visibility_rules": f"$CanNotSee|{entrance.code}",
                         "access_rules": [rule for rule in entrance.access_rules],
-                        "map_locations": [{
-                            "map": "map_castle",
-                            "x": entrance.coords[0],
-                            "y": entrance.coords[1],
-                        }],
-                        "sections": [{
-                            "name": "Enter Stage and Set Entrance",
-                            "hosted_item": "__unknown_er"
-                        }]
+                        "map_locations": [
+                            {
+                                "map": "map_castle",
+                                "x": entrance.coords[0],
+                                "y": entrance.coords[1],
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Enter Stage and Set Entrance",
+                                "hosted_item": "__unknown_er",
+                            }
+                        ],
                     },
                     {
                         "name": "Bowser in the Sky",
                         "access_rules": ["$CanAccessUpstairs,$HasStars|F2Door,$HasStars|F3Door"],
-                        "map_locations": [{
-                            "map": "map_castle",
-                            "x": 1366,
-                            "y": 520
-                        }],
+                        "map_locations": [{"map": "map_castle", "x": 1366, "y": 520}],
                         "sections": [
                             {
                                 "name": location.name,
                                 "hosted_item": location.get_code_name(),
                                 "access_rules": location.access_rules,
                                 "visibility_rules": location.visibility_rules(),
-                            } for location in locations if location.region == "Bowser in the Sky"
-                        ]
+                            }
+                            for location in locations
+                            if location.region == "Bowser in the Sky"
+                        ],
                     },
                     *[
                         {
                             "name": region.stageify(),
-                            "map_locations": [{
-                                "map": "map_castle",
-                                "x": entrance.coords[0],
-                                "y": entrance.coords[1],
-                            }],
+                            "map_locations": [
+                                {
+                                    "map": "map_castle",
+                                    "x": entrance.coords[0],
+                                    "y": entrance.coords[1],
+                                }
+                            ],
                             "visibility_rules": f"$CanSee|{region.code}|{entrance.code}",
                             "sections": [
                                 {
@@ -184,12 +195,16 @@ if __name__ == "__main__":
                                     "hosted_item": location.get_code_name(),
                                     "access_rules": location.access_rules,
                                     "visibility_rules": location.visibility_rules(),
-                                } for location in locations if location.in_region(region.name)
-                            ]
-                        } for region in entrances
+                                }
+                                for location in locations
+                                if location.in_region(region.name)
+                            ],
+                        }
+                        for region in entrances
                     ],
-                ]
-            } for entrance in entrances
+                ],
+            }
+            for entrance in entrances
         ]
 
         file.write(dumps(region_entrances))

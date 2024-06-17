@@ -1,15 +1,17 @@
-﻿{
-    "$schema": "https://poptracker.github.io/schema/packs/strict/manifest.json",
-    "name": "Phar's SM64 Archipelago Randomizer Pack",
+{
+    "name": "Archipelago SM64 Randomizer - Phar's Pack",
+    "platform": "pc",
     "game_name": "Super Mario 64",
-    "package_version": "1.0.1",
     "package_uid": "pharware-sm64-pack",
+    "package_version": "1.0.1",
     "min_poptracker_version": "0.25.4",
     "author": "Phar",
     "variants": {
         "standard": {
             "display_name": "Full Logic and ER Tracker",
-            "flags": ["ap"]
+            "flags": [
+                "ap"
+            ]
         }
     }
 }

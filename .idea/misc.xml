@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+    <option name="cmdArguments" value="--line-length 120" />
+    <option name="enabledOnReformat" value="true" />
     <option name="sdkName" value="Python 3.12 (phar_sm64_pack)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (phar_sm64_pack)" project-jdk-type="Python SDK" />
