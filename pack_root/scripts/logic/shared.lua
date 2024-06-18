@@ -22,6 +22,10 @@ function HasCompleted(code)
     return Tracker:FindObjectForCode("__location_item_" .. code).Active
 end
 
+function IsNoAreaRando()
+    return Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0
+end
+
 function CanAccessBasement()
     return Tracker:FindObjectForCode("item__key").CurrentStage & 1 == 1
 end

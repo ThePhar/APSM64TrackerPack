@@ -833,19 +833,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -857,19 +863,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -877,7 +889,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -885,7 +899,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2326,19 +2342,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2350,19 +2372,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2370,7 +2398,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -2378,7 +2408,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -3819,19 +3851,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3843,19 +3881,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3863,7 +3907,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -3871,7 +3917,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -5312,19 +5360,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5336,19 +5390,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5356,7 +5416,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -5364,7 +5426,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6805,19 +6869,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6829,19 +6899,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6849,7 +6925,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -6857,7 +6935,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -8298,19 +8378,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8322,19 +8408,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8342,7 +8434,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -8350,7 +8444,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9791,19 +9887,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9815,19 +9917,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9835,7 +9943,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -9843,7 +9953,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -11284,19 +11396,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11308,19 +11426,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11328,7 +11452,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -11336,7 +11462,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12777,19 +12905,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12801,19 +12935,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12821,7 +12961,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -12829,7 +12971,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14270,19 +14414,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14294,19 +14444,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14314,7 +14470,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -14322,7 +14480,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15763,19 +15923,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15787,19 +15953,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15807,7 +15979,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -15815,7 +15989,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17256,19 +17432,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17280,19 +17462,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17300,7 +17488,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -17308,7 +17498,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18749,19 +18941,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18773,19 +18971,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18793,7 +18997,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -18801,7 +19007,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20242,19 +20450,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20266,19 +20480,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20286,7 +20506,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -20294,7 +20516,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21735,19 +21959,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21759,19 +21989,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21779,7 +22015,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -21787,7 +22025,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23228,19 +23468,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23252,19 +23498,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23272,7 +23524,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -23280,7 +23534,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -24721,19 +24977,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24745,19 +25007,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24765,7 +25033,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -24773,7 +25043,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26214,19 +26486,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26238,19 +26516,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26258,7 +26542,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -26266,7 +26552,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27707,19 +27995,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27731,19 +28025,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27751,7 +28051,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -27759,7 +28061,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29200,19 +29504,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29224,19 +29534,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29244,7 +29560,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -29252,7 +29570,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30693,19 +31013,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30717,19 +31043,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30737,7 +31069,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -30745,7 +31079,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32186,19 +32522,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -32210,19 +32552,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32230,7 +32578,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -32238,7 +32588,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33679,19 +34031,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33703,19 +34061,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33723,7 +34087,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -33731,7 +34097,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -35172,19 +35540,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -35196,19 +35570,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35216,7 +35596,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -35224,7 +35606,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36665,19 +37049,25 @@
                     {
                         "name": "Shocking Arrow Lifts!",
                         "hosted_item": "__location_item_3626070",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Top o' the Town",
                         "hosted_item": "__location_item_3626071",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Secrets in the Shallows & Sky",
                         "hosted_item": "__location_item_3626072",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36689,19 +37079,25 @@
                     {
                         "name": "Go to Town for Red Coins",
                         "hosted_item": "__location_item_3626074",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Quick Race Through Downtown!",
                         "hosted_item": "__location_item_3626075",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown,^$CanAccessWDWQuickRace"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626076",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -36709,7 +37105,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626210",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWTop,^$CanAccessWDWBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -36717,7 +37115,9 @@
                     {
                         "name": "1-Up Block in the Downtown",
                         "hosted_item": "__location_item_3626226",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWDWDowntown"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
