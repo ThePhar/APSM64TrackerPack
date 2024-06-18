@@ -157,14 +157,15 @@ locations: list[Location] = [
     Location("1-Up Block in the Pyramid's Left Path",  "Shifting Sand Land",          3626222, LocationType.Block),
     Location("1-Up Block in the Pyramid's Back",       "Shifting Sand Land",          3626223, LocationType.Block),
 
+    # Dire, Dire Docks
+    Location("Board Bowser's Sub",                     "Dire, Dire Docks",            3626056, LocationType.Star),
+    Location("Chests in the Current",                  "Dire, Dire Docks",            3626057, LocationType.Star),
+    Location("Pole-Jumping for Red Coins",             "Dire, Dire Docks",            3626058, LocationType.RedCoin,   ["^$CanAccessDDDRedCoins"]),
+    Location("Through the Jet Stream",                 "Dire, Dire Docks",            3626059, LocationType.Star,      ["^$CanAccessDDDStream"]),
+    Location("The Manta Ray's Reward",                 "Dire, Dire Docks",            3626060, LocationType.Star),
+    Location("Collect the Caps...",                    "Dire, Dire Docks",            3626061, LocationType.Star,      ["^$CanAccessDDDCaps"]),
+    Location("100 Coins Star",                         "Dire, Dire Docks",            3626062, LocationType.Coin,      ["^$CanAccessDDDRedCoins"]),
 
-    Location("Board Bowser's Sub",                     "Dire, Dire Docks",            3626056, LocationType.Star,      []),
-    Location("Chests in the Current",                  "Dire, Dire Docks",            3626057, LocationType.Star,      []),
-    Location("Pole-Jumping for Red Coins",             "Dire, Dire Docks",            3626058, LocationType.RedCoin,   []),
-    Location("Through the Jet Stream",                 "Dire, Dire Docks",            3626059, LocationType.Star,      []),
-    Location("The Manta Ray's Reward",                 "Dire, Dire Docks",            3626060, LocationType.Star,      []),
-    Location("Collect the Caps...",                    "Dire, Dire Docks",            3626061, LocationType.Star,      []),
-    Location("100 Coins Star",                         "Dire, Dire Docks",            3626062, LocationType.Coin,      []),
     Location("Snowman's Big Head",                     "Snowman's Land",              3626063, LocationType.Star,      []),
     Location("Chill with the Bully",                   "Snowman's Land",              3626064, LocationType.Star,      []),
     Location("In the Deep Freeze",                     "Snowman's Land",              3626065, LocationType.Star,      []),
@@ -175,6 +176,7 @@ locations: list[Location] = [
     Location("Bob-omb Buddy",                          "Snowman's Land",              3626209, LocationType.Buddy,     []),
     Location("1-Up Block Near Moneybags",              "Snowman's Land",              3626224, LocationType.Block,     []),
     Location("1-Up Block Inside the Igloo",            "Snowman's Land",              3626225, LocationType.Block,     []),
+
     Location("Shocking Arrow Lifts!",                  "Wet-Dry World",               3626070, LocationType.Star,      []),
     Location("Top o' the Town",                        "Wet-Dry World",               3626071, LocationType.Star,      []),
     Location("Secrets in the Shallows & Sky",          "Wet-Dry World",               3626072, LocationType.Star,      []),
@@ -184,6 +186,7 @@ locations: list[Location] = [
     Location("100 Coins Star",                         "Wet-Dry World",               3626076, LocationType.Coin,      []),
     Location("Bob-omb Buddy",                          "Wet-Dry World",               3626210, LocationType.Buddy,     []),
     Location("1-Up Block in the Downtown",             "Wet-Dry World",               3626226, LocationType.Block,     []),
+
     Location("Scale the Mountain",                     "Tall, Tall Mountain",         3626077, LocationType.Star,      []),
     Location("Mystery of the Monkey Cage",             "Tall, Tall Mountain",         3626078, LocationType.Star,      []),
     Location("Scary 'Shrooms, Red Coins",              "Tall, Tall Mountain",         3626079, LocationType.RedCoin,   []),
@@ -193,6 +196,7 @@ locations: list[Location] = [
     Location("100 Coins Star",                         "Tall, Tall Mountain",         3626083, LocationType.Coin,      []),
     Location("Bob-omb Buddy",                          "Tall, Tall Mountain",         3626211, LocationType.Buddy,     []),
     Location("1-Up Block on the Red Mushroom",         "Tall, Tall Mountain",         3626227, LocationType.Block,     []),
+
     Location("Pluck the Piranha Flower",               "Tiny-Huge Island",            3626084, LocationType.Star,      []),
     Location("The Tip Top of the Huge Island",         "Tiny-Huge Island",            3626085, LocationType.Star,      []),
     Location("Rematch with Koopa the Quick",           "Tiny-Huge Island",            3626086, LocationType.Star,      []),
@@ -204,6 +208,7 @@ locations: list[Location] = [
     Location("1-Up Block Near Tiny Start",             "Tiny-Huge Island",            3626228, LocationType.Block,     []),
     Location("1-Up Block Near Huge Start",             "Tiny-Huge Island",            3626229, LocationType.Block,     []),
     Location("1-Up Block in the Windy Area",           "Tiny-Huge Island",            3626230, LocationType.Block,     []),
+
     Location("Roll into the Cage",                     "Tick Tock Clock",             3626091, LocationType.Star,      []),
     Location("The Pit and the Pendulums",              "Tick Tock Clock",             3626092, LocationType.Star,      []),
     Location("Get a Hand",                             "Tick Tock Clock",             3626093, LocationType.Star,      []),
@@ -213,6 +218,7 @@ locations: list[Location] = [
     Location("100 Coins Star",                         "Tick Tock Clock",             3626097, LocationType.Coin,      []),
     Location("1-Up Block Midway Up",                   "Tick Tock Clock",             3626231, LocationType.Block,     []),
     Location("1-Up Block at the Top",                  "Tick Tock Clock",             3626232, LocationType.Block,     []),
+
     Location("Cruiser Crossing the Rainbow",           "Rainbow Ride",                3626098, LocationType.Star,      []),
     Location("The Big House in the Sky",               "Rainbow Ride",                3626099, LocationType.Star,      []),
     Location("Coins Amassed in a Maze",                "Rainbow Ride",                3626100, LocationType.RedCoin,   []),
@@ -224,29 +230,39 @@ locations: list[Location] = [
     Location("1-Up Block Above the Red Coin Maze",     "Rainbow Ride",                3626233, LocationType.Block,     []),
     Location("1-Up Block Under Fly Guy",               "Rainbow Ride",                3626234, LocationType.Block,     []),
     Location("1-Up Block on the House in the Sky",     "Rainbow Ride",                3626235, LocationType.Block,     []),
+
     Location("End of the Slide Block",                 "Princess's Secret Slide",     3626126, LocationType.Star,      []),
     Location("Finish under 21 Seconds",                "Princess's Secret Slide",     3626127, LocationType.Star,      []),
+
     Location("The Aquarium Red Coins",                 "Secret Aquarium",             3626161, LocationType.RedCoin,   []),
+
     Location("First Bowser's Key",                     "Bowser in the Dark World",    3626178, LocationType.Key,       []),
     Location("Dark World Red Coins",                   "Bowser in the Dark World",    3626105, LocationType.RedCoin,   []),
     Location("1-Up Block on the Tower",                "Bowser in the Dark World",    3626236, LocationType.Block,     []),
     Location("1-Up Block Near the Goombas",            "Bowser in the Dark World",    3626237, LocationType.Block,     []),
+
     Location("Second Bowser's Key",                    "Bowser in the Fire Sea",      3626179, LocationType.Key,       []),
     Location("Fire Sea Red Coins",                     "Bowser in the Fire Sea",      3626112, LocationType.RedCoin,   []),
     Location("1-Up Block on the Swaying Stairs",       "Bowser in the Fire Sea",      3626238, LocationType.Block,     []),
     Location("1-Up Block Near the Poles",              "Bowser in the Fire Sea",      3626239, LocationType.Block,     []),
+
     Location("Sky Red Coins",                          "Bowser in the Sky",           3626119, LocationType.RedCoin,   []),
     Location("1-Up Block on the Rotating Platform",    "Bowser in the Sky",           3626240, LocationType.Block,     []),
+
     Location("Wing Cap Switch",                        "Tower of the Wing Cap",       3626181, LocationType.WingCap,   []),
     Location("Tower Red Coins",                        "Tower of the Wing Cap",       3626140, LocationType.RedCoin,   []),
+
     Location("Metal Cap Switch",                       "Cavern of the Metal Cap",     3626182, LocationType.MetalCap,  []),
     Location("Cavern Red Coins",                       "Cavern of the Metal Cap",     3626133, LocationType.RedCoin,   []),
     Location("1-Up Block Above the Rushing River",     "Cavern of the Metal Cap",     3626241, LocationType.Block,     []),
+
     Location("Vanish Cap Switch",                      "Vanish Cap under the Moat",   3626183, LocationType.VanishCap, []),
     Location("Moat Red Coins",                         "Vanish Cap under the Moat",   3626147, LocationType.RedCoin,   []),
     Location("1-Up Block on the Slope Platform",       "Vanish Cap under the Moat",   3626242, LocationType.Block,     []),
+
     Location("Rainbow Red Coins",                      "Wing Mario over the Rainbow", 3626154, LocationType.RedCoin,   []),
     Location("Rainbow 1-Up Block",                     "Wing Mario over the Rainbow", 3626243, LocationType.Block,     []),
+
     Location("Basement Toad's Gift",                   "Princess Peach's Castle",     3626168, LocationType.Star,      []),
     Location("Second Floor Toad's Gift",               "Princess Peach's Castle",     3626169, LocationType.Star,      []),
     Location("Third Floor Toad's Gift",                "Princess Peach's Castle",     3626170, LocationType.Star,      []),

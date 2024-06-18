@@ -689,13 +689,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -707,13 +711,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2164,13 +2172,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2182,13 +2194,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3639,13 +3655,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3657,13 +3677,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5114,13 +5138,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5132,13 +5160,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6589,13 +6621,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6607,13 +6643,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8064,13 +8104,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8082,13 +8126,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9539,13 +9587,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9557,13 +9609,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11014,13 +11070,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11032,13 +11092,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12489,13 +12553,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12507,13 +12575,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13964,13 +14036,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -13982,13 +14058,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15439,13 +15519,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15457,13 +15541,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16914,13 +17002,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -16932,13 +17024,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18389,13 +18485,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18407,13 +18507,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19864,13 +19968,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19882,13 +19990,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21339,13 +21451,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21357,13 +21473,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22814,13 +22934,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22832,13 +22956,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24289,13 +24417,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24307,13 +24439,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25764,13 +25900,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25782,13 +25922,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27239,13 +27383,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27257,13 +27405,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28714,13 +28866,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28732,13 +28888,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30189,13 +30349,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30207,13 +30371,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31664,13 +31832,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31682,13 +31854,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33139,13 +33315,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33157,13 +33337,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34614,13 +34798,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34632,13 +34820,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -36089,13 +36281,17 @@
                     {
                         "name": "Pole-Jumping for Red Coins",
                         "hosted_item": "__location_item_3626058",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626059",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36107,13 +36303,17 @@
                     {
                         "name": "Collect the Caps...",
                         "hosted_item": "__location_item_3626061",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDCaps"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessDDDRedCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
