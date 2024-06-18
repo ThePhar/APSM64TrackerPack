@@ -111,19 +111,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -135,19 +141,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -155,7 +167,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -1523,19 +1537,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1547,19 +1567,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -1567,7 +1593,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -2935,19 +2963,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2959,19 +2993,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2979,7 +3019,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -4347,19 +4389,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4371,19 +4419,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4391,7 +4445,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -5759,19 +5815,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5783,19 +5845,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5803,7 +5871,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -7171,19 +7241,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7195,19 +7271,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7215,7 +7297,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -8583,19 +8667,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8607,19 +8697,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8627,7 +8723,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -9995,19 +10093,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10019,19 +10123,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10039,7 +10149,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -11407,19 +11519,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11431,19 +11549,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11451,7 +11575,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -12819,19 +12945,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12843,19 +12975,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12863,7 +13001,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -14231,19 +14371,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14255,19 +14401,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14275,7 +14427,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -15643,19 +15797,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15667,19 +15827,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15687,7 +15853,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -17055,19 +17223,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17079,19 +17253,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17099,7 +17279,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -18467,19 +18649,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18491,19 +18679,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18511,7 +18705,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -19879,19 +20075,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19903,19 +20105,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19923,7 +20131,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -21291,19 +21501,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21315,19 +21531,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21335,7 +21557,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -22703,19 +22927,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22727,19 +22957,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22747,7 +22983,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -24115,19 +24353,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24139,19 +24383,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24159,7 +24409,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -25527,19 +25779,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25551,19 +25809,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25571,7 +25835,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -26939,19 +27205,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26963,19 +27235,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26983,7 +27261,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -28351,19 +28631,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28375,19 +28661,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28395,7 +28687,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -29763,19 +30057,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29787,19 +30087,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29807,7 +30113,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -31175,19 +31483,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31199,19 +31513,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31219,7 +31539,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -32587,19 +32909,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -32611,19 +32939,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32631,7 +32965,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -33999,19 +34335,25 @@
                     {
                         "name": "Chip off Whomp's Block",
                         "hosted_item": "__location_item_3626007",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "To the Top of the Fortress",
                         "hosted_item": "__location_item_3626008",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Shoot into the Wild Blue",
                         "hosted_item": "__location_item_3626009",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWildBlue"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34023,19 +34365,25 @@
                     {
                         "name": "Fall onto the Caged Island",
                         "hosted_item": "__location_item_3626011",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCagedIsland"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast Away the Wall",
                         "hosted_item": "__location_item_3626012",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFWall"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626013",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34043,7 +34391,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626201",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessWFTower"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]

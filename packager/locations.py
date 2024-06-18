@@ -71,6 +71,7 @@ class Location(NamedTuple):
 
 # fmt: off
 locations: list[Location] = [
+    # 1. Bob-omb Battlefield
     Location("Big Bob-omb on the Summit",              "Bob-omb Battlefield",         3626000, LocationType.Star),
     Location("Footrace with Koopa the Quick",          "Bob-omb Battlefield",         3626001, LocationType.Star),
     Location("Shoot to the Island in the Sky",         "Bob-omb Battlefield",         3626002, LocationType.Star,      ["^$CanAccessBOBIsland"]),
@@ -78,15 +79,19 @@ locations: list[Location] = [
     Location("Mario Wings to the Sky",                 "Bob-omb Battlefield",         3626004, LocationType.Star,      ["^$CanAccessBOBWings"]),
     Location("Behind Chain Chomp's Gate",              "Bob-omb Battlefield",         3626005, LocationType.Star,      ["^$CanAccessBOBChainChomp"]),
     Location("100 Coins Star",                         "Bob-omb Battlefield",         3626006, LocationType.Coin,      ["^$CanAccessBOBCoins"]),
-    Location("Bob-omb Buddy",                          "Bob-omb Battlefield",         3626200, LocationType.Buddy,     []),
-    Location("Chip off Whomp's Block",                 "Whomp's Fortress",            3626007, LocationType.Star,      []),
-    Location("To the Top of the Fortress",             "Whomp's Fortress",            3626008, LocationType.Star,      []),
-    Location("Shoot into the Wild Blue",               "Whomp's Fortress",            3626009, LocationType.Star,      []),
-    Location("Red Coins on the Floating Isle",         "Whomp's Fortress",            3626010, LocationType.RedCoin,   []),
-    Location("Fall onto the Caged Island",             "Whomp's Fortress",            3626011, LocationType.Star,      []),
-    Location("Blast Away the Wall",                    "Whomp's Fortress",            3626012, LocationType.Star,      []),
-    Location("100 Coins Star",                         "Whomp's Fortress",            3626013, LocationType.Coin,      []),
-    Location("Bob-omb Buddy",                          "Whomp's Fortress",            3626201, LocationType.Buddy,     []),
+    Location("Bob-omb Buddy",                          "Bob-omb Battlefield",         3626200, LocationType.Buddy),
+
+    # 2. Whomp's Fortress
+    Location("Chip off Whomp's Block",                 "Whomp's Fortress",            3626007, LocationType.Star,      ["^$CanAccessWFTower"]),
+    Location("To the Top of the Fortress",             "Whomp's Fortress",            3626008, LocationType.Star,      ["^$CanAccessWFTower"]),
+    Location("Shoot into the Wild Blue",               "Whomp's Fortress",            3626009, LocationType.Star,      ["^$CanAccessWFWildBlue"]),
+    Location("Red Coins on the Floating Isle",         "Whomp's Fortress",            3626010, LocationType.RedCoin),
+    Location("Fall onto the Caged Island",             "Whomp's Fortress",            3626011, LocationType.Star,      ["^$CanAccessWFCagedIsland"]),
+    Location("Blast Away the Wall",                    "Whomp's Fortress",            3626012, LocationType.Star,      ["^$CanAccessWFWall"]),
+    Location("100 Coins Star",                         "Whomp's Fortress",            3626013, LocationType.Coin,      ["^$CanAccessWFCoins"]),
+    Location("Bob-omb Buddy",                          "Whomp's Fortress",            3626201, LocationType.Buddy,     ["^$CanAccessWFTower"]),
+
+
     Location("Plunder in the Sunken Ship",             "Jolly Roger Bay",             3626014, LocationType.Star,      []),
     Location("Can the Eel Come out to Play?",          "Jolly Roger Bay",             3626015, LocationType.Star,      []),
     Location("Treasure of the Ocean Cave",             "Jolly Roger Bay",             3626016, LocationType.Star,      []),

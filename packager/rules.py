@@ -1,6 +1,5 @@
-# rf.assign_rule("BoB: Island", "CANN | CANNLESS & WC & TJ | CAPLESS & CANNLESS & LJ")
-# rf.assign_rule("BoB: Mario Wings to the Sky", "CANN & WC | CAPLESS & CANN")
-# rf.assign_rule("BoB: Behind Chain Chomp's Gate", "GP | MOVELESS")
-# rf.assign_rule("BoB: 100 Coins", "CANN & WC | CANNLESS & WC & TJ")
-
-location_rules = dict[str, list[str]] = {"": []}
+# rf.assign_rule("JRB: Upper", "TJ/BF/SF/WK | MOVELESS & LG")
+# rf.assign_rule("JRB: Red Coins on the Ship Afloat", "CL/CANN/TJ | MOVELESS & BF/WK")
+# rf.assign_rule("JRB: Blast to the Stone Pillar", "CANN+CL | CANNLESS & MOVELESS | CANN & MOVELESS")
+# rf.assign_rule("JRB: Through the Jet Stream", "MC | CAPLESS")
+# rf.assign_rule("JRB: 100 Coins", "GP & {JRB: Upper}")

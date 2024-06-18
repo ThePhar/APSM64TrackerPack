@@ -38,38 +38,6 @@ function HasCompleted(code)
     return AccessibilityLevel.None
 end
 
-function HasMove(move)
-    if not Tracker:FindObjectForCode("__setting_MV").Active then
-    	return AccessibilityLevel.Normal
-    end
-
-    if move == nil then
-    	return AccessibilityLevel.Normal
-    end
-
-    if Tracker:FindObjectForCode("move_" .. move).Active then
-        return AccessibilityLevel.Normal
-    end
-
-    return AccessibilityLevel.None
-end
-
-function HasLooseMove(move)
-    if not Tracker:FindObjectForCode("__setting_MV").Active then
-    	return AccessibilityLevel.Normal
-    end
-
-    local move_status = HasMove(move)
-    local loose = Tracker:FindObjectForCode("__setting_SM").CurrentStage == 1
-    if loose and move_status then
-    	return AccessibilityLevel.Normal
-    elseif move_status then
-    	return AccessibilityLevel.SequenceBreak
-    else
-        return AccessibilityLevel.None
-    end
-end
-
 function HasCannon(stage)
     if not Tracker:FindObjectForCode("__setting_BB").Active then
     	return AccessibilityLevel.Normal
