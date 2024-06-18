@@ -660,7 +660,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -2305,7 +2305,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -3950,7 +3950,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -5595,7 +5595,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -7240,7 +7240,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -8885,7 +8885,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -10530,7 +10530,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -12175,7 +12175,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -13820,7 +13820,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -15465,7 +15465,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -17110,7 +17110,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -18755,7 +18755,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -20400,7 +20400,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -22045,7 +22045,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -23690,7 +23690,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -25335,7 +25335,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -26980,7 +26980,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -28625,7 +28625,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -30270,7 +30270,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -31915,7 +31915,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -33560,7 +33560,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -35205,7 +35205,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -36850,7 +36850,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -38495,7 +38495,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -40140,7 +40140,7 @@
                         "hosted_item": "__location_item_3626055",
                         "access_rules": [
                             "^$CanAccessSSLUpperPyramid",
-                            "$HasMove|GP"
+                            "$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"

@@ -151,7 +151,7 @@ locations: list[Location] = [
     Location("Stand Tall on the Four Pillars",         "Shifting Sand Land",          3626052, LocationType.Star,      ["^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"]),
     Location("Free Flying for 8 Red Coins",            "Shifting Sand Land",          3626053, LocationType.RedCoin,   ["^$CanAccessSSLRedCoins"]),
     Location("Pyramid Puzzle",                         "Shifting Sand Land",          3626054, LocationType.Star,      ["^$CanAccessSSLUpperPyramid"]),
-    Location("100 Coins Star",                         "Shifting Sand Land",          3626055, LocationType.Coin,      ["^$CanAccessSSLUpperPyramid", "$HasMove|GP"]),
+    Location("100 Coins Star",                         "Shifting Sand Land",          3626055, LocationType.Coin,      ["^$CanAccessSSLUpperPyramid", "$HasMoves|GP"]),
     Location("Bob-omb Buddy",                          "Shifting Sand Land",          3626207, LocationType.Buddy),
     Location("1-Up Block Outside Pyramid",             "Shifting Sand Land",          3626221, LocationType.Block),
     Location("1-Up Block in the Pyramid's Left Path",  "Shifting Sand Land",          3626222, LocationType.Block),
