@@ -1359,19 +1359,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -1379,7 +1385,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -1400,7 +1408,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1458,7 +1470,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1485,13 +1500,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1562,13 +1583,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2940,19 +2965,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2960,7 +2991,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2981,7 +3014,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3039,7 +3076,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3066,13 +3106,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3143,13 +3189,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4521,19 +4571,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4541,7 +4597,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4562,7 +4620,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4620,7 +4682,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4647,13 +4712,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4724,13 +4795,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6102,19 +6177,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6122,7 +6203,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6143,7 +6226,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6201,7 +6288,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6228,13 +6318,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6305,13 +6401,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7683,19 +7783,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7703,7 +7809,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7724,7 +7832,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7782,7 +7894,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7809,13 +7924,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7886,13 +8007,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9264,19 +9389,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9284,7 +9415,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9305,7 +9438,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9363,7 +9500,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9390,13 +9530,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9467,13 +9613,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10845,19 +10995,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10865,7 +11021,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10886,7 +11044,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10944,7 +11106,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10971,13 +11136,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11048,13 +11219,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12426,19 +12601,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12446,7 +12627,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12467,7 +12650,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12525,7 +12712,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12552,13 +12742,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12629,13 +12825,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14007,19 +14207,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14027,7 +14233,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14048,7 +14256,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14106,7 +14318,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14133,13 +14348,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14210,13 +14431,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15588,19 +15813,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15608,7 +15839,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15629,7 +15862,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15687,7 +15924,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15714,13 +15954,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15791,13 +16037,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17169,19 +17419,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17189,7 +17445,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17210,7 +17468,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17268,7 +17530,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17295,13 +17560,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17372,13 +17643,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18750,19 +19025,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18770,7 +19051,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18791,7 +19074,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18849,7 +19136,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18876,13 +19166,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18953,13 +19249,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20331,19 +20631,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20351,7 +20657,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20372,7 +20680,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20430,7 +20742,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20457,13 +20772,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20534,13 +20855,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21912,19 +22237,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21932,7 +22263,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21953,7 +22286,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22011,7 +22348,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22038,13 +22378,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22115,13 +22461,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23493,19 +23843,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23513,7 +23869,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23534,7 +23892,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23592,7 +23954,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23619,13 +23984,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23696,13 +24067,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25074,19 +25449,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25094,7 +25475,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25115,7 +25498,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25173,7 +25560,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25200,13 +25590,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25277,13 +25673,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26655,19 +27055,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26675,7 +27081,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26696,7 +27104,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26754,7 +27166,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26781,13 +27196,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26858,13 +27279,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28236,19 +28661,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28256,7 +28687,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28277,7 +28710,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28335,7 +28772,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28362,13 +28802,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28439,13 +28885,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29817,19 +30267,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29837,7 +30293,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29858,7 +30316,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29916,7 +30378,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29943,13 +30408,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30020,13 +30491,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -31398,19 +31873,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -31418,7 +31899,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -31439,7 +31922,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31497,7 +31984,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31524,13 +32014,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31601,13 +32097,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32979,19 +33479,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32999,7 +33505,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33020,7 +33528,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33078,7 +33590,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33105,13 +33620,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33182,13 +33703,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -34560,19 +35085,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -34580,7 +35111,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -34601,7 +35134,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34659,7 +35196,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34686,13 +35226,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34763,13 +35309,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36141,19 +36691,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36161,7 +36717,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36182,7 +36740,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36240,7 +36802,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36267,13 +36832,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36344,13 +36915,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -37722,19 +38297,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -37742,7 +38323,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -37763,7 +38346,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -37821,7 +38408,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -37848,13 +38438,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -37925,13 +38521,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -39303,19 +39903,25 @@
                     {
                         "name": "Second Bowser's Key",
                         "hosted_item": "__location_item_3626179",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Fire Sea Red Coins",
                         "hosted_item": "__location_item_3626112",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "1-Up Block on the Swaying Stairs",
                         "hosted_item": "__location_item_3626238",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -39323,7 +39929,9 @@
                     {
                         "name": "1-Up Block Near the Poles",
                         "hosted_item": "__location_item_3626239",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL,$HasMoves|LG/WK"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -39344,7 +39952,11 @@
                     {
                         "name": "Sky Red Coins",
                         "hosted_item": "__location_item_3626119",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasAllMoves|CL/TJ",
+                            "$HasAllMoves|CL/SF/LG",
+                            "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -39402,7 +40014,10 @@
                     {
                         "name": "Cavern Red Coins",
                         "hosted_item": "__location_item_3626133",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|MC",
+                            "^$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -39429,13 +40044,19 @@
                     {
                         "name": "Vanish Cap Switch",
                         "hosted_item": "__location_item_3626183",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/TJ/BF/SF/LG",
+                            "^$StrictMovementAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Moat Red Coins",
                         "hosted_item": "__location_item_3626147",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG",
+                            "$HasMoves|WK,^$$StrictCapAccessibilityLevel"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -39506,13 +40127,17 @@
                     {
                         "name": "Rainbow Red Coins",
                         "hosted_item": "__location_item_3626154",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Rainbow 1-Up Block",
                         "hosted_item": "__location_item_3626243",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|TJ,$HasCap|WC"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]

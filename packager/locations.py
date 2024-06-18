@@ -236,41 +236,41 @@ locations: list[Location] = [
     Location("1-Up Block Under Fly Guy",               "Rainbow Ride",                3626234, LocationType.Block),
     Location("1-Up Block on the House in the Sky",     "Rainbow Ride",                3626235, LocationType.Block,     ["^$CanAccessRRHouse"]),
 
-    Location("End of the Slide Block",                 "Princess's Secret Slide",     3626126, LocationType.Star,      []),
-    Location("Finish under 21 Seconds",                "Princess's Secret Slide",     3626127, LocationType.Star,      []),
+    Location("End of the Slide Block",                 "Princess's Secret Slide",     3626126, LocationType.Star),
+    Location("Finish under 21 Seconds",                "Princess's Secret Slide",     3626127, LocationType.Star),
 
-    Location("The Aquarium Red Coins",                 "Secret Aquarium",             3626161, LocationType.RedCoin,   []),
+    Location("The Aquarium Red Coins",                 "Secret Aquarium",             3626161, LocationType.RedCoin),
 
-    Location("First Bowser's Key",                     "Bowser in the Dark World",    3626178, LocationType.Key,       []),
-    Location("Dark World Red Coins",                   "Bowser in the Dark World",    3626105, LocationType.RedCoin,   []),
-    Location("1-Up Block on the Tower",                "Bowser in the Dark World",    3626236, LocationType.Block,     []),
-    Location("1-Up Block Near the Goombas",            "Bowser in the Dark World",    3626237, LocationType.Block,     []),
+    Location("First Bowser's Key",                     "Bowser in the Dark World",    3626178, LocationType.Key),
+    Location("Dark World Red Coins",                   "Bowser in the Dark World",    3626105, LocationType.RedCoin),
+    Location("1-Up Block on the Tower",                "Bowser in the Dark World",    3626236, LocationType.Block),
+    Location("1-Up Block Near the Goombas",            "Bowser in the Dark World",    3626237, LocationType.Block),
 
-    Location("Second Bowser's Key",                    "Bowser in the Fire Sea",      3626179, LocationType.Key,       []),
-    Location("Fire Sea Red Coins",                     "Bowser in the Fire Sea",      3626112, LocationType.RedCoin,   []),
-    Location("1-Up Block on the Swaying Stairs",       "Bowser in the Fire Sea",      3626238, LocationType.Block,     []),
-    Location("1-Up Block Near the Poles",              "Bowser in the Fire Sea",      3626239, LocationType.Block,     []),
+    Location("Second Bowser's Key",                    "Bowser in the Fire Sea",      3626179, LocationType.Key,       ["$HasMoves|CL"]),
+    Location("Fire Sea Red Coins",                     "Bowser in the Fire Sea",      3626112, LocationType.RedCoin,   ["$HasMoves|CL,$HasMoves|LG/WK"]),
+    Location("1-Up Block on the Swaying Stairs",       "Bowser in the Fire Sea",      3626238, LocationType.Block,     ["$HasMoves|CL"]),
+    Location("1-Up Block Near the Poles",              "Bowser in the Fire Sea",      3626239, LocationType.Block,     ["$HasMoves|CL,$HasMoves|LG/WK"]),
 
-    Location("Sky Red Coins",                          "Bowser in the Sky",           3626119, LocationType.RedCoin,   []),
-    Location("1-Up Block on the Rotating Platform",    "Bowser in the Sky",           3626240, LocationType.Block,     []),
+    Location("Sky Red Coins",                          "Bowser in the Sky",           3626119, LocationType.RedCoin,   ["$HasAllMoves|CL/TJ", "$HasAllMoves|CL/SF/LG", "$HasAllMoves|TJ/WK/LG,^$StrictMovementAccessibilityLevel"]),
+    Location("1-Up Block on the Rotating Platform",    "Bowser in the Sky",           3626240, LocationType.Block),
 
-    Location("Wing Cap Switch",                        "Tower of the Wing Cap",       3626181, LocationType.WingCap,   []),
-    Location("Tower Red Coins",                        "Tower of the Wing Cap",       3626140, LocationType.RedCoin,   []),
+    Location("Wing Cap Switch",                        "Tower of the Wing Cap",       3626181, LocationType.WingCap),
+    Location("Tower Red Coins",                        "Tower of the Wing Cap",       3626140, LocationType.RedCoin),
 
-    Location("Metal Cap Switch",                       "Cavern of the Metal Cap",     3626182, LocationType.MetalCap,  []),
-    Location("Cavern Red Coins",                       "Cavern of the Metal Cap",     3626133, LocationType.RedCoin,   []),
-    Location("1-Up Block Above the Rushing River",     "Cavern of the Metal Cap",     3626241, LocationType.Block,     []),
+    Location("Metal Cap Switch",                       "Cavern of the Metal Cap",     3626182, LocationType.MetalCap),
+    Location("Cavern Red Coins",                       "Cavern of the Metal Cap",     3626133, LocationType.RedCoin,   ["$HasCap|MC", "^$StrictCapAccessibilityLevel"]),
+    Location("1-Up Block Above the Rushing River",     "Cavern of the Metal Cap",     3626241, LocationType.Block),
 
-    Location("Vanish Cap Switch",                      "Vanish Cap under the Moat",   3626183, LocationType.VanishCap, []),
-    Location("Moat Red Coins",                         "Vanish Cap under the Moat",   3626147, LocationType.RedCoin,   []),
-    Location("1-Up Block on the Slope Platform",       "Vanish Cap under the Moat",   3626242, LocationType.Block,     []),
+    Location("Vanish Cap Switch",                      "Vanish Cap under the Moat",   3626183, LocationType.VanishCap, ["$HasMoves|WK/TJ/BF/SF/LG", "^$StrictMovementAccessibilityLevel"]),
+    Location("Moat Red Coins",                         "Vanish Cap under the Moat",   3626147, LocationType.RedCoin,   ["$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG", "$HasMoves|WK,^$$StrictCapAccessibilityLevel"]),
+    Location("1-Up Block on the Slope Platform",       "Vanish Cap under the Moat",   3626242, LocationType.Block),
 
-    Location("Rainbow Red Coins",                      "Wing Mario over the Rainbow", 3626154, LocationType.RedCoin,   []),
-    Location("Rainbow 1-Up Block",                     "Wing Mario over the Rainbow", 3626243, LocationType.Block,     []),
+    Location("Rainbow Red Coins",                      "Wing Mario over the Rainbow", 3626154, LocationType.RedCoin,   ["$HasMoves|TJ,$HasCap|WC"]),
+    Location("Rainbow 1-Up Block",                     "Wing Mario over the Rainbow", 3626243, LocationType.Block,     ["$HasMoves|TJ,$HasCap|WC"]),
 
-    Location("Basement Toad's Gift",                   "Princess Peach's Castle",     3626168, LocationType.Star,      []),
-    Location("Second Floor Toad's Gift",               "Princess Peach's Castle",     3626169, LocationType.Star,      []),
-    Location("Third Floor Toad's Gift",                "Princess Peach's Castle",     3626170, LocationType.Star,      []),
-    Location("MIPS the Rabbit",                        "Princess Peach's Castle",     3626171, LocationType.Star,      []),
-    Location("MIPS the Rabbit II",                     "Princess Peach's Castle",     3626172, LocationType.Star,      []),
+    Location("Basement Toad's Gift",                   "Princess Peach's Castle",     3626168, LocationType.Star),  # Rule set manually.
+    Location("Second Floor Toad's Gift",               "Princess Peach's Castle",     3626169, LocationType.Star),  # Rule set manually.
+    Location("Third Floor Toad's Gift",                "Princess Peach's Castle",     3626170, LocationType.Star),  # Rule set manually.
+    Location("MIPS the Rabbit",                        "Princess Peach's Castle",     3626171, LocationType.Star),  # Rule set manually.
+    Location("MIPS the Rabbit II",                     "Princess Peach's Castle",     3626172, LocationType.Star),  # Rule set manually.
 ]
