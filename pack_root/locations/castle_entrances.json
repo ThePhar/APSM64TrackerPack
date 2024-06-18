@@ -922,13 +922,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -940,25 +944,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2431,13 +2443,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2449,25 +2465,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3940,13 +3964,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3958,25 +3986,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5449,13 +5485,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5467,25 +5507,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6958,13 +7006,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6976,25 +7028,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8467,13 +8527,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8485,25 +8549,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9976,13 +10048,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9994,25 +10070,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11485,13 +11569,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11503,25 +11591,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12994,13 +13090,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -13012,25 +13112,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14503,13 +14611,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14521,25 +14633,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16012,13 +16132,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -16030,25 +16154,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17521,13 +17653,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17539,25 +17675,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19030,13 +19174,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19048,25 +19196,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20539,13 +20695,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20557,25 +20717,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22048,13 +22216,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22066,25 +22238,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23557,13 +23737,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23575,25 +23759,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25066,13 +25258,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25084,25 +25280,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26575,13 +26779,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26593,25 +26801,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28084,13 +28300,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28102,25 +28322,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29593,13 +29821,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29611,25 +29843,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31102,13 +31342,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31120,25 +31364,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32611,13 +32863,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -32629,25 +32885,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34120,13 +34384,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34138,25 +34406,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35629,13 +35905,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -35647,25 +35927,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -37138,13 +37426,17 @@
                     {
                         "name": "Scale the Mountain",
                         "hosted_item": "__location_item_3626077",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Mystery of the Monkey Cage",
                         "hosted_item": "__location_item_3626078",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -37156,25 +37448,33 @@
                     {
                         "name": "Mysterious Mountainside",
                         "hosted_item": "__location_item_3626080",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Breathtaking View from Bridge",
                         "hosted_item": "__location_item_3626081",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Lonely Mushroom",
                         "hosted_item": "__location_item_3626082",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMMushroom"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626083",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTMTop"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
