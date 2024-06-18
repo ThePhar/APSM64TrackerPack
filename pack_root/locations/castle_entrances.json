@@ -25,13 +25,13 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bob",
-                "access_rules": "{$IsUnknownDestination|bob}",
+                "access_rules": [],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 112,
                         "y": 539,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -1650,13 +1650,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wf",
-                "access_rules": "{$IsUnknownDestination|wf}",
+                "access_rules": [
+                    "$HasStars|1"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 700,
                         "y": 641,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -3275,13 +3277,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|jrb",
-                "access_rules": "{$IsUnknownDestination|jrb}",
+                "access_rules": [
+                    "$HasStars|3"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 681,
                         "y": 967,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -4900,13 +4904,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ccm",
-                "access_rules": "{$IsUnknownDestination|ccm}",
+                "access_rules": [
+                    "$HasStars|3"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 535,
                         "y": 538,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -6525,13 +6531,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bbh",
-                "access_rules": "{$IsUnknownDestination|bbh}",
+                "access_rules": [
+                    "$HasStars|12"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 699,
                         "y": 380,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -8150,13 +8158,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|hmc",
-                "access_rules": "{$IsUnknownDestination|hmc}",
+                "access_rules": [
+                    "$CanAccessBasement"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1458,
                         "y": 788,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -9775,13 +9785,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|lll",
-                "access_rules": "{$IsUnknownDestination|lll}",
+                "access_rules": [
+                    "$CanAccessBasement"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1179,
                         "y": 696,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -11400,13 +11412,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ssl",
-                "access_rules": "{$IsUnknownDestination|ssl}",
+                "access_rules": [
+                    "$CanAccessBasement"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1070,
                         "y": 832,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -13025,13 +13039,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ddd",
-                "access_rules": "{$IsUnknownDestination|ddd}",
+                "access_rules": [
+                    "$CanAccessDDD"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1529,
                         "y": 1004,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -14650,13 +14666,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|sl",
-                "access_rules": "{$IsUnknownDestination|sl}",
+                "access_rules": [
+                    "$CanAccessSecondFloor"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1114,
                         "y": 534,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -16275,13 +16293,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wdw",
-                "access_rules": "{$IsUnknownDestination|wdw}",
+                "access_rules": [
+                    "$CanAccessSecondFloor"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1430,
                         "y": 530,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -17900,13 +17920,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ttm",
-                "access_rules": "{$IsUnknownDestination|ttm}",
+                "access_rules": [
+                    "$CanAccessSecondFloor"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1408,
                         "y": 346,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -19525,13 +19547,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|thih",
-                "access_rules": "{$IsUnknownDestination|thih}",
+                "access_rules": [
+                    "$CanAccessSecondFloor"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1692,
                         "y": 658,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -21150,13 +21174,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|thit",
-                "access_rules": "{$IsUnknownDestination|thit}",
+                "access_rules": [
+                    "$CanAccessSecondFloor"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1692,
                         "y": 386,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -22775,13 +22801,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ttc",
-                "access_rules": "{$IsUnknownDestination|ttc}",
+                "access_rules": [
+                    "$CanAccessThirdFloor,$HasMoves|LG/TJ/SF/BF/WK"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1374,
                         "y": 114,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -24400,13 +24428,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|rr",
-                "access_rules": "{$IsUnknownDestination|rr}",
+                "access_rules": [
+                    "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1597,
                         "y": 178,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -26025,13 +26055,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bitdw",
-                "access_rules": "{$IsUnknownDestination|bitdw}",
+                "access_rules": [
+                    "$HasStars|F1Door"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 332,
                         "y": 318,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -27650,13 +27682,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bitfs",
-                "access_rules": "{$IsUnknownDestination|bitfs}",
+                "access_rules": [
+                    "$CanAccessDDD,$HasCompleted|3626056"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1575,
                         "y": 1004,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -29275,13 +29309,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bits",
-                "access_rules": "{$IsUnknownDestination|bits}",
+                "access_rules": [
+                    "$CanAccessThirdFloor,$HasStars|F3Door"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1376,
                         "y": 530,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -30900,13 +30936,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|pss",
-                "access_rules": "{$IsUnknownDestination|pss}",
+                "access_rules": [
+                    "$HasStars|1"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 658,
                         "y": 772,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -32525,13 +32563,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|sa",
-                "access_rules": "{$IsUnknownDestination|sa}",
+                "access_rules": [
+                    "$HasStars|3,^$CanAccessSA"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 466,
                         "y": 884,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -34150,13 +34190,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wmotr",
-                "access_rules": "{$IsUnknownDestination|wmotr}",
+                "access_rules": [
+                    "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1152,
                         "y": 178,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -35775,13 +35817,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|totwc",
-                "access_rules": "{$IsUnknownDestination|totwc}",
+                "access_rules": [
+                    "$HasStars|10"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 296,
                         "y": 824,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -37400,13 +37444,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|cotmc",
-                "access_rules": "{$IsUnknownDestination|cotmc}",
+                "access_rules": [
+                    "^$CanAccessHMC"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 920,
                         "y": 153,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [
@@ -39025,13 +39071,15 @@
             {
                 "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|vcutm",
-                "access_rules": "{$IsUnknownDestination|vcutm}",
+                "access_rules": [
+                    "$CanAccessBasement,$HasMoves|GP"
+                ],
                 "map_locations": [
                     {
                         "map": "map_castle",
                         "x": 1838,
                         "y": 895,
-                        "size": 12
+                        "size": 10
                     }
                 ],
                 "sections": [

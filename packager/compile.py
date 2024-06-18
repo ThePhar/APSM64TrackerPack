@@ -101,13 +101,13 @@ def compile_entrances() -> None:
                 {
                     "name": "? ? ? Destination - Scoutable",
                     "visibility_rules": f"$IsUnknownDestination|{entrance}",
-                    "access_rules": f"{{$IsUnknownDestination|{entrance}}}",
+                    "access_rules": entrance.access_rules,
                     "map_locations": [
                         {
                             "map": "map_castle",
                             "x": entrance.coords[0] + 10,
                             "y": entrance.coords[1] + 10,
-                            "size": 12,
+                            "size": 10,
                         }
                     ],
                     "sections": [{"name": "Enter Stage and Set Entrance", "hosted_item": "__location_item_null"}],
