@@ -34,7 +34,7 @@ ITEM_MAPPING = {
 
     -- Stars & Keys
     [3626000] = {"item__star", "consumable"},
-    [3626178] = {"key", 1},
-    [3626179] = {"key", 2},
-    [3626180] = {"key", 0},
+    [3626178] = {"item__key", 1},
+    [3626179] = {"item__key", 2},
+    [3626180] = {"item__key", 0},
 }

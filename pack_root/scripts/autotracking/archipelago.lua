@@ -10,7 +10,6 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-        print(dump_table(slot_data))
     end
     SLOT_DATA = slot_data
 
@@ -85,16 +84,32 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
     Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
 
+    -- Disable 100 if not present
+    local hundred_coins_enabled = false
+    for _, v in ipairs(Archipelago.MissingLocations) do
+    	if v == 3626006 then  -- 100 coins star location in AP
+    	    hundred_coins_enabled = true
+    	    break
+        end
+    end
+    for _, v in ipairs(Archipelago.CheckedLocations) do
+    	if v == 3626006 or hundred_coins_enabled then  -- 100 coins star location in AP
+    	    hundred_coins_enabled = true
+    	    break
+        end
+    end
+    Tracker:FindObjectForCode("__setting_100").Active = hundred_coins_enabled
+
     -- Enable ER if we notice entrances different, but not spoiling them! ;)
     for i, _ in pairs(COURSE_MAPPING) do
-    	if SLOT_DATA["AreaRando"][tostring(i)] ~= i then
+    	if SLOT_DATA["AreaRando"][i] ~= tonumber(i) then
     		Tracker:FindObjectForCode("__setting_ER").CurrentStage = 1
     		break
     	end
     end
     if Tracker:FindObjectForCode("__setting_ER").CurrentStage > 0 then
         for i, _ in pairs(SECRET_MAPPING) do
-            if SLOT_DATA["AreaRando"][tostring(i)] ~= i then
+            if SLOT_DATA["AreaRando"][i] ~= tonumber(i) then
                 Tracker:FindObjectForCode("__setting_ER").CurrentStage = 2
                 break
             end
@@ -131,9 +146,9 @@ function onItem(index, item_id, item_name, player_number)
     local obj = Tracker:FindObjectForCode(v[1])
     if obj then
         -- Progressive Key Handling
-        if v[1] == "key" and v[2] == 0 then
+        if v[1] == "item__key" and v[2] == 0 then
             obj.CurrentStage = (obj.CurrentStage << 1) | 1
-        elseif v[1] == "key" then
+        elseif v[1] == "item__key" then
             obj.CurrentStage = obj.CurrentStage | v[2]
         elseif v[2] == "toggle" then
             obj.Active = true
@@ -169,6 +184,8 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
+
+    --areaReveal()
 end
 
 -- called when a location gets cleared
@@ -196,7 +213,27 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+
+    --areaReveal()
 end
+
+-- Maybe I'll figure out a way to do this nicely without folks creating spoilers.
+--function areaReveal()
+--    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0 then
+--    	return
+--    end
+--
+--    for stage_id, level in pairs(FULL_MAPPING) do
+--        local code = "@" .. EntranceTable["name"][level] .. " Entrance"
+--        if Tracker:FindObjectForCode(code).AccessibilityLevel > AccessibilityLevel.Partial then
+--        	if Tracker:FindObjectForCode("__er_" .. level .. "_dst").CurrentStage == 0 then
+--        		SetStage(level, FULL_MAPPING[tostring(SLOT_DATA["AreaRando"][stage_id])])
+--        	end
+--        end
+--
+--        print(stage_id, level, FULL_MAPPING[tostring(SLOT_DATA["AreaRando"][stage_id])], Tracker:FindObjectForCode(code).AccessibilityLevel, code)
+--    end
+--end
 
 -- add AP callbacks
 -- un-/comment as needed
