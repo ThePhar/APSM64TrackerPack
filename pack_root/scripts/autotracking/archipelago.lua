@@ -72,17 +72,19 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("__setting_GOAL").CurrentStage = SLOT_DATA["CompletionType"]
     Tracker:FindObjectForCode("__setting_MV").Active = SLOT_DATA["MoveRandoVec"] ~= 0
 
-    -- Set Moves to Enabled if in Move Rando and they're not shuffled. Not that it does anything, but i think its nice.
-    Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
-    Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
-    Tracker:FindObjectForCode("item__cm_bf").Active = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
-    Tracker:FindObjectForCode("item__cm_sf").Active = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
-    Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
-    Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
-    Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
-    Tracker:FindObjectForCode("item__cm_kk").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
-    Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
-    Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
+    -- Set Moves to Enabled if in Move Rando and they're not shuffled.
+    if Tracker:FindObjectForCode("__setting_MV").Active then
+        Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
+        Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
+        Tracker:FindObjectForCode("item__cm_bf").Active = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
+        Tracker:FindObjectForCode("item__cm_sf").Active = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
+        Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
+        Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
+        Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
+        Tracker:FindObjectForCode("item__cm_kk").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
+        Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
+        Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
+    end
 
     -- Disable 100 if not present
     local hundred_coins_enabled = false
@@ -102,6 +104,7 @@ function onClear(slot_data)
 
     -- Enable ER if we notice entrances different, but not spoiling them! ;)
     current_er = Tracker:FindObjectForCode("__setting_ER").CurrentStage
+    SetER(0, true)
     for i, _ in pairs(COURSE_MAPPING) do
     	if SLOT_DATA["AreaRando"][i] ~= tonumber(i) then
     		SetER(1, current_er > 0)

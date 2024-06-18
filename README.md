@@ -20,11 +20,12 @@ This is a [PopTracker](https://poptracker.github.io/) pack for the **Archipelago
   - Automatically enables Area Randomization, if enabled.
   - Automatically displays required star requirements for doors and MIPS.
   - Automatically displays required goal requirement.
+  - Automatically toggles 100 Coin Stars if enabled/disabled.
   - Handles progressive and non-progressive keys automatically.
 
 ## Planned Features
 
-- Auto-Tracking Settings for 100 Coins, Bob-omb Buddies, amd 1-Up Blocks
+- Auto-Tracking Settings for Bob-omb Buddies and 1-Up Blocks
 - Auto-Tracking Area Randomization if Entrance is Accessible
 - Additional Maps for each Course and Secret Area.
 - _Potentially more..._
