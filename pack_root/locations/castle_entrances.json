@@ -742,7 +742,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -754,7 +757,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -772,13 +778,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2225,7 +2235,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2237,7 +2250,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2255,13 +2271,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3708,7 +3728,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3720,7 +3743,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3738,13 +3764,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5191,7 +5221,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5203,7 +5236,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -5221,13 +5257,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6674,7 +6714,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6686,7 +6729,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6704,13 +6750,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8157,7 +8207,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8169,7 +8222,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8187,13 +8243,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9640,7 +9700,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9652,7 +9715,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9670,13 +9736,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11123,7 +11193,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11135,7 +11208,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11153,13 +11229,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12606,7 +12686,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12618,7 +12701,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12636,13 +12722,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14089,7 +14179,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14101,7 +14194,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14119,13 +14215,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15572,7 +15672,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15584,7 +15687,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15602,13 +15708,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17055,7 +17165,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17067,7 +17180,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17085,13 +17201,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18538,7 +18658,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18550,7 +18673,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18568,13 +18694,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20021,7 +20151,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20033,7 +20166,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20051,13 +20187,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21504,7 +21644,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21516,7 +21659,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21534,13 +21680,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22987,7 +23137,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22999,7 +23152,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23017,13 +23173,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24470,7 +24630,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24482,7 +24645,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24500,13 +24666,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25953,7 +26123,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25965,7 +26138,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25983,13 +26159,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27436,7 +27616,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27448,7 +27631,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27466,13 +27652,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28919,7 +29109,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28931,7 +29124,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28949,13 +29145,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30402,7 +30602,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30414,7 +30617,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30432,13 +30638,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31885,7 +32095,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31897,7 +32110,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31915,13 +32131,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33368,7 +33588,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33380,7 +33603,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33398,13 +33624,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34851,7 +35081,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34863,7 +35096,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34881,13 +35117,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -36334,7 +36574,10 @@
                     {
                         "name": "Snowman's Big Head",
                         "hosted_item": "__location_item_3626063",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/SF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36346,7 +36589,10 @@
                     {
                         "name": "In the Deep Freeze",
                         "hosted_item": "__location_item_3626065",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/LG/BF/TJ",
+                            "$HasCannon|SL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -36364,13 +36610,17 @@
                     {
                         "name": "Into the Igloo",
                         "hosted_item": "__location_item_3626068",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLIgloo"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626069",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSLCoins"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
