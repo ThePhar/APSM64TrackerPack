@@ -1211,43 +1211,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -1255,7 +1269,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -1279,7 +1295,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2774,43 +2792,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2818,7 +2850,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -2842,7 +2876,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4337,43 +4373,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4381,7 +4431,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -4405,7 +4457,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -5900,43 +5954,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5944,7 +6012,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -5968,7 +6038,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7463,43 +7535,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7507,7 +7593,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -7531,7 +7619,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9026,43 +9116,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9070,7 +9174,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -9094,7 +9200,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10589,43 +10697,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10633,7 +10755,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -10657,7 +10781,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12152,43 +12278,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12196,7 +12336,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -12220,7 +12362,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -13715,43 +13859,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13759,7 +13917,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -13783,7 +13943,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15278,43 +15440,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15322,7 +15498,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -15346,7 +15524,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -16841,43 +17021,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16885,7 +17079,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -16909,7 +17105,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18404,43 +18602,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18448,7 +18660,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -18472,7 +18686,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -19967,43 +20183,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20011,7 +20241,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -20035,7 +20267,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21530,43 +21764,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21574,7 +21822,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -21598,7 +21848,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23093,43 +23345,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23137,7 +23403,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -23161,7 +23429,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -24656,43 +24926,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24700,7 +24984,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -24724,7 +25010,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26219,43 +26507,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26263,7 +26565,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -26287,7 +26591,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27782,43 +28088,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27826,7 +28146,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -27850,7 +28172,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29345,43 +29669,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29389,7 +29727,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -29413,7 +29753,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30908,43 +31250,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30952,7 +31308,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -30976,7 +31334,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32471,43 +32831,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32515,7 +32889,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -32539,7 +32915,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -34034,43 +34412,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34078,7 +34470,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -34102,7 +34496,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -35597,43 +35993,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35641,7 +36051,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -35665,7 +36077,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -37160,43 +37574,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -37204,7 +37632,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -37228,7 +37658,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -38723,43 +39155,57 @@
                     {
                         "name": "Cruiser Crossing the Rainbow",
                         "hosted_item": "__location_item_3626098",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Big House in the Sky",
                         "hosted_item": "__location_item_3626099",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Coins Amassed in a Maze",
                         "hosted_item": "__location_item_3626100",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Swingin' in the Breeze",
                         "hosted_item": "__location_item_3626101",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRSwinging"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Tricky Triangles!",
                         "hosted_item": "__location_item_3626102",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^CanAccessRRTriangles"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Somewhere over the Rainbow",
                         "hosted_item": "__location_item_3626103",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRCruiser,$HasCannon|RR"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626104",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -38767,7 +39213,9 @@
                     {
                         "name": "Bob-omb Buddy",
                         "hosted_item": "__location_item_3626214",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRBuddy"
+                        ],
                         "visibility_rules": [
                             "$ShowBuddies"
                         ]
@@ -38791,7 +39239,9 @@
                     {
                         "name": "1-Up Block on the House in the Sky",
                         "hosted_item": "__location_item_3626235",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessRRHouse"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
