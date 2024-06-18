@@ -1,30 +1,30 @@
 local course = "BOB"
 
 function CanAccessBOBIsland()
-    return (
-        (HasCannon(course)) or
-        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel()) or
-        (HasMoves("TJ") and math.min(StrictCannonAccessibilityLevel(), StrictMovementAccessibilityLevel()))
-    )
+    return GetAccessibility({
+        (HasCannon(course)),
+        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel()),
+        (HasMoves("TJ") and math.min(StrictCannonAccessibilityLevel(), StrictMovementAccessibilityLevel())),
+    })
 end
 
 function CanAccessBOBWings()
-    return (
-        (HasCannon(course) and HasCap("WC")) or
-        (math.min(StrictCannonAccessibilityLevel(), StrictCapAccessibilityLevel()))
-    )
+    return GetAccessibility({
+        (HasCannon(course) and HasCap("WC")),
+        (math.min(StrictCannonAccessibilityLevel(), StrictCapAccessibilityLevel())),
+    })
 end
 
 function CanAccessBOBChainChomp()
-    return (
-        (HasMoves("GP")) or
-        (StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasMoves("GP")),
+        (StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessBOBCoins()
-    return (
-        (HasCannon(course) and HasCap("WC")) or
-        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasCannon(course) and HasCap("WC")),
+        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel()),
+    })
 end

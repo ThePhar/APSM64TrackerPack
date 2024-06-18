@@ -1,3 +1,18 @@
+---@param rules table
+---@return integer
+function GetAccessibility(rules)
+    local accessibility_level = AccessibilityLevel.None
+    for _, result in ipairs(rules) do
+    	if tonumber(result) ~= nil then
+    		accessibility_level = math.max(accessibility_level, result)
+        elseif result then
+            return AccessibilityLevel.Normal
+    	end
+    end
+
+    return accessibility_level
+end
+
 function HasStars(target)
     local count = tonumber(target) or Tracker:ProviderCountForCode("__setting_" .. target)
     return Tracker:ProviderCountForCode("item__star") >= count
@@ -24,11 +39,11 @@ function CanAccessThirdFloor()
 end
 
 function CanAccessSA()
-    return (
-        (HasMoves("SF/BF")    and AccessibilityLevel.Normal) or
-        (HasAllMoves("TJ/LG") and AccessibilityLevel.Normal) or
-        (HasMoves("TJ")       and StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasMoves("SF/BF")),
+        (HasAllMoves("TJ/LG")),
+        (HasMoves("TJ") and StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessHMC()
@@ -58,8 +73,4 @@ end
 
 function ShowBlocks()
     return Tracker:FindObjectForCode("__setting_1UB").Active
-end
-
-function TestAccess()
-    return AccessibilityLevel.Partial
 end

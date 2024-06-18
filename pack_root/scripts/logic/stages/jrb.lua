@@ -1,31 +1,31 @@
 local course = "JRB"
 
 function CanAccessJRBShip()
-    return (
-        (HasMoves("TJ/BF/SF/WK")) or
-        (HasMoves("LG") and StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasMoves("TJ/BF/SF/WK")),
+        (HasMoves("LG") and StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessJRBRedCoins()
-    return (
-        (HasCannon(course)) or
-        (HasMoves("CL/TJ")) or
-        (HasMoves("BF/WK") and StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasCannon(course)),
+        (HasMoves("CL/TJ")),
+        (HasMoves("BF/WK") and StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessJRBPillar()
-    return (
-        (HasCannon(course) and HasMoves("CL")) or
-        (HasCannon(course) and StrictMovementAccessibilityLevel()) or
-        (math.min(StrictMovementAccessibilityLevel(), StrictCannonAccessibilityLevel()))
-    )
+    return GetAccessibility({
+        (HasCannon(course) and HasMoves("CL")),
+        (HasCannon(course) and StrictMovementAccessibilityLevel()),
+        (math.min(StrictMovementAccessibilityLevel(), StrictCannonAccessibilityLevel())),
+    })
 end
 
 function CanAccessJRBStream()
-    return (
-        (HasCap("MC")) or
-        (StrictCapAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasCap("MC")),
+        (StrictCapAccessibilityLevel()),
+    })
 end

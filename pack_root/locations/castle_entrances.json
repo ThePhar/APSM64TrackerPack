@@ -540,13 +540,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -585,31 +589,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2000,13 +2015,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -2045,31 +2064,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3460,13 +3490,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3505,31 +3539,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4920,13 +4965,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4965,31 +5014,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6380,13 +6440,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6425,31 +6489,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7840,13 +7915,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7885,31 +7964,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9300,13 +9390,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9345,31 +9439,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10760,13 +10865,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10805,31 +10914,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12220,13 +12340,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -12265,31 +12389,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13680,13 +13815,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -13725,31 +13864,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15140,13 +15290,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -15185,31 +15339,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16600,13 +16765,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -16645,31 +16814,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18060,13 +18240,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -18105,31 +18289,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19520,13 +19715,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19565,31 +19764,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20980,13 +21190,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21025,31 +21239,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22440,13 +22665,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -22485,31 +22714,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23900,13 +24140,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23945,31 +24189,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25360,13 +25615,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -25405,31 +25664,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26820,13 +27090,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26865,31 +27139,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28280,13 +28565,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -28325,31 +28614,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29740,13 +30040,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29785,31 +30089,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31200,13 +31515,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31245,31 +31564,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32660,13 +32990,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -32705,31 +33039,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34120,13 +34465,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34165,31 +34514,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35580,13 +35940,17 @@
                     {
                         "name": "Hot-Foot-It into the Volcano",
                         "hosted_item": "__location_item_3626046",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Elevator Tour in the Volcano",
                         "hosted_item": "__location_item_3626047",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|CL"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -35625,31 +35989,42 @@
                     {
                         "name": "Inside the Ancient Pyramid",
                         "hosted_item": "__location_item_3626051",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stand Tall on the Four Pillars",
                         "hosted_item": "__location_item_3626052",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid,^$CanAccessSSLPillars"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Free Flying for 8 Red Coins",
                         "hosted_item": "__location_item_3626053",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Pyramid Puzzle",
                         "hosted_item": "__location_item_3626054",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626055",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessSSLUpperPyramid",
+                            "$HasMove|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]

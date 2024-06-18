@@ -1,20 +1,20 @@
 function CanAccessBBHThirdFloor()
-    return (
-        (HasAllMoves("WK/LG")) or
-        (HasMoves("WK") and StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasAllMoves("WK/LG")),
+        (HasMoves("WK") and StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessBBHRoof()
-    return (
-        (HasMoves("LG")) or
-        (StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasMoves("LG")),
+        (StrictMovementAccessibilityLevel()),
+    })
 end
 
 function CanAccessBBHBooks()
-    return (
-        (HasMoves("KK")) or
-        (StrictMovementAccessibilityLevel())
-    )
+    return GetAccessibility({
+        (HasMoves("KK")),
+        (StrictMovementAccessibilityLevel()),
+    })
 end
