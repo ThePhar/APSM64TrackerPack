@@ -1,5 +1,0 @@
-# rf.assign_rule("JRB: Upper", "TJ/BF/SF/WK | MOVELESS & LG")
-# rf.assign_rule("JRB: Red Coins on the Ship Afloat", "CL/CANN/TJ | MOVELESS & BF/WK")
-# rf.assign_rule("JRB: Blast to the Stone Pillar", "CANN+CL | CANNLESS & MOVELESS | CANN & MOVELESS")
-# rf.assign_rule("JRB: Through the Jet Stream", "MC | CAPLESS")
-# rf.assign_rule("JRB: 100 Coins", "GP & {JRB: Upper}")

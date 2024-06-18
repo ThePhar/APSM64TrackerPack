@@ -208,25 +208,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -1634,25 +1642,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3060,25 +3076,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4486,25 +4510,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5912,25 +5944,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7338,25 +7378,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8764,25 +8812,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10190,25 +10246,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11616,25 +11680,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13042,25 +13114,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14468,25 +14548,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15894,25 +15982,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17320,25 +17416,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18746,25 +18850,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20172,25 +20284,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21598,25 +21718,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23024,25 +23152,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24450,25 +24586,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25876,25 +26020,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27302,25 +27454,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28728,25 +28888,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30154,25 +30322,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -31580,25 +31756,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33006,25 +33190,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -34432,25 +34624,33 @@
                     {
                         "name": "Red Coins on the Ship Afloat",
                         "hosted_item": "__location_item_3626017",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,^$CanAccessJRBRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Blast to the Stone Pillar",
                         "hosted_item": "__location_item_3626018",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBPillar"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Through the Jet Stream",
                         "hosted_item": "__location_item_3626019",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBStream"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626020",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessJRBShip,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]

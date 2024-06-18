@@ -91,15 +91,17 @@ locations: list[Location] = [
     Location("100 Coins Star",                         "Whomp's Fortress",            3626013, LocationType.Coin,      ["^$CanAccessWFCoins"]),
     Location("Bob-omb Buddy",                          "Whomp's Fortress",            3626201, LocationType.Buddy,     ["^$CanAccessWFTower"]),
 
+    # Jolly Roger Bay
+    Location("Plunder in the Sunken Ship",             "Jolly Roger Bay",             3626014, LocationType.Star),
+    Location("Can the Eel Come out to Play?",          "Jolly Roger Bay",             3626015, LocationType.Star),
+    Location("Treasure of the Ocean Cave",             "Jolly Roger Bay",             3626016, LocationType.Star),
+    Location("Red Coins on the Ship Afloat",           "Jolly Roger Bay",             3626017, LocationType.RedCoin,   ["^$CanAccessJRBShip,^$CanAccessJRBRedCoins"]),
+    Location("Blast to the Stone Pillar",              "Jolly Roger Bay",             3626018, LocationType.Star,      ["^$CanAccessJRBPillar"]),
+    Location("Through the Jet Stream",                 "Jolly Roger Bay",             3626019, LocationType.Star,      ["^$CanAccessJRBStream"]),
+    Location("100 Coins Star",                         "Jolly Roger Bay",             3626020, LocationType.Coin,      ["^$CanAccessJRBShip,$HasMoves|GP"]),
+    Location("Bob-omb Buddy",                          "Jolly Roger Bay",             3626202, LocationType.Buddy),
 
-    Location("Plunder in the Sunken Ship",             "Jolly Roger Bay",             3626014, LocationType.Star,      []),
-    Location("Can the Eel Come out to Play?",          "Jolly Roger Bay",             3626015, LocationType.Star,      []),
-    Location("Treasure of the Ocean Cave",             "Jolly Roger Bay",             3626016, LocationType.Star,      []),
-    Location("Red Coins on the Ship Afloat",           "Jolly Roger Bay",             3626017, LocationType.RedCoin,   []),
-    Location("Blast to the Stone Pillar",              "Jolly Roger Bay",             3626018, LocationType.Star,      []),
-    Location("Through the Jet Stream",                 "Jolly Roger Bay",             3626019, LocationType.Star,      []),
-    Location("100 Coins Star",                         "Jolly Roger Bay",             3626020, LocationType.Coin,      []),
-    Location("Bob-omb Buddy",                          "Jolly Roger Bay",             3626202, LocationType.Buddy,     []),
+
     Location("Slip Slidin' Away",                      "Cool, Cool Mountain",         3626021, LocationType.Star,      []),
     Location("Li'l Penguin Lost",                      "Cool, Cool Mountain",         3626022, LocationType.Star,      []),
     Location("Big Penguin Race",                       "Cool, Cool Mountain",         3626023, LocationType.Star,      []),
