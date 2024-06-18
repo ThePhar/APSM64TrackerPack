@@ -27,6 +27,7 @@ This is a [PopTracker](https://poptracker.github.io/) pack for the **Archipelago
 
 - Auto-Tracking Settings for Bob-omb Buddies and 1-Up Blocks
 - Auto-Tracking Area Randomization if Entrance is Accessible
+  - ~~Basically working, but needs to be hidden behind a "spoiler" flag.~~
 - Additional Maps for each Course and Secret Area.
 - _Potentially more..._
 
