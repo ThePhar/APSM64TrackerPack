@@ -69,7 +69,7 @@ entrances: dict[EntranceName, Entrance] = {
     # Secret Stages
     "Tower of the Wing Cap":       Entrance("totwc",  291, (286,  814), ["$HasStars|10"]),
     "Cavern of the Metal Cap":     Entrance("cotmc",  281, (910,  143), ["^$CanAccessHMC"]),
-    "Vanish Cap under the Moat":   Entrance("vcutm",  181, (1828, 885), ["$CanAccessBasement,$HasAnyMoves|GP"]),
+    "Vanish Cap under the Moat":   Entrance("vcutm",  181, (1828, 885), ["$CanAccessBasement,$HasMoves|GP"]),
     "Princess's Secret Slide":     Entrance("pss",    271, (648,  762), ["$HasStars|1"]),
     "Secret Aquarium":             Entrance("sa",     201, (456,  874), ["$HasStars|3,^$CanAccessSA"]),
     "Wing Mario over the Rainbow": Entrance("wmotr",  311, (1142, 168), ["$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"]),

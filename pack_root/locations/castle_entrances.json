@@ -29651,14 +29651,14 @@
     {
         "name": "Vanish Cap under the Moat Entrance",
         "access_rules": [
-            "$CanAccessBasement,$HasAnyMoves|GP"
+            "$CanAccessBasement,$HasMoves|GP"
         ],
         "children": [
             {
                 "name": "? ? ? Destination",
                 "visibility_rules": "$IsUnknownDestination|vcutm",
                 "access_rules": [
-                    "$CanAccessBasement,$HasAnyMoves|GP"
+                    "$CanAccessBasement,$HasMoves|GP"
                 ],
                 "map_locations": [
                     {
