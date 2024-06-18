@@ -1119,43 +1119,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -1163,7 +1178,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -1171,7 +1188,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2663,43 +2682,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -2707,7 +2741,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -2715,7 +2751,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4207,43 +4245,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4251,7 +4304,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4259,7 +4314,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -5751,43 +5808,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -5795,7 +5867,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -5803,7 +5877,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7295,43 +7371,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7339,7 +7430,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7347,7 +7440,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -8839,43 +8934,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -8883,7 +8993,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -8891,7 +9003,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10383,43 +10497,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10427,7 +10556,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10435,7 +10566,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -11927,43 +12060,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -11971,7 +12119,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -11979,7 +12129,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -13471,43 +13623,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13515,7 +13682,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -13523,7 +13692,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15015,43 +15186,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -15059,7 +15245,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -15067,7 +15255,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -16559,43 +16749,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16603,7 +16808,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -16611,7 +16818,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18103,43 +18312,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -18147,7 +18371,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18155,7 +18381,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -19647,43 +19875,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19691,7 +19934,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -19699,7 +19944,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21191,43 +21438,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -21235,7 +21497,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21243,7 +21507,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -22735,43 +23001,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22779,7 +23060,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -22787,7 +23070,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -24279,43 +24564,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -24323,7 +24623,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -24331,7 +24633,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25823,43 +26127,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25867,7 +26186,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25875,7 +26196,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27367,43 +27690,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27411,7 +27749,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27419,7 +27759,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28911,43 +29253,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -28955,7 +29312,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28963,7 +29322,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30455,43 +30816,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30499,7 +30875,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30507,7 +30885,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -31999,43 +32379,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32043,7 +32438,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32051,7 +32448,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33543,43 +33942,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33587,7 +34001,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33595,7 +34011,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -35087,43 +35505,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35131,7 +35564,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -35139,7 +35574,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36631,43 +37068,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -36675,7 +37127,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -36683,7 +37137,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -38175,43 +38631,58 @@
                     {
                         "name": "Roll into the Cage",
                         "hosted_item": "__location_item_3626091",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "The Pit and the Pendulums",
                         "hosted_item": "__location_item_3626092",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Get a Hand",
                         "hosted_item": "__location_item_3626093",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stomp on the Thwomp",
                         "hosted_item": "__location_item_3626094",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Timed Jumps on Moving Bars",
                         "hosted_item": "__location_item_3626095",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCUpper"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Stop Time for Red Coins",
                         "hosted_item": "__location_item_3626096",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$CanAccessTTCLower",
+                            "$IsNoAreaRando"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626097",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -38219,7 +38690,9 @@
                     {
                         "name": "1-Up Block Midway Up",
                         "hosted_item": "__location_item_3626231",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -38227,7 +38700,9 @@
                     {
                         "name": "1-Up Block at the Top",
                         "hosted_item": "__location_item_3626232",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessTTCTop"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
