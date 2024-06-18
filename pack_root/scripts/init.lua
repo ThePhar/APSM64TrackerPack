@@ -35,6 +35,7 @@ ScriptHost:LoadScript("scripts/logic/stages/wf.lua")
 ScriptHost:LoadScript("scripts/logic/stages/jrb.lua")
 ScriptHost:LoadScript("scripts/logic/stages/ccm.lua")
 ScriptHost:LoadScript("scripts/logic/stages/bbh.lua")
+ScriptHost:LoadScript("scripts/logic/stages/hmc.lua")
 
 -- AutoTracking
 if PopVersion and PopVersion >= "0.18.0" then

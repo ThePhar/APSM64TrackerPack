@@ -435,37 +435,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -473,7 +485,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -1881,37 +1895,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -1919,7 +1945,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -3327,37 +3355,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -3365,7 +3405,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4773,37 +4815,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -4811,7 +4865,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6219,37 +6275,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -6257,7 +6325,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7665,37 +7735,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -7703,7 +7785,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -9111,37 +9195,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -9149,7 +9245,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10557,37 +10655,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -10595,7 +10705,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -12003,37 +12115,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -12041,7 +12165,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -13449,37 +13575,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -13487,7 +13625,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14895,37 +15035,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -14933,7 +15085,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -16341,37 +16495,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -16379,7 +16545,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17787,37 +17955,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -17825,7 +18005,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -19233,37 +19415,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -19271,7 +19465,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20679,37 +20875,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -20717,7 +20925,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -22125,37 +22335,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -22163,7 +22385,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23571,37 +23795,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -23609,7 +23845,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -25017,37 +25255,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -25055,7 +25305,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26463,37 +26715,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -26501,7 +26765,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27909,37 +28175,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -27947,7 +28225,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -29355,37 +29635,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -29393,7 +29685,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30801,37 +31095,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -30839,7 +31145,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -32247,37 +32555,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -32285,7 +32605,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33693,37 +34015,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -33731,7 +34065,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -35139,37 +35475,49 @@
                     {
                         "name": "Elevate for 8 Red Coins",
                         "hosted_item": "__location_item_3626036",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Metal-Head Mario Can Move!",
                         "hosted_item": "__location_item_3626037",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessMetalHead"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Navigating the Toxic Maze",
                         "hosted_item": "__location_item_3626038",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK/SF/BF/TJ"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "A-Maze-Ing Emergency Exit",
                         "hosted_item": "__location_item_3626039",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Watch for Rolling Rocks",
                         "hosted_item": "__location_item_3626040",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|WK"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626041",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCRedCoins,$HasMoves|GP"
+                        ],
                         "visibility_rules": [
                             "$ShowCoinStars"
                         ]
@@ -35177,7 +35525,9 @@
                     {
                         "name": "1-Up Block Above the Pit",
                         "hosted_item": "__location_item_3626219",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessHMCPitIslands"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]

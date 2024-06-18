@@ -124,15 +124,18 @@ locations: list[Location] = [
     Location("100 Coins Star",                         "Big Boo's Haunt",             3626034, LocationType.Coin),
     Location("1-Up Block on Top of the Mansion",       "Big Boo's Haunt",             3626218, LocationType.Block,     ["^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"]),
 
-    Location("Swimming Beast in the Cavern",           "Hazy Maze Cave",              3626035, LocationType.Star,      []),
-    Location("Elevate for 8 Red Coins",                "Hazy Maze Cave",              3626036, LocationType.RedCoin,   []),
-    Location("Metal-Head Mario Can Move!",             "Hazy Maze Cave",              3626037, LocationType.Star,      []),
-    Location("Navigating the Toxic Maze",              "Hazy Maze Cave",              3626038, LocationType.Star,      []),
-    Location("A-Maze-Ing Emergency Exit",              "Hazy Maze Cave",              3626039, LocationType.Star,      []),
-    Location("Watch for Rolling Rocks",                "Hazy Maze Cave",              3626040, LocationType.Star,      []),
-    Location("100 Coins Star",                         "Hazy Maze Cave",              3626041, LocationType.Coin,      []),
-    Location("1-Up Block Above the Pit",               "Hazy Maze Cave",              3626219, LocationType.Block,     []),
-    Location("1-Up Block Past Rolling Rocks",          "Hazy Maze Cave",              3626220, LocationType.Block,     []),
+    # Hazy Maze Cave
+    Location("Swimming Beast in the Cavern",           "Hazy Maze Cave",              3626035, LocationType.Star),
+    Location("Elevate for 8 Red Coins",                "Hazy Maze Cave",              3626036, LocationType.RedCoin,   ["^$CanAccessHMCRedCoins"]),
+    Location("Metal-Head Mario Can Move!",             "Hazy Maze Cave",              3626037, LocationType.Star,      ["^$CanAccessMetalHead"]),
+    Location("Navigating the Toxic Maze",              "Hazy Maze Cave",              3626038, LocationType.Star,      ["$HasMoves|WK/SF/BF/TJ"]),
+    Location("A-Maze-Ing Emergency Exit",              "Hazy Maze Cave",              3626039, LocationType.Star,      ["^$CanAccessHMCPitIslands"]),
+    Location("Watch for Rolling Rocks",                "Hazy Maze Cave",              3626040, LocationType.Star,      ["$HasMoves|WK"]),
+    Location("100 Coins Star",                         "Hazy Maze Cave",              3626041, LocationType.Coin,      ["^$CanAccessHMCRedCoins,$HasMoves|GP"]),
+    Location("1-Up Block Above the Pit",               "Hazy Maze Cave",              3626219, LocationType.Block,     ["^$CanAccessHMCPitIslands"]),
+    Location("1-Up Block Past Rolling Rocks",          "Hazy Maze Cave",              3626220, LocationType.Block),
+
+    # Lethal Lava Land
     Location("Boil the Big Bully",                     "Lethal Lava Land",            3626042, LocationType.Star,      []),
     Location("Bully the Bullies",                      "Lethal Lava Land",            3626043, LocationType.Star,      []),
     Location("8-Coin Puzzle with 15 Pieces",           "Lethal Lava Land",            3626044, LocationType.RedCoin,   []),
@@ -140,6 +143,8 @@ locations: list[Location] = [
     Location("Hot-Foot-It into the Volcano",           "Lethal Lava Land",            3626046, LocationType.Star,      []),
     Location("Elevator Tour in the Volcano",           "Lethal Lava Land",            3626047, LocationType.Star,      []),
     Location("100 Coins Star",                         "Lethal Lava Land",            3626048, LocationType.Coin,      []),
+
+
     Location("In the Talons of the Big Bird",          "Shifting Sand Land",          3626049, LocationType.Star,      []),
     Location("Shining Atop the Pyramid",               "Shifting Sand Land",          3626050, LocationType.Star,      []),
     Location("Inside the Ancient Pyramid",             "Shifting Sand Land",          3626051, LocationType.Star,      []),
