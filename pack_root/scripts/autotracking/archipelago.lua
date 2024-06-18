@@ -10,6 +10,7 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print(dump_table(slot_data))
     end
     SLOT_DATA = slot_data
 
@@ -57,10 +58,9 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
-    end
+
+    -- Reset key
+    Tracker:FindObjectForCode("item__key").CurrentStage = 0
 
     -- Set Slot Data
     --- @type JsonItem
@@ -74,29 +74,28 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("__setting_MV").Active = SLOT_DATA["MoveRandoVec"] ~= 0
 
     -- Set Moves to Enabled if in Move Rando and they're not shuffled. Not that it does anything, but i think its nice.
-    Tracker:FindObjectForCode("move_triple_jump").Active  = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
-    Tracker:FindObjectForCode("move_long_jump").Active    = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
-    Tracker:FindObjectForCode("move_backflip").Active     = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
-    Tracker:FindObjectForCode("move_side_flip").Active    = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
-    Tracker:FindObjectForCode("move_wall_jump").Active    = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
-    Tracker:FindObjectForCode("move_dive").Active         = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
-    Tracker:FindObjectForCode("move_ground_pound").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
-    Tracker:FindObjectForCode("move_kick").Active         = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
-    Tracker:FindObjectForCode("move_climb").Active        = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
-    Tracker:FindObjectForCode("move_ledge_grab").Active   = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
+    Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
+    Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
+    Tracker:FindObjectForCode("item__cm_bf").Active = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
+    Tracker:FindObjectForCode("item__cm_sf").Active = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
+    Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
+    Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
+    Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
+    Tracker:FindObjectForCode("item__cm_kk").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
+    Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
+    Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
 
     -- Enable ER if we notice entrances different, but not spoiling them! ;)
-    Tracker:FindObjectForCode("__setting_ER").CurrentStage = 0
     for i, _ in pairs(COURSE_MAPPING) do
     	if SLOT_DATA["AreaRando"][tostring(i)] ~= i then
-    		Tracker:FindObjectForCode("__setting_ER").CurrentStage = Tracker:FindObjectForCode("__setting_ER").CurrentStage + 1
+    		Tracker:FindObjectForCode("__setting_ER").CurrentStage = 1
     		break
     	end
     end
     if Tracker:FindObjectForCode("__setting_ER").CurrentStage > 0 then
         for i, _ in pairs(SECRET_MAPPING) do
             if SLOT_DATA["AreaRando"][tostring(i)] ~= i then
-                Tracker:FindObjectForCode("__setting_ER").CurrentStage = Tracker:FindObjectForCode("__setting_ER").CurrentStage + 1
+                Tracker:FindObjectForCode("__setting_ER").CurrentStage = 2
                 break
             end
         end
@@ -170,9 +169,6 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
 end
 
 -- called when a location gets cleared
@@ -202,23 +198,6 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a locations is scouted
-function onScout(location_id, location_name, item_id, item_name, item_player)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
-    end
-    -- not implemented yet :(
-end
-
--- called when a bounce message is received 
-function onBounce(json)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
-    end
-    -- your code goes here
-end
-
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -228,5 +207,3 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)

@@ -23,7 +23,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bob",
                 "access_rules": "{$IsUnknownDestination|bob}",
                 "map_locations": [
@@ -1648,7 +1648,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wf",
                 "access_rules": "{$IsUnknownDestination|wf}",
                 "map_locations": [
@@ -3273,7 +3273,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|jrb",
                 "access_rules": "{$IsUnknownDestination|jrb}",
                 "map_locations": [
@@ -4898,7 +4898,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ccm",
                 "access_rules": "{$IsUnknownDestination|ccm}",
                 "map_locations": [
@@ -6523,7 +6523,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bbh",
                 "access_rules": "{$IsUnknownDestination|bbh}",
                 "map_locations": [
@@ -8148,7 +8148,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|hmc",
                 "access_rules": "{$IsUnknownDestination|hmc}",
                 "map_locations": [
@@ -9773,7 +9773,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|lll",
                 "access_rules": "{$IsUnknownDestination|lll}",
                 "map_locations": [
@@ -11398,7 +11398,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ssl",
                 "access_rules": "{$IsUnknownDestination|ssl}",
                 "map_locations": [
@@ -13023,7 +13023,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ddd",
                 "access_rules": "{$IsUnknownDestination|ddd}",
                 "map_locations": [
@@ -14648,7 +14648,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|sl",
                 "access_rules": "{$IsUnknownDestination|sl}",
                 "map_locations": [
@@ -16273,7 +16273,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wdw",
                 "access_rules": "{$IsUnknownDestination|wdw}",
                 "map_locations": [
@@ -17898,7 +17898,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ttm",
                 "access_rules": "{$IsUnknownDestination|ttm}",
                 "map_locations": [
@@ -19523,7 +19523,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|thih",
                 "access_rules": "{$IsUnknownDestination|thih}",
                 "map_locations": [
@@ -21148,7 +21148,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|thit",
                 "access_rules": "{$IsUnknownDestination|thit}",
                 "map_locations": [
@@ -22773,7 +22773,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|ttc",
                 "access_rules": "{$IsUnknownDestination|ttc}",
                 "map_locations": [
@@ -24398,7 +24398,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|rr",
                 "access_rules": "{$IsUnknownDestination|rr}",
                 "map_locations": [
@@ -26023,7 +26023,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bitdw",
                 "access_rules": "{$IsUnknownDestination|bitdw}",
                 "map_locations": [
@@ -27648,7 +27648,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bitfs",
                 "access_rules": "{$IsUnknownDestination|bitfs}",
                 "map_locations": [
@@ -29273,7 +29273,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|bits",
                 "access_rules": "{$IsUnknownDestination|bits}",
                 "map_locations": [
@@ -30898,7 +30898,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|pss",
                 "access_rules": "{$IsUnknownDestination|pss}",
                 "map_locations": [
@@ -32523,7 +32523,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|sa",
                 "access_rules": "{$IsUnknownDestination|sa}",
                 "map_locations": [
@@ -34148,7 +34148,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|wmotr",
                 "access_rules": "{$IsUnknownDestination|wmotr}",
                 "map_locations": [
@@ -35773,7 +35773,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|totwc",
                 "access_rules": "{$IsUnknownDestination|totwc}",
                 "map_locations": [
@@ -37398,7 +37398,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|cotmc",
                 "access_rules": "{$IsUnknownDestination|cotmc}",
                 "map_locations": [
@@ -39023,7 +39023,7 @@
                 ]
             },
             {
-                "name": "? ? ? Destination",
+                "name": "? ? ? Destination - Scoutable",
                 "visibility_rules": "$IsUnknownDestination|vcutm",
                 "access_rules": "{$IsUnknownDestination|vcutm}",
                 "map_locations": [

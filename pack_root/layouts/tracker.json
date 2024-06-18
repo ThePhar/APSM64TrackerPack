@@ -1,5 +1,4 @@
 ﻿{
-    "$schema": "https://poptracker.github.io/schema/packs/strict/layouts.json",
     "tracker_default": {
         "type": "container",
         "background": "#000000",
@@ -38,12 +37,14 @@
                         {
                             "type": "array",
                             "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "settings_grid"
-                            }
+                            "content": [
+                                {
+                                    "type": "layout",
+                                    "h_alignment": "center",
+                                    "v_alignment": "center",
+                                    "key": "settings_grid"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -58,10 +59,7 @@
                                     "map_castle"
                                 ]
                             }
-                        },
-//                        { "title": "Main Courses" },
-//                        { "title": "Bowser Stages" },
-//                        { "title": "Secret Levels" }
+                        }
                     ]
                 }
             ]
