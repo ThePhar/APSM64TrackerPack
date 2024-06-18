@@ -720,7 +720,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -2203,7 +2203,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -3686,7 +3686,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -5169,7 +5169,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -6652,7 +6652,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -8135,7 +8135,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -9618,7 +9618,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -11101,7 +11101,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -12584,7 +12584,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -14067,7 +14067,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -15550,7 +15550,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -17033,7 +17033,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -18516,7 +18516,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -19999,7 +19999,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -21482,7 +21482,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -22965,7 +22965,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -24448,7 +24448,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -25931,7 +25931,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -27414,7 +27414,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -28897,7 +28897,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -30380,7 +30380,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -31863,7 +31863,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -33346,7 +33346,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -34829,7 +34829,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"
@@ -36312,7 +36312,7 @@
                         "name": "100 Coins Star",
                         "hosted_item": "__location_item_3626062",
                         "access_rules": [
-                            "^$CanAccessDDDRedCoins"
+                            "^$CanAccessDDDRedCoins,$HasMoves|GP"
                         ],
                         "visibility_rules": [
                             "$ShowCoinStars"

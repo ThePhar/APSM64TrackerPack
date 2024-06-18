@@ -164,7 +164,7 @@ locations: list[Location] = [
     Location("Through the Jet Stream",                 "Dire, Dire Docks",            3626059, LocationType.Star,      ["^$CanAccessDDDStream"]),
     Location("The Manta Ray's Reward",                 "Dire, Dire Docks",            3626060, LocationType.Star),
     Location("Collect the Caps...",                    "Dire, Dire Docks",            3626061, LocationType.Star,      ["^$CanAccessDDDCaps"]),
-    Location("100 Coins Star",                         "Dire, Dire Docks",            3626062, LocationType.Coin,      ["^$CanAccessDDDRedCoins"]),
+    Location("100 Coins Star",                         "Dire, Dire Docks",            3626062, LocationType.Coin,      ["^$CanAccessDDDRedCoins,$HasMoves|GP"]),
 
     Location("Snowman's Big Head",                     "Snowman's Land",              3626063, LocationType.Star,      []),
     Location("Chill with the Bully",                   "Snowman's Land",              3626064, LocationType.Star,      []),
