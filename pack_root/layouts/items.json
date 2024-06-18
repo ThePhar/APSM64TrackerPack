@@ -61,9 +61,9 @@
             "margin": "0, 0",
             "content": [{
                 "type": "itemgrid",
-                "item_margin": "4, 4",
+                "item_margin": "2, 3",
                 "h_alignment": "left",
-                "item_size": "58,17",
+                "item_size": "63,19",
                 "rows": [
                     [
                         "__er_bob_ent",

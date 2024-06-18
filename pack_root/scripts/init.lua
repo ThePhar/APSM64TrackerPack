@@ -1,4 +1,4 @@
-ENABLE_DEBUG_LOG = true
+ENABLE_DEBUG_LOG = false
 
 print("\n-- Loading Phar's SM64 Tracker --")
 print("Variant: ", Tracker.ActiveVariantUID)

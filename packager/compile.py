@@ -98,6 +98,20 @@ def compile_entrances() -> None:
                     ],
                     "sections": [{"name": "Enter Stage and Set Entrance", "hosted_item": "__location_item_null"}],
                 },
+                {
+                    "name": "? ? ? Destination",
+                    "visibility_rules": f"$IsUnknownDestination|{entrance}",
+                    "access_rules": f"{{$IsUnknownDestination|{entrance}}}",
+                    "map_locations": [
+                        {
+                            "map": "map_castle",
+                            "x": entrance.coords[0] + 10,
+                            "y": entrance.coords[1] + 10,
+                            "size": 12,
+                        }
+                    ],
+                    "sections": [{"name": "Enter Stage and Set Entrance", "hosted_item": "__location_item_null"}],
+                },
                 *[
                     {
                         "name": area,

@@ -228,7 +228,7 @@ locations: list[Location] = [
     Location("The Big House in the Sky",               "Rainbow Ride",                3626099, LocationType.Star,      ["^$CanAccessRRHouse"]),
     Location("Coins Amassed in a Maze",                "Rainbow Ride",                3626100, LocationType.RedCoin,   ["^$CanAccessRRMaze"]),
     Location("Swingin' in the Breeze",                 "Rainbow Ride",                3626101, LocationType.Star,      ["^$CanAccessRRSwinging"]),
-    Location("Tricky Triangles!",                      "Rainbow Ride",                3626102, LocationType.Star,      ["^CanAccessRRTriangles"]),
+    Location("Tricky Triangles!",                      "Rainbow Ride",                3626102, LocationType.Star,      ["^$CanAccessRRTriangles"]),
     Location("Somewhere over the Rainbow",             "Rainbow Ride",                3626103, LocationType.Star,      ["^$CanAccessRRCruiser,$HasCannon|RR"]),
     Location("100 Coins Star",                         "Rainbow Ride",                3626104, LocationType.Coin,      ["^$CanAccessRRMaze,$HasMoves|GP,$HasMoves|WK"]),
     Location("Bob-omb Buddy",                          "Rainbow Ride",                3626214, LocationType.Buddy,     ["^$CanAccessRRBuddy"]),
@@ -262,7 +262,7 @@ locations: list[Location] = [
     Location("1-Up Block Above the Rushing River",     "Cavern of the Metal Cap",     3626241, LocationType.Block),
 
     Location("Vanish Cap Switch",                      "Vanish Cap under the Moat",   3626183, LocationType.VanishCap, ["$HasMoves|WK/TJ/BF/SF/LG", "^$StrictMovementAccessibilityLevel"]),
-    Location("Moat Red Coins",                         "Vanish Cap under the Moat",   3626147, LocationType.RedCoin,   ["$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG", "$HasMoves|WK,^$$StrictCapAccessibilityLevel"]),
+    Location("Moat Red Coins",                         "Vanish Cap under the Moat",   3626147, LocationType.RedCoin,   ["$HasCap|VC,$HasMoves|WK/TJ/BF/SF/LG", "$HasMoves|WK,^$StrictCapAccessibilityLevel"]),
     Location("1-Up Block on the Slope Platform",       "Vanish Cap under the Moat",   3626242, LocationType.Block),
 
     Location("Rainbow Red Coins",                      "Wing Mario over the Rainbow", 3626154, LocationType.RedCoin,   ["$HasMoves|TJ,$HasCap|WC"]),

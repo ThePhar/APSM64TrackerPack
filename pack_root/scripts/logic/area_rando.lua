@@ -54,12 +54,12 @@ EntranceTable["stage"] = {
     [17] = "bitdw",
     [18] = "bitfs",
     [19] = "bits",
-    [20] = "totwc",
-    [21] = "cotmc",
-    [22] = "vcutm",
-    [23] = "pss",
-    [24] = "sa",
-    [25] = "wmotr",
+    [20] = "pss",
+    [21] = "sa",
+    [22] = "wmotr",
+    [23] = "totwc",
+    [24] = "cotmc",
+    [25] = "vcutm",
 
     -- Acryonym -> ID
     ["unknown"] = 0,
@@ -82,85 +82,39 @@ EntranceTable["stage"] = {
     ["bitdw"]   = 17,
     ["bitfs"]   = 18,
     ["bits"]    = 19,
-    ["totwc"]   = 20,
-    ["cotmc"]   = 21,
-    ["vcutm"]   = 22,
-    ["pss"]     = 23,
-    ["sa"]      = 24,
-    ["wmotr"]   = 25,
+    ["pss"]     = 20,
+    ["sa"]      = 21,
+    ["wmotr"]   = 22,
+    ["totwc"]   = 23,
+    ["cotmc"]   = 24,
+    ["vcutm"]   = 25,
 }
 
---function EntranceTable:Initialize()
---    EntranceTable["accessible"] = {
---        ["bob"]    = "__null__",  -- 1
---        ["wf"]     = "__null__",  -- 2
---        ["jrb"]    = "__null__",  -- 3
---        ["ccm"]    = "__null__",  -- 4
---        ["bbh"]    = "__null__",  -- 5
---        ["hmc"]    = "__null__",  -- 6
---        ["lll"]    = "__null__",  -- 7
---        ["ssl"]    = "__null__",  -- 8
---        ["ddd"]    = "__null__",  -- 9
---        ["sl"]     = "__null__",  -- 10
---        ["wdw"]    = "__null__",  -- 11
---        ["ttm"]    = "__null__",  -- 12
---        ["thih"]   = "__null__",  -- 13
---        ["thit"]   = "__null__",  -- 14
---        ["ttc"]    = "__null__",  -- 15
---        ["rr"]     = "__null__",  -- 16
---        ["bitdw"]  = "__null__",  -- 17
---        ["bitfs"]  = "__null__",  -- 18
---        ["totwc"]  = "__null__",  -- 19
---        ["cotmc"]  = "__null__",  -- 20
---        ["vcutm"]  = "__null__",  -- 21
---        ["pss"]    = "__null__",  -- 22
---        ["sa"]     = "__null__",  -- 23
---        ["wmotr"]  = "__null__",  -- 24
---    }
---end
-
 ----- @param code string
---local function UpdateAccessibility(code)
---    local er_setting = Tracker:FindObjectForCode("__setting_ER").CurrentStage
---    local entrance = code:gsub("__er_", ""):gsub("_dst", "")
---    if er_setting == 1 then
---    	if (
---            entrance == "bitdw" or
---            entrance == "bitfs" or
---            entrance == "totwc" or
---            entrance == "cotmc" or
---            entrance == "vcutm" or
---            entrance == "pss" or
---            entrance == "sa" or
---            entrance == "wmotr"
---    	) then
---        	SetStage(entrance, entrance)
---    		return
---    	end
---    end
---
---    if er_setting == 0 then
---        SetStage(entrance, entrance)
---    	return
---    end
---
---    local item = Tracker:FindObjectForCode(code)
---    EntranceTable["accessible"][entrance] = EntranceTable["stage"][item.CurrentStage]
---end
---
---EntranceTable:Initialize()
---for stage, _ in pairs(EntranceTable["accessible"]) do
---	ScriptHost:AddWatchForCode("Update Accessibility for " .. stage, "__er_" .. stage .. "_dst", UpdateAccessibility)
---end
---
----- Prevent unclearing of unknowns.
---function UnclearUnknown(code)
---    --- @type JsonItem
---    local item = Tracker:FindObjectForCode(code)
---    item.Active = false
---end
---
---ScriptHost:AddWatchForCode("Unclear Unknowns", "__location_item_null", UnclearUnknown)
+local function UpdateAccessibility(code)
+    local er_setting = Tracker:FindObjectForCode("__setting_ER").CurrentStage
+    local entrance = code:gsub("__er_", ""):gsub("_dst", "")
+    if er_setting == 1 then
+    	if (
+            entrance == "bitdw" or
+            entrance == "bitfs" or
+            entrance == "totwc" or
+            entrance == "cotmc" or
+            entrance == "vcutm" or
+            entrance == "pss" or
+            entrance == "sa" or
+            entrance == "wmotr"
+    	) then
+        	SetStage(entrance, entrance)
+    		return
+    	end
+    end
+
+    if er_setting == 0 then
+        SetStage(entrance, entrance)
+    	return
+    end
+end
 
 -- TODO Clean up
 function IsUnknownDestination(entrance)
@@ -179,105 +133,148 @@ function IsSelectedDestination(area, entrance)
     return Tracker:FindObjectForCode("__er_" .. entrance .. "_dst").CurrentStage == EntranceTable:GetAreaStage(area)
 end
 
+function LoadStage(entrance)
+    code = "__er_" .. entrance .. "_dst"
+    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
+    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][EntranceTable["accessible"][entrance]]
+    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
+end
 
+function SetStage(entrance, stage)
+    code = "__er_" .. entrance .. "_dst"
+    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
+    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][stage]
+    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
+end
 
---function LoadStage(entrance)
---    code = "__er_" .. entrance .. "_dst"
---    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
---    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][EntranceTable["accessible"][entrance]]
---    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
---end
---
---function SetStage(entrance, stage)
---    code = "__er_" .. entrance .. "_dst"
---    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
---    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][stage]
---    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
---end
---
---function ResetEntrances()
---    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 1 then
---        SetStage("bitdw", "bitdw")
---        SetStage("bitfs", "bitfs")
---        SetStage("totwc", "totwc")
---        SetStage("cotmc", "cotmc")
---        SetStage("vcutm", "vcutm")
---        SetStage("pss", "pss")
---        SetStage("sa", "sa")
---        SetStage("wmotr", "wmotr")
---
---        LoadStage("bob")
---        LoadStage("wf")
---        LoadStage("jrb")
---        LoadStage("ccm")
---        LoadStage("bbh")
---        LoadStage("hmc")
---        LoadStage("lll")
---        LoadStage("ssl")
---        LoadStage("ddd")
---        LoadStage("sl")
---        LoadStage("wdw")
---        LoadStage("ttm")
---        LoadStage("thih")
---        LoadStage("thit")
---        LoadStage("ttc")
---        LoadStage("rr")
---    end
---
---    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0 then
---        SetStage("bob", "bob")
---        SetStage("wf", "wf")
---        SetStage("jrb", "jrb")
---        SetStage("ccm", "ccm")
---        SetStage("bbh", "bbh")
---        SetStage("hmc", "hmc")
---        SetStage("lll", "lll")
---        SetStage("ssl", "ssl")
---        SetStage("ddd", "ddd")
---        SetStage("sl", "sl")
---        SetStage("wdw", "wdw")
---        SetStage("ttm", "ttm")
---        SetStage("thih", "thih")
---        SetStage("thit", "thit")
---        SetStage("ttc", "ttc")
---        SetStage("rr", "rr")
---        SetStage("bitdw", "bitdw")
---        SetStage("bitfs", "bitfs")
---        SetStage("totwc", "totwc")
---        SetStage("cotmc", "cotmc")
---        SetStage("vcutm", "vcutm")
---        SetStage("pss", "pss")
---        SetStage("sa", "sa")
---        SetStage("wmotr", "wmotr")
---    end
---
---    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 2 then
---        LoadStage("bob")
---        LoadStage("wf")
---        LoadStage("jrb")
---        LoadStage("ccm")
---        LoadStage("bbh")
---        LoadStage("hmc")
---        LoadStage("lll")
---        LoadStage("ssl")
---        LoadStage("ddd")
---        LoadStage("sl")
---        LoadStage("wdw")
---        LoadStage("ttm")
---        LoadStage("thih")
---        LoadStage("thit")
---        LoadStage("ttc")
---        LoadStage("rr")
---        LoadStage("bitdw")
---        LoadStage("bitfs")
---        LoadStage("totwc")
---        LoadStage("cotmc")
---        LoadStage("vcutm")
---        LoadStage("pss")
---        LoadStage("sa")
---        LoadStage("wmotr")
---    end
---end
---
---ScriptHost:AddWatchForCode("ResetEntrances", "__setting_ER", ResetEntrances)
---ResetEntrances()
+function ResetEntrances()
+    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 2 then
+        SetStage("bob", "unknown")
+        SetStage("wf", "unknown")
+        SetStage("jrb", "unknown")
+        SetStage("ccm", "unknown")
+        SetStage("bbh", "unknown")
+        SetStage("hmc", "unknown")
+        SetStage("lll", "unknown")
+        SetStage("ssl", "unknown")
+        SetStage("ddd", "unknown")
+        SetStage("sl", "unknown")
+        SetStage("wdw", "unknown")
+        SetStage("ttm", "unknown")
+        SetStage("thih", "unknown")
+        SetStage("thit", "unknown")
+        SetStage("ttc", "unknown")
+        SetStage("rr", "unknown")
+        SetStage("bitdw", "unknown")
+        SetStage("bitfs", "unknown")
+        SetStage("bits", "bits")
+        SetStage("totwc", "unknown")
+        SetStage("cotmc", "unknown")
+        SetStage("vcutm", "unknown")
+        SetStage("pss", "unknown")
+        SetStage("sa", "unknown")
+        SetStage("wmotr", "unknown")
+    end
+
+    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 1 then
+        SetStage("bitdw", "bitdw")
+        SetStage("bitfs", "bitfs")
+        SetStage("bits", "bits")
+        SetStage("totwc", "totwc")
+        SetStage("cotmc", "cotmc")
+        SetStage("vcutm", "vcutm")
+        SetStage("pss", "pss")
+        SetStage("sa", "sa")
+        SetStage("wmotr", "wmotr")
+
+        SetStage("bob", "unknown")
+        SetStage("wf", "unknown")
+        SetStage("jrb", "unknown")
+        SetStage("ccm", "unknown")
+        SetStage("bbh", "unknown")
+        SetStage("hmc", "unknown")
+        SetStage("lll", "unknown")
+        SetStage("ssl", "unknown")
+        SetStage("ddd", "unknown")
+        SetStage("sl", "unknown")
+        SetStage("wdw", "unknown")
+        SetStage("ttm", "unknown")
+        SetStage("thih", "unknown")
+        SetStage("thit", "unknown")
+        SetStage("ttc", "unknown")
+        SetStage("rr", "unknown")
+    end
+
+    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0 then
+        SetStage("bob", "bob")
+        SetStage("wf", "wf")
+        SetStage("jrb", "jrb")
+        SetStage("ccm", "ccm")
+        SetStage("bbh", "bbh")
+        SetStage("hmc", "hmc")
+        SetStage("lll", "lll")
+        SetStage("ssl", "ssl")
+        SetStage("ddd", "ddd")
+        SetStage("sl", "sl")
+        SetStage("wdw", "wdw")
+        SetStage("ttm", "ttm")
+        SetStage("thih", "thih")
+        SetStage("thit", "thit")
+        SetStage("ttc", "ttc")
+        SetStage("rr", "rr")
+        SetStage("bitdw", "bitdw")
+        SetStage("bitfs", "bitfs")
+        SetStage("bits", "bits")
+        SetStage("totwc", "totwc")
+        SetStage("cotmc", "cotmc")
+        SetStage("vcutm", "vcutm")
+        SetStage("pss", "pss")
+        SetStage("sa", "sa")
+        SetStage("wmotr", "wmotr")
+    end
+end
+
+function Initialize()
+    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 1 then
+        SetStage("bitdw", "bitdw")
+        SetStage("bitfs", "bitfs")
+        SetStage("bits", "bits")
+        SetStage("totwc", "totwc")
+        SetStage("cotmc", "cotmc")
+        SetStage("vcutm", "vcutm")
+        SetStage("pss", "pss")
+        SetStage("sa", "sa")
+        SetStage("wmotr", "wmotr")
+    end
+
+    if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0 then
+        SetStage("bob", "bob")
+        SetStage("wf", "wf")
+        SetStage("jrb", "jrb")
+        SetStage("ccm", "ccm")
+        SetStage("bbh", "bbh")
+        SetStage("hmc", "hmc")
+        SetStage("lll", "lll")
+        SetStage("ssl", "ssl")
+        SetStage("ddd", "ddd")
+        SetStage("sl", "sl")
+        SetStage("wdw", "wdw")
+        SetStage("ttm", "ttm")
+        SetStage("thih", "thih")
+        SetStage("thit", "thit")
+        SetStage("ttc", "ttc")
+        SetStage("rr", "rr")
+        SetStage("bitdw", "bitdw")
+        SetStage("bitfs", "bitfs")
+        SetStage("bits", "bits")
+        SetStage("totwc", "totwc")
+        SetStage("cotmc", "cotmc")
+        SetStage("vcutm", "vcutm")
+        SetStage("pss", "pss")
+        SetStage("sa", "sa")
+        SetStage("wmotr", "wmotr")
+    end
+end
+
+ScriptHost:AddWatchForCode("ResetEntrances", "__setting_ER", ResetEntrances)
+Initialize()
