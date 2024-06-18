@@ -1,7 +1,4 @@
 local move_code_lookup = {
-    ["WC"] = "item__cm_wc",
-    ["MC"] = "item__cm_mc",
-    ["VC"] = "item__cm_vc",
     ["TJ"] = "item__cm_tj",
     ["LJ"] = "item__cm_lj",
     ["BF"] = "item__cm_bf",
@@ -12,6 +9,12 @@ local move_code_lookup = {
     ["KK"] = "item__cm_kk",
     ["CL"] = "item__cm_cl",
     ["LG"] = "item__cm_lg",
+}
+
+local cap_code_lookup = {
+    ["WC"] = "item__cm_wc",
+    ["MC"] = "item__cm_mc",
+    ["VC"] = "item__cm_vc",
 }
 
 local cannon_code_lookup = {
@@ -74,6 +77,15 @@ function HasCannon(course)
     local item = Tracker:FindObjectForCode(cannon_code_lookup[course])
     if item ~= nil and item.Active then
     	return true
+    end
+
+    return false
+end
+
+function HasCap(cap)
+    local item = Tracker:FindObjectForCode(cap_code_lookup[cap])
+    if item ~= nil and item.Active then
+        return true
     end
 
     return false

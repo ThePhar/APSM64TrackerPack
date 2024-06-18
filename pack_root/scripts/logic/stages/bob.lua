@@ -3,14 +3,14 @@ local course = "BOB"
 function CanAccessBOBIsland()
     return (
         (HasCannon(course)) or
-        (HasAllMoves("WC/TJ") and StrictCannonAccessibilityLevel()) or
+        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel()) or
         (HasMoves("TJ") and math.min(StrictCannonAccessibilityLevel(), StrictMovementAccessibilityLevel()))
     )
 end
 
 function CanAccessBOBWings()
     return (
-        (HasCannon(course) and HasMoves("WC")) or
+        (HasCannon(course) and HasCap("WC")) or
         (math.min(StrictCannonAccessibilityLevel(), StrictCapAccessibilityLevel()))
     )
 end
@@ -24,7 +24,7 @@ end
 
 function CanAccessBOBCoins()
     return (
-        (HasCannon(course) and HasMoves("WC")) or
-        (HasAllMoves("WC/TJ") and StrictCannonAccessibilityLevel())
+        (HasCannon(course) and HasCap("WC")) or
+        (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel())
     )
 end

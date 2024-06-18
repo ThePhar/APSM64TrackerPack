@@ -25,7 +25,7 @@ end
 
 function CanAccessJRBStream()
     return (
-        (HasMoves("MC")) or
+        (HasCap("MC")) or
         (StrictCapAccessibilityLevel())
     )
 end

@@ -293,7 +293,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -364,25 +366,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -396,7 +406,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -1727,7 +1739,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1798,25 +1812,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -1830,7 +1852,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -3161,7 +3185,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3232,25 +3258,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -3264,7 +3298,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -4595,7 +4631,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4666,25 +4704,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -4698,7 +4744,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -6029,7 +6077,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6100,25 +6150,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -6132,7 +6190,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -7463,7 +7523,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7534,25 +7596,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -7566,7 +7636,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -8897,7 +8969,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -8968,25 +9042,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -9000,7 +9082,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -10331,7 +10415,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10402,25 +10488,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -10434,7 +10528,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -11765,7 +11861,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11836,25 +11934,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -11868,7 +11974,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -13199,7 +13307,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -13270,25 +13380,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -13302,7 +13420,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -14633,7 +14753,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14704,25 +14826,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -14736,7 +14866,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -16067,7 +16199,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -16138,25 +16272,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -16170,7 +16312,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -17501,7 +17645,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17572,25 +17718,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -17604,7 +17758,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -18935,7 +19091,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19006,25 +19164,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -19038,7 +19204,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -20369,7 +20537,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20440,25 +20610,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -20472,7 +20650,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -21803,7 +21983,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21874,25 +22056,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -21906,7 +22096,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -23237,7 +23429,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23308,25 +23502,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -23340,7 +23542,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -24671,7 +24875,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24742,25 +24948,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -24774,7 +24988,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -26105,7 +26321,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26176,25 +26394,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -26208,7 +26434,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -27539,7 +27767,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27610,25 +27840,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -27642,7 +27880,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -28973,7 +29213,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29044,25 +29286,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -29076,7 +29326,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -30407,7 +30659,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30478,25 +30732,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -30510,7 +30772,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -31841,7 +32105,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31912,25 +32178,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -31944,7 +32218,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -33275,7 +33551,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33346,25 +33624,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -33378,7 +33664,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
@@ -34709,7 +34997,9 @@
                     {
                         "name": "Wall Kicks will Work",
                         "hosted_item": "__location_item_3626026",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessCCMWalLKicks"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34780,25 +35070,33 @@
                     {
                         "name": "Secret of the Haunted Books",
                         "hosted_item": "__location_item_3626030",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHBooks"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Seek the 8 Red Coins",
                         "hosted_item": "__location_item_3626031",
-                        "access_rules": [],
+                        "access_rules": [
+                            "$HasMoves|BF/WK/TJ/SF"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Big Boo's Balcony",
                         "hosted_item": "__location_item_3626032",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": []
                     },
                     {
                         "name": "Eye to Eye in the Secret Room",
                         "hosted_item": "__location_item_3626033",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,$HasCap|VC"
+                        ],
                         "visibility_rules": []
                     },
                     {
@@ -34812,7 +35110,9 @@
                     {
                         "name": "1-Up Block on Top of the Mansion",
                         "hosted_item": "__location_item_3626218",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$CanAccessBBHThirdFloor,^$CanAccessBBHRoof"
+                        ],
                         "visibility_rules": [
                             "$ShowBlocks"
                         ]
