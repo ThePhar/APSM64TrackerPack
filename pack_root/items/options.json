@@ -1,0 +1,180 @@
+[
+    {
+        "name": "Randomize Bob-omb Buddies",
+        "type": "toggle",
+        "codes": "__setting_BB",
+        "img": "images/buddy.png",
+        "initial_active_state": true
+    },
+    {
+        "name": "Randomize 1-Up Blocks",
+        "type": "toggle",
+        "codes": "__setting_1UB",
+        "img": "images/blocks/block_1up.png",
+        "disabled_img": "images/blocks/block.png",
+        "initial_active_state": true
+    },
+    {
+        "name": "Randomize 100 Coin Stars",
+        "type": "toggle",
+        "codes": "__setting_100",
+        "img": "images/star_coin.png",
+        "initial_active_state": true
+    },
+    {
+        "name": "Randomize Entrances",
+        "type": "progressive",
+        "codes": "__setting_ER",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Randomize Entrances - Disabled",
+                "img": "images/settings/doors_off.png",
+                "inherit_codes": false,
+                "img_mods": "@disabled"
+            },
+            {
+                "name": "Randomize Entrances - Courses Only",
+                "img": "images/settings/doors_course.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Randomize Entrances - Courses & Secrets",
+                "img": "images/settings/doors_course_secret.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Moves",
+        "type": "toggle",
+        "codes": "__setting_MV",
+        "img": "images/mario.png"
+    },
+    {
+        "name": "Strict Cap Requirements",
+        "type": "progressive",
+        "codes": "__setting_SC",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Easy Cap Requirements",
+                "img": "images/settings/caps_on.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hard Cap Requirements",
+                "img": "images/settings/caps_strict.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Strict Cannon Requirements",
+        "type": "progressive",
+        "codes": "__setting_SN",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Easy Cannon Requirements",
+                "img": "images/settings/cannon_on.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hard Cannon Requirements",
+                "img": "images/settings/cannon_strict.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Strict Move Requirements",
+        "type": "progressive",
+        "codes": "__setting_SM",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Easy Move Requirements",
+                "img": "images/settings/move_on.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hard Move Requirements",
+                "img": "images/settings/move_strict.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+
+    {
+        "name": "Lobby Star Door - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_F1Door",
+        "img": "images/settings/door_f1.png",
+        "max_quantity": 48,
+        "initial_quantity": 8
+    },
+    {
+        "name": "Basement Star Door - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_B1Door",
+        "img": "images/settings/door_b1.png",
+        "max_quantity": 60,
+        "initial_quantity": 30
+    },
+    {
+        "name": "Upstairs Door - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_F2Door",
+        "img": "images/settings/door_f2.png",
+        "max_quantity": 84,
+        "initial_quantity": 50
+    },
+    {
+        "name": "Infinite Staircase Door - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_F3Door",
+        "img": "images/settings/door_f3.png",
+        "max_quantity": 108,
+        "initial_quantity": 70
+    },
+    {
+        "name": "MIPS the Rabbit I - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_MIPS1",
+        "img": "images/settings/mips1.png",
+        "max_quantity": 42,
+        "initial_quantity": 15
+    },
+    {
+        "name": "MIPS the Rabbit II - Star Requirement",
+        "type": "consumable",
+        "codes": "__setting_MIPS2",
+        "img": "images/settings/mips2.png",
+        "max_quantity": 84,
+        "initial_quantity": 50
+    },
+    {
+        "name": "Goal Requirement",
+        "type": "progressive",
+        "codes": "__setting_GOAL",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Defeat Last Bowser",
+                "img": "images/settings/bowser_final.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Defeat All Bowsers",
+                "img": "images/settings/bowser_all.png",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

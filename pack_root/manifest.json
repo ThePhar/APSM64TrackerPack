@@ -1,0 +1,17 @@
+{
+    "name": "Archipelago SM64 Randomizer - Phar's Pack",
+    "platform": "pc",
+    "game_name": "Super Mario 64",
+    "package_uid": "pharware-sm64-pack",
+    "package_version": "1.1.0",
+    "min_poptracker_version": "0.25.4",
+    "author": "Phar",
+    "variants": {
+        "standard": {
+            "display_name": "Full Logic and ER Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}
