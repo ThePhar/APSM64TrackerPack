@@ -30,7 +30,7 @@ def compile_area_items() -> None:
             "name": f"{entrance_name} - Destination Icon",
             "type": "progressive",
             "loop": True,
-            "initial_stage_idx": 0 if entrance_name != "Bowser in the Sky" else 19,  # 19 == BitS
+            "initial_stage_idx": entrance.order,
             "allow_disabled": False,
             "codes": f"__er_{entrance}_dst",
             "stages": [

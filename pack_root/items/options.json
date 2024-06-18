@@ -176,5 +176,59 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Clear All Entrances",
+        "type": "progressive",
+        "codes": "__er_clear",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/er_legend/er_clear.png",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/er_legend/er_clear.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Reset All Entrances to Default",
+        "type": "progressive",
+        "codes": "__er_reset_all",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/er_legend/er_reset_all.png",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/er_legend/er_reset_all.png",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Reset Secret Entrances to Default",
+        "type": "progressive",
+        "codes": "__er_reset_secret",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/er_legend/er_reset_secrets.png",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/er_legend/er_reset_secrets.png",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

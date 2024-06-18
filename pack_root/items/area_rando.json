@@ -179,7 +179,7 @@
         "name": "Bob-omb Battlefield - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "codes": "__er_bob_dst",
         "stages": [
@@ -319,7 +319,7 @@
         "name": "Whomp's Fortress - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 2,
         "allow_disabled": false,
         "codes": "__er_wf_dst",
         "stages": [
@@ -459,7 +459,7 @@
         "name": "Jolly Roger Bay - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 3,
         "allow_disabled": false,
         "codes": "__er_jrb_dst",
         "stages": [
@@ -599,7 +599,7 @@
         "name": "Cool, Cool Mountain - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 4,
         "allow_disabled": false,
         "codes": "__er_ccm_dst",
         "stages": [
@@ -739,7 +739,7 @@
         "name": "Big Boo's Haunt - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 5,
         "allow_disabled": false,
         "codes": "__er_bbh_dst",
         "stages": [
@@ -879,7 +879,7 @@
         "name": "Hazy Maze Cave - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 6,
         "allow_disabled": false,
         "codes": "__er_hmc_dst",
         "stages": [
@@ -1019,7 +1019,7 @@
         "name": "Lethal Lava Land - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 7,
         "allow_disabled": false,
         "codes": "__er_lll_dst",
         "stages": [
@@ -1159,7 +1159,7 @@
         "name": "Shifting Sand Land - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 8,
         "allow_disabled": false,
         "codes": "__er_ssl_dst",
         "stages": [
@@ -1299,7 +1299,7 @@
         "name": "Dire, Dire Docks - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 9,
         "allow_disabled": false,
         "codes": "__er_ddd_dst",
         "stages": [
@@ -1439,7 +1439,7 @@
         "name": "Snowman's Land - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 10,
         "allow_disabled": false,
         "codes": "__er_sl_dst",
         "stages": [
@@ -1579,7 +1579,7 @@
         "name": "Wet-Dry World - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 11,
         "allow_disabled": false,
         "codes": "__er_wdw_dst",
         "stages": [
@@ -1719,7 +1719,7 @@
         "name": "Tall, Tall Mountain - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 12,
         "allow_disabled": false,
         "codes": "__er_ttm_dst",
         "stages": [
@@ -1859,7 +1859,7 @@
         "name": "Tiny-Huge Island (Huge) - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 13,
         "allow_disabled": false,
         "codes": "__er_thih_dst",
         "stages": [
@@ -1999,7 +1999,7 @@
         "name": "Tiny-Huge Island (Tiny) - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 14,
         "allow_disabled": false,
         "codes": "__er_thit_dst",
         "stages": [
@@ -2139,7 +2139,7 @@
         "name": "Tick Tock Clock - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 15,
         "allow_disabled": false,
         "codes": "__er_ttc_dst",
         "stages": [
@@ -2279,7 +2279,7 @@
         "name": "Rainbow Ride - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 16,
         "allow_disabled": false,
         "codes": "__er_rr_dst",
         "stages": [
@@ -2419,7 +2419,7 @@
         "name": "Bowser in the Dark World - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 17,
         "allow_disabled": false,
         "codes": "__er_bitdw_dst",
         "stages": [
@@ -2559,7 +2559,7 @@
         "name": "Bowser in the Fire Sea - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 18,
         "allow_disabled": false,
         "codes": "__er_bitfs_dst",
         "stages": [
@@ -2839,7 +2839,7 @@
         "name": "Princess's Secret Slide - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 20,
         "allow_disabled": false,
         "codes": "__er_pss_dst",
         "stages": [
@@ -2979,7 +2979,7 @@
         "name": "Secret Aquarium - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 21,
         "allow_disabled": false,
         "codes": "__er_sa_dst",
         "stages": [
@@ -3119,7 +3119,7 @@
         "name": "Wing Mario over the Rainbow - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 22,
         "allow_disabled": false,
         "codes": "__er_wmotr_dst",
         "stages": [
@@ -3259,7 +3259,7 @@
         "name": "Tower of the Wing Cap - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 23,
         "allow_disabled": false,
         "codes": "__er_totwc_dst",
         "stages": [
@@ -3399,7 +3399,7 @@
         "name": "Cavern of the Metal Cap - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 24,
         "allow_disabled": false,
         "codes": "__er_cotmc_dst",
         "stages": [
@@ -3539,7 +3539,7 @@
         "name": "Vanish Cap under the Moat - Destination Icon",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 25,
         "allow_disabled": false,
         "codes": "__er_vcutm_dst",
         "stages": [
