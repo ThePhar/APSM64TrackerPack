@@ -5,7 +5,7 @@
         "access_rules": [],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|bob",
                 "access_rules": [],
                 "map_locations": [
@@ -23,14 +23,32 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|bob",
+                "access_rules": "{$IsUnknownDestination|bob}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 102,
+                        "y": 529
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|bob",
                 "access_rules": [],
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 112,
-                        "y": 539,
+                        "x": 113,
+                        "y": 540,
                         "size": 10
                     }
                 ],
@@ -1628,7 +1646,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|wf",
                 "access_rules": [
                     "$HasStars|1"
@@ -1648,7 +1666,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|wf",
+                "access_rules": "{$IsUnknownDestination|wf}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 690,
+                        "y": 631
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|wf",
                 "access_rules": [
                     "$HasStars|1"
@@ -1656,8 +1692,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 700,
-                        "y": 641,
+                        "x": 701,
+                        "y": 642,
                         "size": 10
                     }
                 ],
@@ -3255,7 +3291,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|jrb",
                 "access_rules": [
                     "$HasStars|3"
@@ -3275,7 +3311,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|jrb",
+                "access_rules": "{$IsUnknownDestination|jrb}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 671,
+                        "y": 957
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|jrb",
                 "access_rules": [
                     "$HasStars|3"
@@ -3283,8 +3337,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 681,
-                        "y": 967,
+                        "x": 682,
+                        "y": 968,
                         "size": 10
                     }
                 ],
@@ -4882,7 +4936,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|ccm",
                 "access_rules": [
                     "$HasStars|3"
@@ -4902,7 +4956,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|ccm",
+                "access_rules": "{$IsUnknownDestination|ccm}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 525,
+                        "y": 528
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|ccm",
                 "access_rules": [
                     "$HasStars|3"
@@ -4910,8 +4982,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 535,
-                        "y": 538,
+                        "x": 536,
+                        "y": 539,
                         "size": 10
                     }
                 ],
@@ -6509,7 +6581,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|bbh",
                 "access_rules": [
                     "$HasStars|12"
@@ -6529,7 +6601,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|bbh",
+                "access_rules": "{$IsUnknownDestination|bbh}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 689,
+                        "y": 370
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|bbh",
                 "access_rules": [
                     "$HasStars|12"
@@ -6537,8 +6627,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 699,
-                        "y": 380,
+                        "x": 700,
+                        "y": 381,
                         "size": 10
                     }
                 ],
@@ -8136,7 +8226,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|hmc",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -8156,7 +8246,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|hmc",
+                "access_rules": "{$IsUnknownDestination|hmc}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1448,
+                        "y": 778
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|hmc",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -8164,8 +8272,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1458,
-                        "y": 788,
+                        "x": 1459,
+                        "y": 789,
                         "size": 10
                     }
                 ],
@@ -9763,7 +9871,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|lll",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -9783,7 +9891,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|lll",
+                "access_rules": "{$IsUnknownDestination|lll}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1169,
+                        "y": 686
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|lll",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -9791,8 +9917,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1179,
-                        "y": 696,
+                        "x": 1180,
+                        "y": 697,
                         "size": 10
                     }
                 ],
@@ -11390,7 +11516,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|ssl",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -11410,7 +11536,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|ssl",
+                "access_rules": "{$IsUnknownDestination|ssl}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1060,
+                        "y": 822
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|ssl",
                 "access_rules": [
                     "$CanAccessBasement"
@@ -11418,8 +11562,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1070,
-                        "y": 832,
+                        "x": 1071,
+                        "y": 833,
                         "size": 10
                     }
                 ],
@@ -13017,7 +13161,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|ddd",
                 "access_rules": [
                     "$CanAccessDDD"
@@ -13037,7 +13181,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|ddd",
+                "access_rules": "{$IsUnknownDestination|ddd}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1519,
+                        "y": 994
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|ddd",
                 "access_rules": [
                     "$CanAccessDDD"
@@ -13045,8 +13207,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1529,
-                        "y": 1004,
+                        "x": 1530,
+                        "y": 1005,
                         "size": 10
                     }
                 ],
@@ -14644,7 +14806,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|sl",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -14664,7 +14826,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|sl",
+                "access_rules": "{$IsUnknownDestination|sl}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1104,
+                        "y": 524
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|sl",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -14672,8 +14852,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1114,
-                        "y": 534,
+                        "x": 1115,
+                        "y": 535,
                         "size": 10
                     }
                 ],
@@ -16271,7 +16451,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|wdw",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -16291,7 +16471,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|wdw",
+                "access_rules": "{$IsUnknownDestination|wdw}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1420,
+                        "y": 520
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|wdw",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -16299,8 +16497,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1430,
-                        "y": 530,
+                        "x": 1431,
+                        "y": 531,
                         "size": 10
                     }
                 ],
@@ -17898,7 +18096,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|ttm",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -17918,7 +18116,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|ttm",
+                "access_rules": "{$IsUnknownDestination|ttm}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1398,
+                        "y": 336
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|ttm",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -17926,8 +18142,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1408,
-                        "y": 346,
+                        "x": 1409,
+                        "y": 347,
                         "size": 10
                     }
                 ],
@@ -19525,7 +19741,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|thih",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -19545,7 +19761,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|thih",
+                "access_rules": "{$IsUnknownDestination|thih}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1682,
+                        "y": 648
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|thih",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -19553,8 +19787,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1692,
-                        "y": 658,
+                        "x": 1693,
+                        "y": 659,
                         "size": 10
                     }
                 ],
@@ -21152,7 +21386,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|thit",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -21172,7 +21406,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|thit",
+                "access_rules": "{$IsUnknownDestination|thit}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1682,
+                        "y": 376
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|thit",
                 "access_rules": [
                     "$CanAccessSecondFloor"
@@ -21180,8 +21432,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1692,
-                        "y": 386,
+                        "x": 1693,
+                        "y": 387,
                         "size": 10
                     }
                 ],
@@ -22779,7 +23031,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|ttc",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|LG/TJ/SF/BF/WK"
@@ -22799,7 +23051,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|ttc",
+                "access_rules": "{$IsUnknownDestination|ttc}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1364,
+                        "y": 104
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|ttc",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|LG/TJ/SF/BF/WK"
@@ -22807,8 +23077,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1374,
-                        "y": 114,
+                        "x": 1375,
+                        "y": 115,
                         "size": 10
                     }
                 ],
@@ -24406,7 +24676,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|rr",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
@@ -24426,7 +24696,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|rr",
+                "access_rules": "{$IsUnknownDestination|rr}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1587,
+                        "y": 168
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|rr",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
@@ -24434,8 +24722,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1597,
-                        "y": 178,
+                        "x": 1598,
+                        "y": 179,
                         "size": 10
                     }
                 ],
@@ -26033,7 +26321,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|bitdw",
                 "access_rules": [
                     "$HasStars|F1Door"
@@ -26053,7 +26341,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|bitdw",
+                "access_rules": "{$IsUnknownDestination|bitdw}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 322,
+                        "y": 308
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|bitdw",
                 "access_rules": [
                     "$HasStars|F1Door"
@@ -26061,8 +26367,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 332,
-                        "y": 318,
+                        "x": 333,
+                        "y": 319,
                         "size": 10
                     }
                 ],
@@ -27660,7 +27966,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|bitfs",
                 "access_rules": [
                     "$CanAccessDDD,$HasCompleted|3626056"
@@ -27680,7 +27986,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|bitfs",
+                "access_rules": "{$IsUnknownDestination|bitfs}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1565,
+                        "y": 994
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|bitfs",
                 "access_rules": [
                     "$CanAccessDDD,$HasCompleted|3626056"
@@ -27688,8 +28012,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1575,
-                        "y": 1004,
+                        "x": 1576,
+                        "y": 1005,
                         "size": 10
                     }
                 ],
@@ -29287,7 +29611,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|bits",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasStars|F3Door"
@@ -29307,7 +29631,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|bits",
+                "access_rules": "{$IsUnknownDestination|bits}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1366,
+                        "y": 520
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|bits",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasStars|F3Door"
@@ -29315,8 +29657,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1376,
-                        "y": 530,
+                        "x": 1377,
+                        "y": 531,
                         "size": 10
                     }
                 ],
@@ -30914,7 +31256,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|pss",
                 "access_rules": [
                     "$HasStars|1"
@@ -30934,7 +31276,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|pss",
+                "access_rules": "{$IsUnknownDestination|pss}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 648,
+                        "y": 762
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|pss",
                 "access_rules": [
                     "$HasStars|1"
@@ -30942,8 +31302,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 658,
-                        "y": 772,
+                        "x": 659,
+                        "y": 773,
                         "size": 10
                     }
                 ],
@@ -32541,7 +32901,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|sa",
                 "access_rules": [
                     "$HasStars|3,^$CanAccessSA"
@@ -32561,7 +32921,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|sa",
+                "access_rules": "{$IsUnknownDestination|sa}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 456,
+                        "y": 874
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|sa",
                 "access_rules": [
                     "$HasStars|3,^$CanAccessSA"
@@ -32569,8 +32947,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 466,
-                        "y": 884,
+                        "x": 467,
+                        "y": 885,
                         "size": 10
                     }
                 ],
@@ -34168,7 +34546,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|wmotr",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
@@ -34188,7 +34566,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|wmotr",
+                "access_rules": "{$IsUnknownDestination|wmotr}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1142,
+                        "y": 168
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|wmotr",
                 "access_rules": [
                     "$CanAccessThirdFloor,$HasMoves|TJ/SF/BF"
@@ -34196,8 +34592,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1152,
-                        "y": 178,
+                        "x": 1153,
+                        "y": 179,
                         "size": 10
                     }
                 ],
@@ -35795,7 +36191,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|totwc",
                 "access_rules": [
                     "$HasStars|10"
@@ -35815,7 +36211,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|totwc",
+                "access_rules": "{$IsUnknownDestination|totwc}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 286,
+                        "y": 814
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|totwc",
                 "access_rules": [
                     "$HasStars|10"
@@ -35823,8 +36237,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 296,
-                        "y": 824,
+                        "x": 297,
+                        "y": 825,
                         "size": 10
                     }
                 ],
@@ -37422,7 +37836,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|cotmc",
                 "access_rules": [
                     "^$CanAccessHMC"
@@ -37442,7 +37856,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|cotmc",
+                "access_rules": "{$IsUnknownDestination|cotmc}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 910,
+                        "y": 143
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|cotmc",
                 "access_rules": [
                     "^$CanAccessHMC"
@@ -37450,8 +37882,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 920,
-                        "y": 153,
+                        "x": 921,
+                        "y": 154,
                         "size": 10
                     }
                 ],
@@ -39049,7 +39481,7 @@
         ],
         "children": [
             {
-                "name": "? ? ? Destination",
+                "name": "Unknown Stage",
                 "visibility_rules": "$IsUnknownDestination|vcutm",
                 "access_rules": [
                     "$CanAccessBasement,$HasMoves|GP"
@@ -39069,7 +39501,25 @@
                 ]
             },
             {
-                "name": "? ? ? Destination - Scoutable",
+                "name": "Unknown Stage [Scout]",
+                "visibility_rules": "$IsUnknownDestination|vcutm",
+                "access_rules": "{$IsUnknownDestination|vcutm}",
+                "map_locations": [
+                    {
+                        "map": "map_castle",
+                        "x": 1828,
+                        "y": 885
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Stage and Set Entrance",
+                        "hosted_item": "__location_item_null"
+                    }
+                ]
+            },
+            {
+                "name": "Unknown Stage [Z]",
                 "visibility_rules": "$IsUnknownDestination|vcutm",
                 "access_rules": [
                     "$CanAccessBasement,$HasMoves|GP"
@@ -39077,8 +39527,8 @@
                 "map_locations": [
                     {
                         "map": "map_castle",
-                        "x": 1838,
-                        "y": 895,
+                        "x": 1839,
+                        "y": 896,
                         "size": 10
                     }
                 ],

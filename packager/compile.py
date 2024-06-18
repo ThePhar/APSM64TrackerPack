@@ -86,7 +86,7 @@ def compile_entrances() -> None:
             "access_rules": entrance.access_rules,
             "children": [
                 {
-                    "name": "? ? ? Destination",
+                    "name": "Unknown Stage",
                     "visibility_rules": f"$IsUnknownDestination|{entrance}",
                     "access_rules": entrance.access_rules,
                     "map_locations": [
@@ -99,14 +99,27 @@ def compile_entrances() -> None:
                     "sections": [{"name": "Enter Stage and Set Entrance", "hosted_item": "__location_item_null"}],
                 },
                 {
-                    "name": "? ? ? Destination - Scoutable",
+                    "name": "Unknown Stage [Scout]",
+                    "visibility_rules": f"$IsUnknownDestination|{entrance}",
+                    "access_rules": f"{{$IsUnknownDestination|{entrance}}}",
+                    "map_locations": [
+                        {
+                            "map": "map_castle",
+                            "x": entrance.coords[0],
+                            "y": entrance.coords[1],
+                        }
+                    ],
+                    "sections": [{"name": "Enter Stage and Set Entrance", "hosted_item": "__location_item_null"}],
+                },
+                {
+                    "name": "Unknown Stage [Z]",
                     "visibility_rules": f"$IsUnknownDestination|{entrance}",
                     "access_rules": entrance.access_rules,
                     "map_locations": [
                         {
                             "map": "map_castle",
-                            "x": entrance.coords[0] + 10,
-                            "y": entrance.coords[1] + 10,
+                            "x": entrance.coords[0] + 11,
+                            "y": entrance.coords[1] + 11,
                             "size": 10,
                         }
                     ],
