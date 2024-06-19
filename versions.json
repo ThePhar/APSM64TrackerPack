@@ -3,7 +3,7 @@
         {
             "package_version": "1.1.1",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.1.1/PharAPSM64_1.1.1.zip",
-            "sha256": "ab8bf9a7288f1879b1703d27aa0719ff915c8ea718b5c7dc972d9b06838ef611",
+            "sha256": "caea00a7dcceb81c98a9665956d9fb9d3e3c3c4375b079ec2b6ab5b271dcf0e2",
             "changelog": [
                 "Feature: Add auto-update support.",
                 "Refactor: Changed 'Wall Kick' icon to show 'WK' instead of 'WJ'.",
