@@ -3,8 +3,9 @@
         {
             "package_version": "1.1.1",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.1.1/PharAPSM64_1.1.1.zip",
-            "sha256": "5c3ed7c55751ca622b7644842652b1b2dee19a2e06600571a3fc980273e37435",
+            "sha256": "ab8bf9a7288f1879b1703d27aa0719ff915c8ea718b5c7dc972d9b06838ef611",
             "changelog": [
+                "Feature: Add auto-update support.",
                 "Refactor: Changed 'Wall Kick' icon to show 'WK' instead of 'WJ'.",
                 "Bug Fix: 'Cool, Cool Mountain: Wall Kicks will Work' star no longer shows as always inaccessible."
             ]
