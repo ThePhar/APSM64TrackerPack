@@ -1,6 +1,6 @@
 # Phar's Archipelago SM64 Randomizer PopTracker Pack
 
-This is a [PopTracker](https://poptracker.github.io/) pack for the **Archipelago Super Mario 64 Randomizer**.
+This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the **Archipelago Super Mario 64 Randomizer**.
 
 ![Example of SM64 Pack](docs/example.png)
 

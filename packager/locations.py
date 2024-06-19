@@ -107,7 +107,7 @@ locations: list[Location] = [
     Location("Big Penguin Race",                       "Cool, Cool Mountain",         3626023, LocationType.Star),
     Location("Frosty Slide for 8 Red Coins",           "Cool, Cool Mountain",         3626024, LocationType.RedCoin),
     Location("Snowman's Lost his Head",                "Cool, Cool Mountain",         3626025, LocationType.Star),
-    Location("Wall Kicks will Work",                   "Cool, Cool Mountain",         3626026, LocationType.Star,      ["^$CanAccessCCMWalLKicks"]),
+    Location("Wall Kicks will Work",                   "Cool, Cool Mountain",         3626026, LocationType.Star,      ["^$CanAccessCCMWallKicks"]),
     Location("100 Coins Star",                         "Cool, Cool Mountain",         3626027, LocationType.Coin),
     Location("Bob-omb Buddy",                          "Cool, Cool Mountain",         3626203, LocationType.Buddy),
     Location("1-Up Block Near Snowman",                "Cool, Cool Mountain",         3626215, LocationType.Block),
