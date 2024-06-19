@@ -1,0 +1,36 @@
+{
+    "versions": [
+        {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.1.1/PharAPSM64_1.1.1.zip",
+            "sha256": "5c3ed7c55751ca622b7644842652b1b2dee19a2e06600571a3fc980273e37435",
+            "changelog": [
+                "Refactor: Changed 'Wall Kick' icon to show 'WK' instead of 'WJ'.",
+                "Bug Fix: 'Cool, Cool Mountain: Wall Kicks will Work' star no longer shows as always inaccessible."
+            ]
+        },
+        {
+            "package_version": "1.1.0",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.1.0/PharAPSM64_1.1.0.zip",
+            "sha256": "4810f5e441e9a0566b4e239a6753b1fe8bee92e8ed289fb1deb7a423b6a2b221",
+            "changelog": [
+                "Feature: Unset accessible entrances show as blue, with a colored icon in the bottom right corner indicating accessibility level",
+                "Feature: AP Auto-tracking now detects if 100 coin stars are enabled.",
+                "Feature: Quality of life features for clearing or resetting multiple area entrances.",
+                "Refactor: Changed ER buttons to be more legible.",
+                "Bug Fix: Reloading pack resets ER state.",
+                "Bug Fix: Key state is reset and recalculated on AP connection.",
+                "Bug Fix: Fix multiple stage accessibility issues.",
+                "Bug Fix: Area Randomization now longer enabled automatically on AP connection, if not enabled."
+            ]
+        },
+        {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.0.1/phars_sm64tracker.zip",
+            "sha256": "eac94a6b62633e36c37397d066eb1a35fbe3d83b84a6d31367411afd139e2048",
+            "changelog": [
+                "Feature: Initial official release."
+            ]
+        }
+    ]
+}
