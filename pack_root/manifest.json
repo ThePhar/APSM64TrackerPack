@@ -5,6 +5,7 @@
     "package_uid": "pharware-sm64-pack",
     "package_version": "1.1.1",
     "min_poptracker_version": "0.25.5",
+    "versions_url": "https://raw.githubusercontent.com/ThePhar/APSM64TrackerPack/main/versions.json",
     "author": "Phar",
     "variants": {
         "standard": {

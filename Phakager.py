@@ -8,6 +8,7 @@ from packager import ManifestVersion
 PACKAGE_NAME = "PharAPSM64"
 PACKAGES_PATH = os.path.join(os.getcwd(), "packs")
 PACK_ROOT_PATH = os.path.join(os.getcwd(), "pack_root")
+CHANGELOG_PATH = os.path.join(os.getcwd(), "docs", "changelogs")
 EXTERNAL_INCLUDES = ["LICENSE"]
 
 parser = argparse.ArgumentParser(
@@ -24,6 +25,12 @@ parser.add_argument(
     "-k",
     "--package",
     help="gathers all relevant files and zips them into packs directory",
+    action="store_true",
+)
+parser.add_argument(
+    "-V",
+    "--update_versions",
+    help="updates versions.json file; is ignored if -k is omitted.",
     action="store_true",
 )
 parser.add_argument(
@@ -51,7 +58,6 @@ parser.add_argument(
     action="store_true",
 )
 
-
 if __name__ == "__main__":
     import sys
     import time
@@ -66,7 +72,18 @@ if __name__ == "__main__":
     # Load Manifest and Version
     with open(os.path.join(PACK_ROOT_PATH, "manifest.json"), "r", encoding="utf-8") as manifest_file:
         manifest: dict[str, any] = json.loads(manifest_file.read())
-        version: ManifestVersion = ManifestVersion.parse_version(manifest["package_version"])
+        version = ManifestVersion.parse_version(manifest["package_version"])
+
+    # Load Versions
+    with open(os.path.join(os.getcwd(), "versions.json"), "r", encoding="utf-8") as versions_file:
+        versions: dict[ManifestVersion, dict] = {
+            ManifestVersion.parse_version(data["package_version"]): {
+                "download_url": data["download_url"],
+                "sha256": data["sha256"],
+                "changelog": data["changelog"],
+            }
+            for data in json.loads(versions_file.read())["versions"]
+        }
 
     # Handle Version Updating
     args = parser.parse_args()
@@ -99,8 +116,9 @@ if __name__ == "__main__":
         from zipfile import ZipFile
 
         print("[Phakager] Packaging all files...")
+        pack_filename = f"{PACKAGE_NAME}_{version}.zip"
         os.makedirs(PACKAGES_PATH, exist_ok=True)
-        pack_path = os.path.join(PACKAGES_PATH, f"{PACKAGE_NAME}_{version}.zip")
+        pack_path = os.path.join(PACKAGES_PATH, pack_filename)
         with ZipFile(pack_path, "w") as pack:
             for root, dirs, files in os.walk(PACK_ROOT_PATH):
                 for file in files:
@@ -111,7 +129,38 @@ if __name__ == "__main__":
                 file_path = os.path.join(os.getcwd(), file)
                 pack.write(file_path, file)
 
-        print(f"[Phakager] Completed packaging {PACKAGE_NAME}_{version}.zip")
+        if args.update_versions:
+            from hashlib import sha256
+
+            print("[Phakager] Calculating package hash and updating versions.json...")
+            versions[version] = {
+                "download_url": f"https://github.com/ThePhar/APSM64TrackerPack/releases/download/{version}/{pack_filename}",
+                "sha256": sha256(open(pack_path, "rb").read()).hexdigest(),
+            }
+
+            if not os.path.exists(os.path.join(CHANGELOG_PATH, f"{version}.json")):
+                print(f"[Phakager] \tWARNING: No changelogs file found for {version}. Outputting empty changelog.")
+                versions[version]["changelog"] = []
+            else:
+                versions[version]["changelog"] = json.load(open(os.path.join(CHANGELOG_PATH, f"{version}.json"), "r"))
+
+            json.dump(
+                {
+                    "versions": [
+                        {
+                            "package_version": f"{version}",
+                            "download_url": data["download_url"],
+                            "sha256": data["sha256"],
+                            "changelog": data["changelog"],
+                        }
+                        for version, data in dict(sorted(versions.items(), reverse=True)).items()
+                    ]
+                },
+                open("versions.json", "w"),
+                indent=4,
+            )
+
+        print(f"[Phakager] Completed packaging {pack_filename}")
 
     end_time = time.perf_counter()
     print(f"[Phakager] Finished processing in {round(end_time - start_time, 2)} secs. Enjoy!")

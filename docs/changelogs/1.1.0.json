@@ -1,0 +1,10 @@
+[
+    "Feature: Unset accessible entrances show as blue, with a colored icon in the bottom right corner indicating accessibility level",
+    "Feature: AP Auto-tracking now detects if 100 coin stars are enabled.",
+    "Feature: Quality of life features for clearing or resetting multiple area entrances.",
+    "Refactor: Changed ER buttons to be more legible.",
+    "Bug Fix: Reloading pack resets ER state.",
+    "Bug Fix: Key state is reset and recalculated on AP connection.",
+    "Bug Fix: Fix multiple stage accessibility issues.",
+    "Bug Fix: Area Randomization now longer enabled automatically on AP connection, if not enabled."
+]
