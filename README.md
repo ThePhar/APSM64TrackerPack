@@ -14,6 +14,7 @@ This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the 
 - Area Tracking (ER) and Logic
 - Map for Visualizing Entrances; Is ER Aware
 - Broadcast View for Items and Entrances
+- Displays all locations in a tab for quick reference of checked/missing locations.
 - Auto-Tracking via Archipelago
   - Automatically tracks completed locations and collected items.
   - Automatically enables Move Randomization, if enabled.

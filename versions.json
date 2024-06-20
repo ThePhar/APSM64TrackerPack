@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.0",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.2.0/PharAPSM64_1.2.0.zip",
+            "sha256": "8778249df2c491908c83099e7dae6a8e59c96824b061752a623ec2b3559d52fc",
+            "changelog": [
+                "Feature: Created a locations tracker that displays all locations in one tab. Does not currently factor in accessibility."
+            ]
+        },
+        {
             "package_version": "1.1.1",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.1.1/PharAPSM64_1.1.1.zip",
             "sha256": "caea00a7dcceb81c98a9665956d9fb9d3e3c3c4375b079ec2b6ab5b271dcf0e2",
