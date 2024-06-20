@@ -1,0 +1,1225 @@
+{
+    "layout_locations": {
+        "type": "array",
+        "dock": "bottom",
+        "margin": "0, 8, 0, 0",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0, 46, 0",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": " "
+                    },
+                    {
+                        "type": "text",
+                        "text": "  1. Bob-omb Battlefield",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626000",
+                                                "__location_item_3626001",
+                                                "__location_item_3626002",
+                                                "__location_item_3626003",
+                                                "__location_item_3626004",
+                                                "__location_item_3626005",
+                                                "__location_item_3626006"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626200"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  2. Whomp's Fortress",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626007",
+                                                "__location_item_3626008",
+                                                "__location_item_3626009",
+                                                "__location_item_3626010",
+                                                "__location_item_3626011",
+                                                "__location_item_3626012",
+                                                "__location_item_3626013"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626201"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  3. Jolly Roger Bay",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626014",
+                                                "__location_item_3626015",
+                                                "__location_item_3626016",
+                                                "__location_item_3626017",
+                                                "__location_item_3626018",
+                                                "__location_item_3626019",
+                                                "__location_item_3626020"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626202"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  4. Cool, Cool Mountain",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626021",
+                                                "__location_item_3626022",
+                                                "__location_item_3626023",
+                                                "__location_item_3626024",
+                                                "__location_item_3626025",
+                                                "__location_item_3626026",
+                                                "__location_item_3626027"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626203"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626215",
+                                                "__location_item_3626216",
+                                                "__location_item_3626217"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  5. Big Boo's Haunt",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626028",
+                                                "__location_item_3626029",
+                                                "__location_item_3626030",
+                                                "__location_item_3626031",
+                                                "__location_item_3626032",
+                                                "__location_item_3626033",
+                                                "__location_item_3626034"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__blank"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626218"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  6. Hazy Maze Cave",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626035",
+                                                "__location_item_3626036",
+                                                "__location_item_3626037",
+                                                "__location_item_3626038",
+                                                "__location_item_3626039",
+                                                "__location_item_3626040",
+                                                "__location_item_3626041"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__blank"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626219",
+                                                "__location_item_3626220"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  7. Lethal Lava Land",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626042",
+                                                "__location_item_3626043",
+                                                "__location_item_3626044",
+                                                "__location_item_3626045",
+                                                "__location_item_3626046",
+                                                "__location_item_3626047",
+                                                "__location_item_3626048"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  8. Shifting Sand Land",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626049",
+                                                "__location_item_3626050",
+                                                "__location_item_3626051",
+                                                "__location_item_3626052",
+                                                "__location_item_3626053",
+                                                "__location_item_3626054",
+                                                "__location_item_3626055"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626207"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626221",
+                                                "__location_item_3626222",
+                                                "__location_item_3626223"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  9. Dire, Dire Docks",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626056",
+                                                "__location_item_3626057",
+                                                "__location_item_3626058",
+                                                "__location_item_3626059",
+                                                "__location_item_3626060",
+                                                "__location_item_3626061",
+                                                "__location_item_3626062"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": " "
+                    },
+                    {
+                        "type": "text",
+                        "text": "  10. Snowman's Land",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626063",
+                                                "__location_item_3626064",
+                                                "__location_item_3626065",
+                                                "__location_item_3626066",
+                                                "__location_item_3626067",
+                                                "__location_item_3626068",
+                                                "__location_item_3626069"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626209"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626224",
+                                                "__location_item_3626225"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  11. Wet-Dry World",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626070",
+                                                "__location_item_3626071",
+                                                "__location_item_3626072",
+                                                "__location_item_3626073",
+                                                "__location_item_3626074",
+                                                "__location_item_3626075",
+                                                "__location_item_3626076"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626210"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626226"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  12. Tall, Tall Mountain",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626077",
+                                                "__location_item_3626078",
+                                                "__location_item_3626079",
+                                                "__location_item_3626080",
+                                                "__location_item_3626081",
+                                                "__location_item_3626082",
+                                                "__location_item_3626083"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626211"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626227"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  13. Tiny-Huge Island",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626084",
+                                                "__location_item_3626085",
+                                                "__location_item_3626086",
+                                                "__location_item_3626087",
+                                                "__location_item_3626088",
+                                                "__location_item_3626089",
+                                                "__location_item_3626090"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626212"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626228",
+                                                "__location_item_3626229",
+                                                "__location_item_3626230"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  14. Tick Tock Clock",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626091",
+                                                "__location_item_3626092",
+                                                "__location_item_3626093",
+                                                "__location_item_3626094",
+                                                "__location_item_3626095",
+                                                "__location_item_3626096",
+                                                "__location_item_3626097"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__blank"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626231",
+                                                "__location_item_3626232"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "text": "  15. Rainbow Ride",
+                        "margin": "4, 4"
+                    },
+                    {
+                        "type": "array",
+                        "dock": "left",
+                        "orientation": "horizontal",
+                        "margin": "4, 0",
+                        "content": [
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626098",
+                                                "__location_item_3626099",
+                                                "__location_item_3626100",
+                                                "__location_item_3626101",
+                                                "__location_item_3626102",
+                                                "__location_item_3626103",
+                                                "__location_item_3626104"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626214"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "dock": "left",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "rows": [
+                                            [
+                                                "__location_item_3626233",
+                                                "__location_item_3626234",
+                                                "__location_item_3626235"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Mushroom Kingdom Castle              ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626168",
+                                                                "__location_item_3626169",
+                                                                "__location_item_3626170",
+                                                                "__location_item_3626171",
+                                                                "__location_item_3626172"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  PSS                  ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626126",
+                                                                "__location_item_3626127"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  SA         ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626161"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  WMotR",
+                                        "margin": "6, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "6, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626154",
+                                                                "__location_item_3626243"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Tower                               ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626181",
+                                                                "__location_item_3626140"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Cavern                                  ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626182",
+                                                                "__location_item_3626133",
+                                                                "__location_item_3626241"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Moat",
+                                        "margin": "6, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "6, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626183",
+                                                                "__location_item_3626147",
+                                                                "__location_item_3626242"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Dark World                                 ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626178",
+                                                                "__location_item_3626105",
+                                                                "__location_item_3626236",
+                                                                "__location_item_3626237"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Fire Sea                                 ",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626179",
+                                                                "__location_item_3626112",
+                                                                "__location_item_3626238",
+                                                                "__location_item_3626239"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "array",
+                                "orientation": "vertical",
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "  Sky",
+                                        "margin": "4, 4"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "dock": "left",
+                                        "orientation": "horizontal",
+                                        "margin": "4, 0",
+                                        "content": [
+                                            {
+                                                "type": "array",
+                                                "dock": "left",
+                                                "content": [
+                                                    {
+                                                        "type": "itemgrid",
+                                                        "rows": [
+                                                            [
+                                                                "__location_item_3626119",
+                                                                "__location_item_3626240"
+                                                            ]
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

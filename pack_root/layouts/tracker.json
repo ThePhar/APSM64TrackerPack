@@ -52,12 +52,21 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Castle Interior & Entrances",
+                            "title": "Castle Entrances and Locations",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "map_castle"
                                 ]
+                            }
+                        },
+                        {
+                            "title": "All Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "layout_locations",
+                                "h_alignment": "left",
+                                "v_alignment": "center"
                             }
                         }
                     ]

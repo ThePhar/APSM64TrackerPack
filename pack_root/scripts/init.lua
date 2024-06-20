@@ -22,12 +22,14 @@ Tracker:AddLocations("locations/castle_entrances.json")
 
 -- Layouts
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/locations.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
 -- Scripts
-ScriptHost:LoadScript("scripts/logic/area_rando.lua")
+ScriptHost:LoadScript("scripts/locations.lua")
 ScriptHost:LoadScript("scripts/logic/shared.lua")
+ScriptHost:LoadScript("scripts/logic/area_rando.lua")
 ScriptHost:LoadScript("scripts/logic/moves_cannons.lua")
 
 ScriptHost:LoadScript("scripts/logic/stages/bob.lua")
