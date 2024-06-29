@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.2.1/PharAPSM64_1.2.1.zip",
+            "sha256": "0cfa30f73fc28ed6a1dd1b8fcbfbfd06653410f86507085b3141218e6d7de1f4",
+            "changelog": [
+                "Fix logic issue with Mario Wings to the Sky not requiring cannon."
+            ]
+        },
+        {
             "package_version": "1.2.0",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.2.0/PharAPSM64_1.2.0.zip",
             "sha256": "8778249df2c491908c83099e7dae6a8e59c96824b061752a623ec2b3559d52fc",

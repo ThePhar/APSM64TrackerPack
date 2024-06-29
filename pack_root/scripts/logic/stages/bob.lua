@@ -11,7 +11,7 @@ end
 function CanAccessBOBWings()
     return GetAccessibility({
         (HasCannon(course) and HasCap("WC")),
-        (math.min(StrictCannonAccessibilityLevel(), StrictCapAccessibilityLevel())),
+        (HasCannon(course) and StrictCapAccessibilityLevel()),
     })
 end
 
