@@ -4,7 +4,7 @@ function CanAccessBOBIsland()
     return GetAccessibility({
         (HasCannon(course)),
         (HasMoves("TJ") and HasCap("WC") and StrictCannonAccessibilityLevel()),
-        (HasMoves("TJ") and math.min(StrictCannonAccessibilityLevel(), StrictMovementAccessibilityLevel())),
+        (HasMoves("LJ") and math.min(StrictCannonAccessibilityLevel(), StrictMovementAccessibilityLevel())),
     })
 end
 

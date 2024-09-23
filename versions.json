@@ -1,6 +1,12 @@
 {
     "versions": [
         {
+            "package_version": "1.2.2",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.2.2/PharAPSM64_1.2.2.zip",
+            "sha256": "63642a93a38f116c31e90672be712c79bfd443956245d9950a790936c4bc6ef6",
+            "changelog": []
+        },
+        {
             "package_version": "1.2.1",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.2.1/PharAPSM64_1.2.1.zip",
             "sha256": "0cfa30f73fc28ed6a1dd1b8fcbfbfd06653410f86507085b3141218e6d7de1f4",
