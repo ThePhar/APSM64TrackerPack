@@ -35,7 +35,7 @@ async function buildAreaRando(): Promise<void> {
             name: `${entrance.name} - Destination Symbol`,
             type: "progressive",
             loop: true,
-            initial_stage_idx: 0,
+            initial_stage_idx: entrance.acronym === "BitS" ? entrance.order : 0,
             allow_disabled: false,
             codes: `__er_${entrance.acronym}_dst`,
             stages: [{

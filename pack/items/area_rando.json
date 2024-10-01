@@ -2698,7 +2698,7 @@
 		"name": "Bowser in the Sky - Destination Symbol",
 		"type": "progressive",
 		"loop": true,
-		"initial_stage_idx": 0,
+		"initial_stage_idx": 19,
 		"allow_disabled": false,
 		"codes": "__er_BitS_dst",
 		"stages": [
