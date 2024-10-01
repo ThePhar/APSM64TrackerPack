@@ -1,0 +1,597 @@
+$schema: "../$schemas/items.json"
+data:
+  # Randomization
+  - name: Randomize Bob-omb Buddies
+    type: toggle
+    codes: __setting_BB
+    img: images/buddy.png
+    initial_active_state: true
+  - name: Randomize 1-Up Blocks
+    type: toggle
+    codes: __setting_1UB
+    img: images/blocks/block_1up.png
+    disabled_img: images/blocks/block.png
+    initial_active_state: true
+  - name: Randomize 100 Coin Stars
+    type: toggle
+    codes: __setting_100
+    img: images/star_coin.png
+    initial_active_state: true
+#  - name: Randomize Entrances
+#    type: progressive
+#    codes: __setting_ER
+#    allow_disabled: false
+#    initial_stage_idx: 0
+#    stages:
+#    - name: Randomize Entrances - Disabled
+#      img: images/settings/doors_off.png
+#      inherit_codes: false
+#      img_mods: "@disabled"
+#    - name: Randomize Entrances - Courses Only
+#      img: images/settings/doors_course.png
+#      inherit_codes: false
+#    - name: Randomize Entrances - Courses & Secrets
+#      img: images/settings/doors_course_secret.png
+#      inherit_codes: false
+  - name: Randomize Moves
+    type: toggle
+    codes: __setting_MV
+    img: images/mario.png
+
+  # Logic
+  - name: Strict Cap Requirements
+    type: progressive
+    codes: __setting_SC
+    allow_disabled: false
+    initial_stage_idx: 0
+    stages:
+    - name: Strict Cap Requirements
+      img: images/settings/caps_on.png
+      inherit_codes: false
+    - name: Non-Strict Cap Requirements
+      img: images/settings/caps_strict.png
+      inherit_codes: false
+  - name: Strict Cannon Requirements
+    type: progressive
+    codes: __setting_SN
+    allow_disabled: false
+    initial_stage_idx: 0
+    stages:
+    - name: Strict Cannon Requirements
+      img: images/settings/cannon_on.png
+      inherit_codes: false
+    - name: Non-Strict Cannon Requirements
+      img: images/settings/cannon_strict.png
+      inherit_codes: false
+  - name: Strict Move Requirements
+    type: progressive
+    codes: __setting_SM
+    allow_disabled: false
+    initial_stage_idx: 0
+    stages:
+    - name: Strict Move Requirements
+      img: images/settings/move_on.png
+      inherit_codes: false
+    - name: Non-Strict Move Requirements
+      img: images/settings/move_strict.png
+      inherit_codes: false
+
+  # Requirements
+  - name: Lobby Star Door - Star Requirement
+    type: static
+    codes: __setting_F1
+    img: images/settings/door_f1.png
+    disabled_img_mods: none
+  - name: Basement Star Door - Star Requirement
+    type: static
+    codes: __setting_B1
+    img: images/settings/door_b1.png
+    disabled_img_mods: none
+  - name: Upstairs Door - Star Requirement
+    type: static
+    codes: __setting_F2
+    img: images/settings/door_f2.png
+    disabled_img_mods: none
+  - name: Infinite Staircase Door - Star Requirement
+    type: static
+    codes: __setting_F3
+    img: images/settings/door_f3.png
+    disabled_img_mods: none
+  - name: MIPS the Rabbit I - Star Requirement
+    type: static
+    codes: __setting_MIPS1
+    img: images/settings/mips1.png
+    disabled_img_mods: none
+  - name: MIPS the Rabbit II - Star Requirement
+    type: static
+    codes: __setting_MIPS2
+    img: images/settings/mips2.png
+    disabled_img_mods: none
+  - name: Goal Requirement
+    type: progressive
+    codes: __setting_GOAL
+    allow_disabled: false
+    initial_stage_idx: 0
+    stages:
+    - name: Defeat Last Bowser
+      img: images/settings/bowser_final.png
+      inherit_codes: false
+    - name: Defeat All Bowsers
+      img: images/settings/bowser_all.png
+      inherit_codes: false
+
+  # Entrances
+  - name: Clear All Entrances
+    type: progressive
+    codes: __er_clear
+    allow_disabled: false
+    initial_stage_idx: 0
+    loop: true
+    stages:
+    - img: images/er_legend/er_clear.png
+      inherit_codes: false
+    - img: images/er_legend/er_clear.png
+      inherit_codes: false
+  - name: Reset All Entrances to Default
+    type: progressive
+    codes: __er_reset_all
+    allow_disabled: false
+    initial_stage_idx: 0
+    loop: true
+    stages:
+    - img: images/er_legend/er_reset_all.png
+      inherit_codes: false
+    - img: images/er_legend/er_reset_all.png
+      inherit_codes: false
+  - name: Reset Secret Entrances to Default
+    type: progressive
+    codes: __er_reset_secret
+    allow_disabled: false
+    initial_stage_idx: 0
+    loop: true
+    stages:
+    - img: images/er_legend/er_reset_secrets.png
+      inherit_codes: false
+    - img: images/er_legend/er_reset_secrets.png
+      inherit_codes: false
+
+  # Settings
+  - name: Spoil Star Requirements
+    type: static
+    codes: __setting_spoil_reqs_txt
+    img: images/settings/spoil_requirements.png
+  - name: Auto-set Entrances
+    type: static
+    codes: __setting_auto_ent_txt
+    img: images/settings/autoset_entrances.png
+  - name: Spoil Star Requirements
+    type: progressive
+    codes: __setting_spoil_reqs
+    allow_disabled: false
+    initial_stage_idx: 0
+    loop: true
+    stages:
+      - name: Spoil Star Requirements - Disabled
+        img: images/settings/no.png
+        inherit_codes: false
+      - name: Spoil Star Requirements - Enabled
+        img: images/settings/yes.png
+        inherit_codes: false
+  - name: Auto-set Entrances
+    type: progressive
+    codes: __setting_auto_ent
+    allow_disabled: false
+    initial_stage_idx: 0
+    loop: true
+    stages:
+      - name: Auto-set Entrances - Disabled
+        img: images/settings/no.png
+        inherit_codes: false
+      - name: Auto-set Entrances - If Logically Accessible
+        img: images/settings/logical_access.png
+        inherit_codes: false
+#      - name: Auto-set Entrances - If Collected
+#        img: images/settings/collected.png
+#        inherit_codes: false
+
+  # Door Counts
+  - name: Lobby Star Door - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_F1_tens
+    allow_disabled: false
+    initial_stage_idx: 1
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: Lobby Star Door - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_F1_ones
+    allow_disabled: false
+    initial_stage_idx: 9
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: Basement Star Door - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_B1_tens
+    allow_disabled: false
+    initial_stage_idx: 4
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: Basement Star Door - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_B1_ones
+    allow_disabled: false
+    initial_stage_idx: 1
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+
+  - name: Upstairs Star Door - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_F2_tens
+    allow_disabled: false
+    initial_stage_idx: 6
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: Upstairs Star Door - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_F2_ones
+    allow_disabled: false
+    initial_stage_idx: 1
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+
+  - name: Infinite Staircase Door - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_F3_tens
+    allow_disabled: false
+    initial_stage_idx: 8
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: Infinite Staircase Door - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_F3_ones
+    allow_disabled: false
+    initial_stage_idx: 1
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+
+  - name: MIPS I - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_MIPS1_tens
+    allow_disabled: false
+    initial_stage_idx: 2
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: MIPS I - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_MIPS1_ones
+    allow_disabled: false
+    initial_stage_idx: 3
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+
+  - name: MIPS II - Star Requirement Tens Place
+    type: progressive
+    codes: __setting_MIPS2_tens
+    allow_disabled: false
+    initial_stage_idx: 6
+    stages:
+      - inherit_codes: false
+      - img: images/num/0_dim.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false
+  - name: MIPS II - Star Requirement Ones Place
+    type: progressive
+    codes: __setting_MIPS2_ones
+    allow_disabled: false
+    initial_stage_idx: 1
+    stages:
+      - inherit_codes: false
+      - img: images/num/0.png
+        inherit_codes: false
+      - img: images/num/1.png
+        inherit_codes: false
+      - img: images/num/2.png
+        inherit_codes: false
+      - img: images/num/3.png
+        inherit_codes: false
+      - img: images/num/4.png
+        inherit_codes: false
+      - img: images/num/5.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/6.png
+        inherit_codes: false
+      - img: images/num/7.png
+        inherit_codes: false
+      - img: images/num/8.png
+        inherit_codes: false
+      - img: images/num/9.png
+        inherit_codes: false
+      - img: images/num/10.png
+        inherit_codes: false

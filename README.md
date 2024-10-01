@@ -17,9 +17,10 @@ This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the 
 - Displays all locations in a tab for quick reference of checked/missing locations.
 - Auto-Tracking via Archipelago
   - Automatically tracks completed locations and collected items.
+  - Automatically tracks Area Randomization if Entrance is Accessible (if enabled)
   - Automatically enables Move Randomization, if enabled.
   - Automatically enables Area Randomization, if enabled.
-  - Automatically displays required star requirements for doors and MIPS.
+  - Automatically displays required star requirements for doors and MIPS (if enabled).
   - Automatically displays required goal requirement.
   - Automatically toggles 100 Coin Stars if enabled/disabled.
   - Handles progressive and non-progressive keys automatically.
@@ -27,8 +28,6 @@ This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the 
 ## Planned Features
 
 - Auto-Tracking Settings for Bob-omb Buddies and 1-Up Blocks
-- Auto-Tracking Area Randomization if Entrance is Accessible
-  - ~~Basically working, but needs to be hidden behind a "spoiler" flag.~~
 - Additional Maps for each Course and Secret Area.
 - _Potentially more..._
 
@@ -40,16 +39,10 @@ exported state, the pack version, your PopTracker version, and what your expecta
 
 ## Compiling from Source
 
-This includes all the source code necessary to build my pack and any of the relevant JSON, Lua, and image files.
+This is a mess right now of Python and Bun. I just wouldn't.
 
-This also includes a CLI tool I developed for automatically building, packaging, and versioning my pack. For a list of
-all known flags, run:
+## Image Credits
 
-```shell
-python ./main.py -h
-```
+SM64 Move Sprites are based from [this sprite sheet](https://www.deviantart.com/hartflip0218/art/Custom-Mario-sprite-sheet-ver-2-806527057) by Hartflip0218 @ DeviantArt.
 
-### Requirements
-
-Python 3.12 is officially supported. Older versions may work, but I make no guarantees. No additional python 
-dependencies are required.
+All other images are either from Super Mario 64, or created by myself.

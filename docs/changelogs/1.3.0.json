@@ -1,0 +1,9 @@
+[
+    "Bug fix from 1.2.2: Fix island access not expecting LJ (was TJ wups).",
+    "Overhaul of layout.",
+    "Removal of Entrance Randomization toggle (wasn't needed).",
+    "Settings for auto-tracking star requirements or entrances when connected to AP server.",
+    "New images for moves (credit for which goes to Hartflip0218 on DeviantArt).",
+    "Decrease size of locations summary so min window size can be smaller.",
+    "Fix issue where entrances would reset if PopTracker was closed."
+]

@@ -1,0 +1,145 @@
+$schema: "../$schemas/items.json"
+data:
+  # Power Stars
+  - name: Power Stars
+    type: consumable
+    img: images/star.png
+    max_quantity: 120
+    codes: item__star
+
+  # Mushrooms
+#  - name: 1-Up Mushrooms
+#    type: consumable
+#    img: images/1up.png
+#    codes: item__mushroom
+#  - name: Go Mode
+#    type: toggle
+#    img: images/gomode.png
+#    codes: item__gomode
+
+  # Keys
+  - name: Keys
+    type: composite_toggle
+    codes: item__key
+    images:
+      - left: false
+        right: false
+        img: images/keys/key.png
+        img_mods: "@disabled"
+      - left: true
+        right: false
+        img: images/keys/key_basement.png
+      - left: false
+        right: true
+        img: images/keys/key_upstairs.png
+      - left: true
+        right: true
+        img: images/keys/key_both.png
+
+  # Cannons
+  - name: Cannon Unlock - Bob-omb Battlefield
+    type: toggle
+    img: images/cannons/cannon_bob.png
+    disabled_img: images/cannons/cannon_bob_disabled.png
+    codes: item__cann_bob
+  - name: Cannon Unlock - Whomp's Fortress
+    type: toggle
+    img: images/cannons/cannon_wf.png
+    disabled_img: images/cannons/cannon_wf_disabled.png
+    codes: item__cann_wf
+  - name: Cannon Unlock - Jolly Roger Bay
+    type: toggle
+    img: images/cannons/cannon_jrb.png
+    disabled_img: images/cannons/cannon_jrb_disabled.png
+    codes: item__cann_jrb
+  - name: Cannon Unlock - Cool, Cool Mountain
+    type: toggle
+    img: images/cannons/cannon_ccm.png
+    disabled_img: images/cannons/cannon_ccm_disabled.png
+    codes: item__cann_ccm
+  - name: Cannon Unlock - Shifting Sand Land
+    type: toggle
+    img: images/cannons/cannon_ssl.png
+    disabled_img: images/cannons/cannon_ssl_disabled.png
+    codes: item__cann_ssl
+  - name: Cannon Unlock - Snowman's Land
+    type: toggle
+    img: images/cannons/cannon_sl.png
+    disabled_img: images/cannons/cannon_sl_disabled.png
+    codes: item__cann_sl
+  - name: Cannon Unlock - Wet-Dry World
+    type: toggle
+    img: images/cannons/cannon_wdw.png
+    disabled_img: images/cannons/cannon_wdw_disabled.png
+    codes: item__cann_wdw
+  - name: Cannon Unlock - Tall, Tall Mountain
+    type: toggle
+    img: images/cannons/cannon_ttm.png
+    disabled_img: images/cannons/cannon_ttm_disabled.png
+    codes: item__cann_ttm
+  - name: Cannon Unlock - Tiny, Huge Island
+    type: toggle
+    img: images/cannons/cannon_thi.png
+    disabled_img: images/cannons/cannon_thi_disabled.png
+    codes: item__cann_thi
+  - name: Cannon Unlock - Rainbow Ride
+    type: toggle
+    img: images/cannons/cannon_rr.png
+    disabled_img: images/cannons/cannon_rr_disabled.png
+    codes: item__cann_rr
+
+  # Caps
+  - name: Wing Cap
+    type: toggle
+    img: images/blocks/block_red.png
+    codes: item__cm_wc
+  - name: Metal Cap
+    type: toggle
+    img: images/blocks/block_green.png
+    codes: item__cm_mc
+  - name: Vanish Cap
+    type: toggle
+    img: images/blocks/block_blue.png
+    codes: item__cm_vc
+
+  # Moves
+  - name: Triple Jump
+    type: toggle
+    img: images/moves/triple_jump.png
+    codes: item__cm_tj
+  - name: Long Jump
+    type: toggle
+    img: images/moves/long_jump.png
+    codes: item__cm_lj
+  - name: Backflip
+    type: toggle
+    img: images/moves/backflip.png
+    codes: item__cm_bf
+  - name: Side-flip
+    type: toggle
+    img: images/moves/sideflip.png
+    codes: item__cm_sf
+  - name: Wall Kick
+    type: toggle
+    img: images/moves/wall_jump.png
+    codes: item__cm_wk
+  - name: Dive
+    type: toggle
+    img: images/moves/dive.png
+    codes: item__cm_dv
+  - name: Ground Pound
+    type: toggle
+    img: images/moves/ground_pound.png
+    codes: item__cm_gp
+  - name: Kick
+    type: toggle
+    img: images/moves/kick.png
+    codes: item__cm_ki
+  - name: Climb
+    type: toggle
+    img: images/moves/climb.png
+    codes: item__cm_cl
+  - name: Ledge Grab
+    type: toggle
+    img: images/moves/ledge_grab.png
+    codes: item__cm_lg

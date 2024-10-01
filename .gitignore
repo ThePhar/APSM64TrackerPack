@@ -5,6 +5,7 @@ todo.*
 # Ignore these folders.
 lib/
 packs/
+__pychache__/
 
 ### Linux ###
 *~
@@ -141,3 +142,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Node
+node_modules/

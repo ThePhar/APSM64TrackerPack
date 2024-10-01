@@ -1,0 +1,67 @@
+{
+    "requirements_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2, 4",
+                "h_alignment": "left",
+                "item_size": 26,
+                "rows": [
+                    [
+                        "__setting_F1"
+                    ],
+                    [
+                        "__setting_B1"
+                    ],
+                    [
+                        "__setting_F2"
+                    ],
+                    [
+                        "__setting_F3"
+                    ],
+                    [
+                        "__setting_MIPS1"
+                    ],
+                    [
+                        "__setting_MIPS2"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "0, 4",
+                "item_size": "19, 26",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "__setting_F1_tens",
+                        "__setting_F1_ones"
+                    ],
+                    [
+                        "__setting_B1_tens",
+                        "__setting_B1_ones"
+                    ],
+                    [
+                        "__setting_F2_tens",
+                        "__setting_F2_ones"
+                    ],
+                    [
+                        "__setting_F3_tens",
+                        "__setting_F3_ones"
+                    ],
+                    [
+                        "__setting_MIPS1_tens",
+                        "__setting_MIPS1_ones"
+                    ],
+                    [
+                        "__setting_MIPS2_tens",
+                        "__setting_MIPS2_ones"
+                    ]
+                ]
+            }
+        ]
+    }
+}

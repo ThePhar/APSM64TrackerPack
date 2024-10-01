@@ -1,0 +1,113 @@
+{
+    "entrances_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0, 0",
+        "content": [{
+            "type": "tabbed",
+            "tabs": [
+                {
+                    "title": "  Entrance Assignment  ",
+                    "content": {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_size": "63, 19",
+                        "rows": [
+                            [
+                                "__er_BoB_ent",
+                                "__er_BoB_dst",
+                                "__er_DDD_ent",
+                                "__er_DDD_dst",
+                                "__er_PSS_ent",
+                                "__er_PSS_dst"
+                            ],
+                            [
+                                "__er_WF_ent",
+                                "__er_WF_dst",
+                                "__er_SL_ent",
+                                "__er_SL_dst",
+                                "__er_SA_ent",
+                                "__er_SA_dst"
+                            ],
+                            [
+                                "__er_JRB_ent",
+                                "__er_JRB_dst",
+                                "__er_WDW_ent",
+                                "__er_WDW_dst",
+                                "__er_WMotR_ent",
+                                "__er_WMotR_dst"
+                            ],
+                            [
+                                "__er_CCM_ent",
+                                "__er_CCM_dst",
+                                "__er_TTM_ent",
+                                "__er_TTM_dst",
+                                "__er_TotWC_ent",
+                                "__er_TotWC_dst"
+                            ],
+                            [
+                                "__er_BBH_ent",
+                                "__er_BBH_dst",
+                                "__er_THIh_ent",
+                                "__er_THIh_dst",
+                                "__er_CotMC_ent",
+                                "__er_CotMC_dst"
+                            ],
+                            [
+                                "__er_HMC_ent",
+                                "__er_HMC_dst",
+                                "__er_THIt_ent",
+                                "__er_THIt_dst",
+                                "__er_VCutM_ent",
+                                "__er_VCutM_dst"
+                            ],
+                            [
+                                "__er_LLL_ent",
+                                "__er_LLL_dst",
+                                "__er_TTC_ent",
+                                "__er_TTC_dst",
+                                "__er_BitDW_ent",
+                                "__er_BitDW_dst"
+                            ],
+                            [
+                                "__er_SSL_ent",
+                                "__er_SSL_dst",
+                                "__er_RR_ent",
+                                "__er_RR_dst",
+                                "__er_BitFS_ent",
+                                "__er_BitFS_dst"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "title": "  Area Macros  ",
+                    "content": {
+                        "type": "array",
+                        "h_alignment": "center",
+                        "v_alignment": "center",
+                        "content": [{
+                            "type": "itemgrid",
+                            "item_margin": "0, 0",
+                            "item_size": "256,36",
+                            "margin": "72, 0",
+                            "rows": [
+                                [],
+                                [
+                                    "__er_clear"
+                                ],
+                                [
+                                    "__er_reset_all"
+                                ],
+                                [
+                                    "__er_reset_secret"
+                                ]
+                            ]
+                        }]
+                    }
+                }
+            ]
+        }]
+    }
+}
