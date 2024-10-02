@@ -23,6 +23,7 @@
         "typescript-to-lua": "^1.26.2"
     },
     "dependencies": {
+        "dedent": "^1.5.3",
         "yaml": "^2.5.1"
     }
 }
