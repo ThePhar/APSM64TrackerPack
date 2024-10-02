@@ -1009,8 +1009,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -2814,8 +2818,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -4619,8 +4627,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -6424,8 +6436,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -8229,8 +8245,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -10034,8 +10054,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -11839,8 +11863,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -13644,8 +13672,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -15449,8 +15481,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -17254,8 +17290,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -19059,8 +19099,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -20864,8 +20908,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -22669,8 +22717,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -24474,8 +24526,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -26279,8 +26335,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -28084,8 +28144,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -29889,8 +29953,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -31694,8 +31762,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -33499,8 +33571,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -35304,8 +35380,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -37115,8 +37195,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -38920,8 +39004,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -40725,8 +40813,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -42530,8 +42622,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"
@@ -44335,8 +44431,12 @@
 						"name": "Bob-omb Buddy",
 						"hosted_item": "__location_item_3626210",
 						"access_rules": [
-							"$HasMoves|WK/TJ/SF/BF",
-							"^$MoveAccessibility"
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|TJ",
+							"$HasMoves|WK/TJ/SF/BF,$HasMoves|SF,$HasMoves|LG",
+							"$HasMoves|WK/TJ/SF/BF,$NoAreaRandomizer,$HasMoves|BF/SF",
+							"^$MoveAccessibility,$HasMoves|TJ",
+							"^$MoveAccessibility,$HasMoves|SF,$HasMoves|LG",
+							"^$MoveAccessibility,$NoAreaRandomizer,$HasMoves|BF/SF"
 						],
 						"visibility_rules": [
 							"$ShowBuddies"

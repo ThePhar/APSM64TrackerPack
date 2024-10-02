@@ -202,7 +202,7 @@ export const locations: Location[] = [
     new Location("Go to Town for Red Coins",              "WDW:Downtown",     3626074, "RedCoins",     rule("WK | MOVELESS & TJ")),
     new Location("Quick Race Through Downtown!",          "WDW:Downtown",     3626075, "Star",         rule("VC & WK/BF | VC & TJ & LG | MOVELESS & VC & TJ")),
     new Location("100 Coins Star",                        "WDW:Top",          3626076, "100Coins",     rule("GP | NAR & LG & TJ/SF/BF | CANN:WDW | MOVELESS & TJ & DV")),
-    new Location("Bob-omb Buddy",                         "WDW:Top",          3626210, "Buddy"),
+    new Location("Bob-omb Buddy",                         "WDW:Top",          3626210, "Buddy",        rule("TJ | SF & LG | NAR & BF/SF")),
     new Location("1-Up Block in the Downtown",            "WDW:Downtown",     3626226, "MushBlock"),
 
     // 12. Tall, Tall Mountain
