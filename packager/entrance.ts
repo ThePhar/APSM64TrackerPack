@@ -1,22 +1,26 @@
+import { buildRules } from "./rules.ts";
+
+export type EntranceData = [
+    acronym: EntranceAcronym,
+    order: number,
+    coords: [x: number, y: number],
+    areaCode: number | null,
+    rules: string,
+];
+
 export class Entrance {
-    public readonly acronym: ValidEntrance;
+    public readonly acronym: EntranceAcronym;
     public readonly order: number;
     public readonly coords: [number, number];
     public readonly areaCode: number | null;
     public readonly accessRules: string[];
 
-    public constructor(
-        acronym: ValidEntrance,
-        order: number,
-        coords: [number, number],
-        areaCode: number | null = null,
-        accessRules: string[] = [],
-    ) {
+    public constructor([acronym, order, coords, areaCode, rules]: EntranceData) {
         this.acronym = acronym;
         this.order = order;
         this.coords = coords;
         this.areaCode = areaCode;
-        this.accessRules = accessRules;
+        this.accessRules = buildRules(rules, this.acronym);
     }
 
     public toString(): string {
@@ -56,7 +60,7 @@ export class Entrance {
     }
 }
 
-type ValidEntrance =
+export type EntranceAcronym =
     | "BoB"
     | "WF"
     | "JRB"

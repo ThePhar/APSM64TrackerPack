@@ -1,65 +1,27 @@
-export const regions: Record<string, Region> = {};
+import { buildRules } from "./rules.ts";
 
-export class Region {
-    public readonly name: string;
-    public readonly parent: Region | null = null;
-    public readonly children: Record<string, Region> = {};
-    private readonly _accessRules: string[] = [];
-    public locations: Location[] = [];
-
-    public constructor(name: string, parent: Region | null = null, accessRules: string[] = []) {
-        this.name = name;
-        this.parent = parent;
-        this._accessRules = accessRules;
-        regions[name] = this;
-
-        if (this.parent) {
-            this.parent.children[name] = this;
-        }
-    }
-
-    public get stage(): string {
-        if (this.parent) {
-            return this.parent.stage;
-        }
-
-        return this.name;
-    }
-
-    public get accessRules(): string[] {
-        if (!this.parent) {
-            return this._accessRules;
-        }
-
-        const parentRules = this.parent.accessRules;
-        if (parentRules.length > 0) {
-            const rules: string[] = [];
-            for (const parentRule of parentRules) {
-                rules.push(...this._accessRules.map((ar) => `${parentRule},${ar}`));
-            }
-
-            return rules;
-        }
-
-        return this._accessRules;
-    }
-}
+export type LocationData = [
+    name: string,
+    region: string,
+    code: number,
+    type: LocationType,
+    // coords: [x: number, y: number], todo: someday
+    rules?: string,
+];
 
 export class Location {
     public readonly name: string;
-    public readonly region: Region;
+    public readonly region: string;
     public readonly code: number;
     public readonly type: LocationType;
-    private readonly _accessRules: string[];
+    public readonly accessRules: string[];
 
-    public constructor(name: string, region: ValidRegion, code: number, type: LocationType, accessRules: string[] = []) {
+    public constructor([name, region, code, type, rules]: LocationData) {
         this.name = name;
-        this.region = regions[region];
+        this.region = region;
         this.code = code;
         this.type = type;
-        this._accessRules = accessRules;
-
-        this.region.locations.push(this);
+        this.accessRules = buildRules(rules ?? "", region.split(":")[0]);
     }
 
     public toString(): string {
@@ -135,77 +97,28 @@ export class Location {
             PPC: "Princess Peach's Castle",
         } as const;
 
-        // @ts-expect-error Shouldn't happen.
-        return areas[this.region.stage] as string;
+        // @ts-expect-error Any other value should not happen during runtime.
+        return areas[this.region.split(":")[0]] as string;
     }
 
-    public get accessRules(): string[] {
-        const regionRules = this.region.accessRules;
-        if (regionRules.length > 0) {
-            const rules: string[] = [];
-            for (const regionRule of regionRules) {
-                rules.push(...this._accessRules.map((ar) => `${regionRule},${ar}`));
-            }
-
-            if (rules.length > 0) {
-                return rules;
-            }
-
-            return regionRules;
-        }
-
-        return this._accessRules;
-    }
+    // public get accessRules(): string[] {
+    //     const regionRules = this.region.accessRules;
+    //     if (regionRules.length > 0) {
+    //         const rules: string[] = [];
+    //         for (const regionRule of regionRules) {
+    //             rules.push(...this._accessRules.map((ar) => `${regionRule},${ar}`));
+    //         }
+    //
+    //         if (rules.length > 0) {
+    //             return rules;
+    //         }
+    //
+    //         return regionRules;
+    //     }
+    //
+    //     return this._accessRules;
+    // }
 }
-
-type ValidRegion =
-    | "BoB"
-    | "BoB:Island"
-    | "WF"
-    | "WF:Tower"
-    | "JRB"
-    | "JRB:Upper"
-    | "CCM"
-    | "BBH"
-    | "BBH:ThirdFloor"
-    | "BBH:Roof"
-    | "HMC"
-    | "HMC:RedCoinArea"
-    | "HMC:PitIslands"
-    | "LLL"
-    | "LLL:UpperVolcano"
-    | "SSL"
-    | "SSL:UpperPyramid"
-    | "DDD"
-    | "SL"
-    | "WDW"
-    | "WDW:Top"
-    | "WDW:Downtown"
-    | "TTM"
-    | "TTM:Top"
-    | "THI"
-    | "THI:Pipes"
-    | "THI:LargeTop"
-    | "TTC"
-    | "TTC:Lower"
-    | "TTC:Upper"
-    | "TTC:Top"
-    | "RR"
-    | "RR:Maze"
-    | "RR:Cruiser"
-    | "RR:House"
-    | "BitDW"
-    | "BitFS"
-    | "BitFS:Upper"
-    | "BitS"
-    | "BitS:Top"
-    | "TotWC"
-    | "CotMC"
-    | "VCutM"
-    | "PSS"
-    | "SA"
-    | "WMotR"
-    | "PPC";
 
 type LocationType =
     | "Star"
