@@ -4,7 +4,7 @@ import { buildRules } from "./rules.ts";
 export type LocationData = [
     name: string,
     region: string,
-    code: number,
+    code: string,
     type: LocationType,
     // coords: [x: number, y: number], todo: someday
     rules?: string,
@@ -26,7 +26,7 @@ export class Location {
     private constructor([name, region, code, type, rules]: LocationData) {
         this.name = name;
         this.region = Region.regions[region];
-        this.code = code;
+        this.code = parseInt(code);
         this.type = type;
         this._accessRules = buildRules(rules ?? "", region.split(":")[0]);
     }

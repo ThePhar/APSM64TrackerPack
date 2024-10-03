@@ -2,10 +2,10 @@ import { buildRules } from "./rules.ts";
 
 export type EntranceData = [
     acronym: EntranceAcronym,
-    order: number,
-    x: number,
-    y: number,
-    areaCode: number | null,
+    order: string,
+    x: string,
+    y: string,
+    areaCode: string,
     rules: string,
 ];
 
@@ -24,9 +24,9 @@ export class Entrance {
 
     private constructor([acronym, order, x, y, areaCode, rules]: EntranceData) {
         this.acronym = acronym;
-        this.order = order;
-        this.coords = [x, y];
-        this.areaCode = areaCode;
+        this.order = parseInt(order);
+        this.coords = [parseInt(x), parseInt(y)];
+        this.areaCode = areaCode === "null" ? null : parseInt(areaCode);
         this.accessRules = buildRules(rules, this.acronym);
     }
 
