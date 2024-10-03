@@ -170,23 +170,32 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
                         hosted_item: "__location_item_null",
                     }],
                 },
-                {
-                    name: "Unknown Stage [Z]",
-                    access_rules: entrance.accessRules,
-                    visibility_rules: `$IsUnknownDestination|${entrance.acronym}`,
-                    map_locations: [{
-                        map: "map_castle",
-                        x: entrance.coords[0] + 17,
-                        y: entrance.coords[1] + 16,
-                        size: 16,
-                        shape: "diamond",
-                    }],
-                    sections: [{
-                        name: "Green: Accessible\nYellow: Sequence Break Required\nRed: Logically Inaccessible",
-                        hosted_item: "__location_item_null",
-                    }],
-                },
             ],
+        };
+
+        const scoutNode = {
+            name: "[Z] Entrance Accessibility",
+            access_rules:
+                entrance.acronym !== "TTC" && entrance.acronym !== "RR"
+                    ? entrance.accessRules
+                    : [...entrance.accessRules, "{$CanAccess|F3}"],
+            children: [{
+                name: `Entrance Accessibility for ${entrance.name}`,
+                map_locations: [{
+                    map: "map_castle",
+                    x: entrance.coords[0] + 17,
+                    y: entrance.coords[1] + 16,
+                    size: 16,
+                    shape: "diamond",
+                }],
+                sections: [{
+                    name: "Green: Accessible\n"
+                        + "Yellow: Sequence Break Required\n"
+                        + "Blue: Potentially Scoutable (i.e., TTC hands)\n"
+                        + "Red: Logically Inaccessible",
+                    hosted_item: `__er_${entrance.acronym}_dst`,
+                }],
+            }],
         };
 
         for (const [acronym, stage] of Object.entries(areas)) {
@@ -201,7 +210,7 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
                 sections: [],
             };
 
-            for (const location of Location.locations.filter((l) => l.stage === acronym)) {
+            for (const location of Location.locations.filter((l) => l.region.stage === acronym)) {
                 locationNode.sections.push({
                     name: location.name,
                     hosted_item: location.itemCode,
@@ -214,6 +223,7 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
         }
 
         overworldEntrances.push(entranceNode);
+        overworldEntrances.push(scoutNode);
     }
 
     console.log("\tBuilding 'locations/castle_entrances.json'");

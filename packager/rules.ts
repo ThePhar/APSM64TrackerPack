@@ -96,7 +96,7 @@ export function buildRules(input: string | undefined, stage: string): string[] {
 
             case "MOVE_GROUP": {
                 const moves = new Set((token.value as string).split("/")); // Remove duplicates.
-                subrules.add(`$Has|${Array.from(moves).sort().join("|")}`);
+                subrules.add(`$Has|${Array.from(moves).sort().join("/")}`);
                 break;
             }
 

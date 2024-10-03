@@ -35,10 +35,10 @@ Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/tracker.json")
 
 -- Scripts
+ScriptHost:LoadScript("scripts/areas.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/requirements.lua")
-ScriptHost:LoadScript("scripts/areas.lua")
 
 -- AutoTracking via Archipelago
 if PopVersion and PopVersion >= "0.18.0" then
