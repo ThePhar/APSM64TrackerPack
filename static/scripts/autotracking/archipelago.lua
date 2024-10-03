@@ -91,13 +91,13 @@ function onClear(slot_data)
     -- Check Area Rando
     local ar_secrets = false
     local ar_courses = false
-    for stage_id, level in pairs(SECRET_MAPPING) do
+    for stage_id, _ in pairs(SECRET_MAPPING) do
         if SLOT_DATA["AreaRando"][stage_id] ~= tonumber(stage_id) then
             ar_secrets = true
             break
         end
     end
-    for stage_id, level in pairs(COURSE_MAPPING) do
+    for stage_id, _ in pairs(COURSE_MAPPING) do
         if SLOT_DATA["AreaRando"][stage_id] ~= tonumber(stage_id) then
             ar_courses = true
             break
