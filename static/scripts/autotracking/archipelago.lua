@@ -103,30 +103,6 @@ function onClear(slot_data)
         end
     end
     Tracker:FindObjectForCode("__setting_100").Active = hundred_coins_enabled
-
-    -- Enable ER if we notice entrances different, but not spoiling them! ;)
-    --current_er = Tracker:FindObjectForCode("__setting_ER").CurrentStage
-    --SetER(0, true)
-    --for i, _ in pairs(COURSE_MAPPING) do
-    --	if SLOT_DATA["AreaRando"][i] ~= tonumber(i) then
-    --		SetER(1, current_er > 0)
-    --		break
-    --	end
-    --end
-    --if Tracker:FindObjectForCode("__setting_ER").CurrentStage > 0 then
-    --    for i, _ in pairs(SECRET_MAPPING) do
-    --        if SLOT_DATA["AreaRando"][i] ~= tonumber(i) then
-    --            SetER(2, current_er > 1)
-    --            break
-    --        end
-    --    end
-    --end
-
-    --if Tracker:FindObjectForCode("__setting_ER").CurrentStage == 0 then
-    --	DefaultAll()
-    --elseif Tracker:FindObjectForCode("__setting_ER").CurrentStage == 1 then
-    --    DefaultSecrets()
-    --end
 end
 
 -- called when an item gets collected
@@ -242,8 +218,6 @@ function areaReveal()
                     SetStage(level, FULL_MAPPING[tostring(SLOT_DATA["AreaRando"][stage_id])])
                 end
             end
-
-            --print(stage_id, level, FULL_MAPPING[tostring(SLOT_DATA["AreaRando"][stage_id])], Tracker:FindObjectForCode(code).AccessibilityLevel, code)
         end
     end
 end

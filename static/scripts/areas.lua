@@ -89,3 +89,101 @@ EntranceTable["stage"] = {
     ["CotMC"]   = 24,
     ["VCutM"]   = 25,
 }
+
+-- TODO: Rewrite this to not be as terrible?
+function LoadStage(entrance)
+    code = "__er_" .. entrance .. "_dst"
+    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
+    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][EntranceTable["accessible"][entrance]]
+    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
+end
+
+function SetStage(entrance, stage)
+    code = "__er_" .. entrance .. "_dst"
+    ScriptHost:RemoveWatchForCode("Update Accessibility for " .. entrance)
+    Tracker:FindObjectForCode(code).CurrentStage = EntranceTable["stage"][stage]
+    ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
+end
+
+function ResetEntrances()
+    DefaultAll()
+    ClearAll()
+end
+
+function ClearAll()
+    SetStage("BoB", "unknown")
+    SetStage("WF", "unknown")
+    SetStage("JRB", "unknown")
+    SetStage("CCM", "unknown")
+    SetStage("BBH", "unknown")
+    SetStage("HMC", "unknown")
+    SetStage("LLL", "unknown")
+    SetStage("SSL", "unknown")
+    SetStage("DDD", "unknown")
+    SetStage("SL", "unknown")
+    SetStage("WDW", "unknown")
+    SetStage("TTM", "unknown")
+    SetStage("THIh", "unknown")
+    SetStage("THIt", "unknown")
+    SetStage("TTC", "unknown")
+    SetStage("RR", "unknown")
+    SetStage("BitDW", "unknown")
+    SetStage("BitFS", "unknown")
+    SetStage("BitS", "BitS")
+    SetStage("TotWC", "unknown")
+    SetStage("CotMC", "unknown")
+    SetStage("VCutM", "unknown")
+    SetStage("PSS", "unknown")
+    SetStage("SA", "unknown")
+    SetStage("WMotR", "unknown")
+end
+
+function DefaultSecrets()
+    SetStage("BitDW", "BitDW")
+    SetStage("BitFS", "BitFS")
+    SetStage("BitS", "BitS")
+    SetStage("TotWC", "TotWC")
+    SetStage("CotMC", "CotMC")
+    SetStage("VCutM", "VCutM")
+    SetStage("PSS", "PSS")
+    SetStage("SA", "SA")
+    SetStage("WMotR", "WMotR")
+end
+
+function DefaultAll()
+    SetStage("BoB", "BoB")
+    SetStage("WF", "WF")
+    SetStage("JRB", "JRB")
+    SetStage("CCM", "CCM")
+    SetStage("BBH", "BBH")
+    SetStage("HMC", "HMC")
+    SetStage("LLL", "LLL")
+    SetStage("SSL", "SSL")
+    SetStage("DDD", "DDD")
+    SetStage("SL", "SL")
+    SetStage("WDW", "WDW")
+    SetStage("TTM", "TTM")
+    SetStage("THIh", "THIh")
+    SetStage("THIt", "THIt")
+    SetStage("TTC", "TTC")
+    SetStage("RR", "RR")
+    SetStage("BitDW", "BitDW")
+    SetStage("BitFS", "BitFS")
+    SetStage("BitS", "BitS")
+    SetStage("TotWC", "TotWC")
+    SetStage("CotMC", "CotMC")
+    SetStage("VCutM", "VCutM")
+    SetStage("PSS", "PSS")
+    SetStage("SA", "SA")
+    SetStage("WMotR", "WMotR")
+end
+
+ScriptHost:AddWatchForCode("Clear All", "__er_clear", ClearAll)
+ScriptHost:AddWatchForCode("Default All", "__er_reset_all", DefaultAll)
+ScriptHost:AddWatchForCode("Default Secrets", "__er_reset_secret", DefaultSecrets)
+
+ScriptHost:AddWatchForCode("AP Change Entrance Spoil", "__setting_auto_ent", function()
+    if SLOT_DATA ~= nil then
+        areaReveal()
+    end
+end)

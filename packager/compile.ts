@@ -102,7 +102,7 @@ async function compileAreaRandomizerItems(cwd: string): Promise<void> {
         destinationItems.push(destinationItem);
     }
 
-    console.log("\tBuilding 'data/items/area_rando.json'");
+    console.log("\tBuilding 'items/area_rando.json'");
     const output = JSON.stringify([...entranceItems, ...destinationItems], null, 4);
     await Bun.write(`${cwd}/build/items/area_rando.json`,
         "/* This file was automatically generated via Phakager. Do not make manual edits to this file. */\n" + output,
@@ -128,7 +128,7 @@ async function compileLocationItems(cwd: string): Promise<void> {
         });
     }
 
-    console.log("\tBuilding 'data/items/locations.json'");
+    console.log("\tBuilding 'items/locations.json'");
     const output = JSON.stringify(locationItems, null, 4);
     await Bun.write(`${cwd}/build/items/locations.json`,
         "/* This file was automatically generated via Phakager. Do not make manual edits to this file. */\n" + output,
@@ -216,10 +216,22 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
         overworldEntrances.push(entranceNode);
     }
 
-    console.log("\tBuilding 'data/locations/castle_entrances.json'");
+    console.log("\tBuilding 'locations/castle_entrances.json'");
     const output = JSON.stringify(overworldEntrances, null, 4);
     await Bun.write(`${cwd}/build/locations/castle_entrances.json`,
         "/* This file was automatically generated via Phakager. Do not make manual edits to this file. */\n" + output,
+    );
+}
+
+async function compileLocationMappingLua(cwd: string): Promise<void> {
+    let output = "LOCATION_MAPPING = {\n";
+    for (const location of Location.locations) {
+        output += `    [${location.code}] = {"${location.itemCode}"}, -- ${location.region.stage.padEnd(5)} - ${location.name}\n`;
+    }
+
+    console.log("\tBuilding 'scripts/autotracking/location_mapping.lua'");
+    await Bun.write(`${cwd}/build/scripts/autotracking/location_mapping.lua`,
+        "-- This file was automatically generated via Phakager. Do not make manual edits to this file.\n" + output + "}",
     );
 }
 
@@ -242,4 +254,5 @@ export async function compileAll(cwd: string): Promise<void> {
     await compileAreaRandomizerItems(cwd);
     await compileLocationItems(cwd);
     await compileCastleMapEntranceLocations(cwd);
+    await compileLocationMappingLua(cwd);
 }

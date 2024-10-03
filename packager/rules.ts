@@ -131,7 +131,7 @@ export function buildRules(input: string | undefined, stage: string): string[] {
                     case "F2":
                     case "F3":
                     case "HMC":
-                        subrules.add(`$CanAccess|${value}`);
+                        subrules.add(`^$CanAccess|${value}`);
                         break;
 
                     default:
