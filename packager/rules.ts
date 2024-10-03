@@ -78,8 +78,8 @@ function validate(result: boolean, input: string, index: number): void {
     throw new SyntaxError(message);
 }
 
-export function buildRules(input: string, stage: string): string[] {
-    if (input === "") {
+export function buildRules(input: string | undefined, stage: string): string[] {
+    if (!input) {
         return [];
     }
 

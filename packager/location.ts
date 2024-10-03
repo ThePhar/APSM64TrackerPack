@@ -1,3 +1,4 @@
+import { Region } from "./region.ts";
 import { buildRules } from "./rules.ts";
 
 export type LocationData = [
@@ -10,18 +11,24 @@ export type LocationData = [
 ];
 
 export class Location {
+    public static readonly locations: Location[] = [];
     public readonly name: string;
-    public readonly region: string;
+    public readonly region: Region;
     public readonly code: number;
     public readonly type: LocationType;
-    public readonly accessRules: string[];
+    private readonly _accessRules: string[];
 
-    public constructor([name, region, code, type, rules]: LocationData) {
+    public static create(data: LocationData): void {
+        const location = new Location(data);
+        this.locations.push(location);
+    }
+
+    private constructor([name, region, code, type, rules]: LocationData) {
         this.name = name;
-        this.region = region;
+        this.region = Region.regions[region];
         this.code = code;
         this.type = type;
-        this.accessRules = buildRules(rules ?? "", region.split(":")[0]);
+        this._accessRules = buildRules(rules ?? "", region.split(":")[0]);
     }
 
     public toString(): string {
@@ -68,7 +75,7 @@ export class Location {
         }
     }
 
-    public get stageName(): string {
+    public get stage(): string {
         const areas = {
             BoB: "Bob-omb Battlefield",
             WF: "Whomp's Fortress",
@@ -94,30 +101,30 @@ export class Location {
             PSS: "Princess's Secret Slide",
             SA: "Secret Aquarium",
             WMotR: "Wing Mario over the Rainbow",
-            PPC: "Princess Peach's Castle",
+            MKC: "Mushroom Kingdom Castle",
         } as const;
 
         // @ts-expect-error Any other value should not happen during runtime.
-        return areas[this.region.split(":")[0]] as string;
+        return areas[this.region.stage] as string;
     }
 
-    // public get accessRules(): string[] {
-    //     const regionRules = this.region.accessRules;
-    //     if (regionRules.length > 0) {
-    //         const rules: string[] = [];
-    //         for (const regionRule of regionRules) {
-    //             rules.push(...this._accessRules.map((ar) => `${regionRule},${ar}`));
-    //         }
-    //
-    //         if (rules.length > 0) {
-    //             return rules;
-    //         }
-    //
-    //         return regionRules;
-    //     }
-    //
-    //     return this._accessRules;
-    // }
+    public get accessRules(): string[] {
+        const regionRules = this.region.accessRules;
+        if (regionRules.length > 0) {
+            const rules: string[] = [];
+            for (const regionRule of regionRules) {
+                rules.push(...this._accessRules.map((ar) => `${regionRule},${ar}`));
+            }
+
+            if (rules.length > 0) {
+                return rules;
+            }
+
+            return regionRules;
+        }
+
+        return this._accessRules;
+    }
 }
 
 type LocationType =

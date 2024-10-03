@@ -3,22 +3,29 @@ import { buildRules } from "./rules.ts";
 export type EntranceData = [
     acronym: EntranceAcronym,
     order: number,
-    coords: [x: number, y: number],
+    x: number,
+    y: number,
     areaCode: number | null,
     rules: string,
 ];
 
 export class Entrance {
+    public static readonly entrances: Entrance[] = [];
     public readonly acronym: EntranceAcronym;
     public readonly order: number;
     public readonly coords: [number, number];
     public readonly areaCode: number | null;
     public readonly accessRules: string[];
 
-    public constructor([acronym, order, coords, areaCode, rules]: EntranceData) {
+    public static create(data: EntranceData): void {
+        const entrance = new Entrance(data);
+        this.entrances.push(entrance);
+    }
+
+    private constructor([acronym, order, x, y, areaCode, rules]: EntranceData) {
         this.acronym = acronym;
         this.order = order;
-        this.coords = coords;
+        this.coords = [x, y];
         this.areaCode = areaCode;
         this.accessRules = buildRules(rules, this.acronym);
     }

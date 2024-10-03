@@ -1,7 +1,7 @@
 ---
 $schema: "../$schemas/locations.json"
 data:
-    -   name: Peach's Castle Interior
+    -   name: Mushroom Kingdom Castle
         chest_opened_img: images/star_collected.png
         chest_unopened_img: images/star.png
         children:
