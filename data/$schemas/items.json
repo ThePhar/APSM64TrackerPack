@@ -5,7 +5,7 @@
     "type": "object",
     "properties": {
         "data": {
-            "$ref": "https://raw.githubusercontent.com/black-sliver/PopTracker/refs/heads/master/schema/packs/items.json"
+            "$ref": "https://raw.githubusercontent.com/black-sliver/PopTracker/refs/heads/master/schema/packs/strict/items.json"
         }
     }
 }

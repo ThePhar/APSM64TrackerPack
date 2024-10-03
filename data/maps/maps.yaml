@@ -1,0 +1,7 @@
+---
+$schema: "../$schemas/maps.json"
+data:
+    -   name: map_castle
+        location_size: 32
+        location_border_thickness: 2
+        img: images/maps/castle.png

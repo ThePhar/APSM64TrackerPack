@@ -1,6 +1,20 @@
 {
     "versions": [
         {
+            "package_version": "1.3.2",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.3.2/pharware-sm64-pack_1.3.2.zip",
+            "sha256": "a54d8e4ed90e602e9338c1dd62f35f3ef28027b9759374e445d48bee63856bce",
+            "changelog": [
+                "Re-add missing rule for WDW Bob-omb Buddy check.",
+                "Fix issue with kick not being detecting from move vector slot data.",
+                "Automatically set entrances to defaults if Area Rando is disabled.",
+                "Add ability to change entrance when hovering over scout icon (image size still needs work).",
+                "Add \"blue\" level for scout icon for stages like TTC and RR where you could see if TTC hands are present, even if you can't enter the stage",
+                "Scout icons automatically hide if no Area Rando.",
+                "Tweaks to some names."
+            ]
+        },
+        {
             "package_version": "1.3.1",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.3.1/PharAPSM64_1.3.1.zip",
             "sha256": "b8be352630ecc71a59de233f9a0b0ff2e41fea53bab0a9d0166a91f0fd715ca0",

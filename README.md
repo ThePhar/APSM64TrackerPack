@@ -1,8 +1,9 @@
-# Phar's Archipelago SM64 Randomizer PopTracker Pack
+# Phar's SM64 Archipelago PopTracker Pack
 
 This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the **Archipelago Super Mario 64 Randomizer**.
 
-![Example of SM64 Pack](docs/example.png)
+![Example 1 of SM64 Pack](docs/example.png)
+![Example 2 of SM64 Pack](docs/example2.png)
 
 ## Features
 
@@ -39,7 +40,11 @@ exported state, the pack version, your PopTracker version, and what your expecta
 
 ## Compiling from Source
 
-This is a mess right now of Python and Bun. I just wouldn't.
+This pack is built via a TypeScript CLI tool I created called Phakager, which is included in this repo. To use, install 
+the latest version of Bun and your package manager of choice (I used `pnpm`), then run install (e.g., `pnpm install`) in
+the directory to download all dependencies.
+
+Then run `bun run ./Phakager.ts -h` to see all the possible options that can be run.
 
 ## Image Credits
 

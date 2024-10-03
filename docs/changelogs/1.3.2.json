@@ -1,3 +1,9 @@
 [
-    "Re-add missing rule for WDW Bob-omb Buddy check."
+    "Re-add missing rule for WDW Bob-omb Buddy check.",
+    "Fix issue with kick not being detecting from move vector slot data.",
+    "Automatically set entrances to defaults if Area Rando is disabled.",
+    "Add ability to change entrance when hovering over scout icon (image size still needs work).",
+    "Add \"blue\" level for scout icon for stages like TTC and RR where you could see if TTC hands are present, even if you can't enter the stage",
+    "Scout icons automatically hide if no Area Rando.",
+    "Tweaks to some names."
 ]

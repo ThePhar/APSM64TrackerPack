@@ -1,0 +1,74 @@
+---
+$schema: "../$schemas/layouts.json"
+data:
+    items_grid:
+        type: array
+        orientation: horizontal
+        margin: 0, 0
+        content:
+            -   type: itemgrid
+                item_margin: 4, 4
+                item_size: 32
+                h_alignment: left
+                rows:
+                    -   - item__star
+                        - item__key
+                        - item__cm_wc
+                        - item__cm_mc
+                        - item__cm_vc
+                    -   - item__cann_bob
+                        - item__cann_wf
+                        - item__cann_jrb
+                        - item__cann_ccm
+                        - item__cann_ssl
+                    -   - item__cann_sl
+                        - item__cann_wdw
+                        - item__cann_ttm
+                        - item__cann_thi
+                        - item__cann_rr
+                    -   - item__cm_tj
+                        - item__cm_lj
+                        - item__cm_bf
+                        - item__cm_sf
+                        - item__cm_wk
+                    -   - item__cm_dv
+                        - item__cm_gp
+                        - item__cm_ki
+                        - item__cm_cl
+                        - item__cm_lg
+    settings_grid:
+        type: array
+        orientation: vertical
+        margin: 0, 0
+        content:
+            -   type: group
+                header: Randomization & Logic Settings
+                dock: left
+                content: {}
+            -   type: array
+                orientation: horizontal
+                margin: 0, 0
+                content:
+                    -   type: itemgrid
+                        item_margin: 4, 4
+                        h_alignment: left
+                        item_size: 36, 36
+                        rows:
+                            -   - __setting_100
+                                - __setting_1UB
+                                - __setting_BB
+                                - __setting_MV
+                                - __setting_ER
+                                - __blank
+                                - __setting_SC
+                                - __setting_SN
+                                - __setting_SM
+                            -   - __blank
+                                - __setting_F1
+                                - __setting_B1
+                                - __setting_F2
+                                - __setting_F3
+                                - __blank
+                                - __setting_MIPS1
+                                - __setting_MIPS2
+                                - __setting_GOAL
