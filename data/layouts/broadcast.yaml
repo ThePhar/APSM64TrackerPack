@@ -1,0 +1,10 @@
+---
+$schema: "../$schemas/layouts.json"
+data:
+    tracker_broadcast:
+        type: array
+        orientation: horizontal
+        margin: 4, 4
+        content:
+            -   type: layout
+                key: items_grid

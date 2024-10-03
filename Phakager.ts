@@ -6,6 +6,7 @@ import { native as rmdir } from "rimraf";
 import { parseArgs } from "util";
 import { zip } from "zip-a-folder";
 
+import { compileAll } from "./packager/compile.ts";
 import { ManifestVersion, VersionsJSON } from "./packager/versioning.ts";
 
 const { values: args } = parseArgs({
@@ -98,7 +99,7 @@ if (args.compile) {
 
     // Static Files
     console.log("[Phakager]: Copying static files...");
-    for (const data of await fs.readdir("pack", { recursive: true, withFileTypes: true })) {
+    for (const data of await fs.readdir("static", { recursive: true, withFileTypes: true })) {
         const path = ["build", ...data.parentPath.split("/").slice(1), data.name].join("/");
         if (data.isDirectory()) {
             await fs.mkdir(path);
@@ -129,7 +130,9 @@ if (args.compile) {
     };
     await Bun.write("build/manifest.json", JSON.stringify(manifest, null, 4));
 
-    console.error("No compilation steps have been written.");
+    // Compile remaining files.
+    console.log("[Phakager]: Compiling abstract files...");
+    await compileAll(import.meta.dirname);
 }
 
 // Package steps.

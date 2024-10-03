@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/ThePhar/APSM64TrackerPack/refs/heads/master/data/$schema/maps.json",
+    "title": "Adapted PopTracker Maps Schema",
+    "type": "object",
+    "properties": {
+        "data": {
+            "$ref": "https://raw.githubusercontent.com/black-sliver/PopTracker/refs/heads/master/schema/packs/strict/maps.json"
+        }
+    }
+}

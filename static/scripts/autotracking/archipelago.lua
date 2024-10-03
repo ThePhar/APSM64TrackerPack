@@ -62,7 +62,6 @@ function onClear(slot_data)
     Tracker:FindObjectForCode("item__key").CurrentStage = 0
 
     -- Set Slot Data
-    --- @type JsonItem
     Tracker:FindObjectForCode("__setting_GOAL").CurrentStage = SLOT_DATA["CompletionType"]
     Tracker:FindObjectForCode("__setting_MV").Active = SLOT_DATA["MoveRandoVec"] ~= 0
 

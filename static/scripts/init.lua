@@ -21,7 +21,7 @@ Tracker:AddItems("items/locations.json")
 Tracker:AddItems("items/options.json")
 
 -- Locations
-Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/castle_locations.json")
 Tracker:AddLocations("locations/castle_entrances.json")
 
 -- Layouts
