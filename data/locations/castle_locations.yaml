@@ -6,18 +6,18 @@ data:
         chest_unopened_img: images/star.png
         children:
             -   name: MIPS the Rabbit
-                access_rules: "$HasKey|B"
+                access_rules: "$CanAccess|B1"
                 sections:
                     -   name: MIPS the Rabbit's First Star
                         hosted_item: __location_item_3626171
                         access_rules:
-                            - "$HasStars|MIPS1,$HasMoves|DV"
-                            - "$HasStars|MIPS1,^$MoveAccessibility"
+                            - "$HasStars|MIPS1,$Has|DV"
+                            - "$HasStars|MIPS1,^$StrictAccessibility|MOVELESS"
                     -   name: MIPS the Rabbit's Second Star
                         hosted_item: __location_item_3626172
                         access_rules:
-                            - "$HasStars|MIPS2,$HasMoves|DV"
-                            - "$HasStars|MIPS2,^$MoveAccessibility"
+                            - "$HasStars|MIPS2,$Has|DV"
+                            - "$HasStars|MIPS2,^$StrictAccessibility|MOVELESS"
                 map_locations:
                     -   map: map_castle
                         x: 1166
@@ -25,7 +25,7 @@ data:
                         size: 16
             -   name: Basement Toad
                 access_rules:
-                    - "$HasKey|B,$HasStars|12"
+                    - "$CanAccess|B1,$HasStars|12"
                 sections:
                     -   name: Basement Toad's Star
                         hosted_item: __location_item_3626168
@@ -36,7 +36,7 @@ data:
                         size: 16
             -   name: Second Floor Toad
                 access_rules:
-                    - "$HasKey|U,$HasStars|25"
+                    - "$CanAccess|F2,$HasStars|25"
                 sections:
                     -   name: Second Floor Toad's Star
                         hosted_item: __location_item_3626169
@@ -47,7 +47,7 @@ data:
                         size: 16
             -   name: Third Floor Toad
                 access_rules:
-                    - "$HasKey|U,$HasStars|F2,$HasStars|35"
+                    - "$CanAccess|F3,$HasStars|35"
                 sections:
                     -   name: Third Floor Toad's Star
                         hosted_item: __location_item_3626170
