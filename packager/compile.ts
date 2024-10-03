@@ -179,6 +179,7 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
                 entrance.acronym !== "TTC" && entrance.acronym !== "RR"
                     ? entrance.accessRules
                     : [...entrance.accessRules, "{$CanAccess|F3}"],
+            visibility_rules: ["$AreaRando"],
             children: [{
                 name: `Entrance Accessibility for ${entrance.name}`,
                 map_locations: [{

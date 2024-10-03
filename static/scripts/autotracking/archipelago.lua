@@ -83,9 +83,31 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
         Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
         Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
-        Tracker:FindObjectForCode("item__cm_kk").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
+        Tracker:FindObjectForCode("item__cm_ki").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
         Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
         Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
+    end
+
+    -- Check Area Rando
+    local ar_secrets = false
+    local ar_courses = false
+    for stage_id, level in pairs(SECRET_MAPPING) do
+        if SLOT_DATA["AreaRando"][stage_id] ~= tonumber(stage_id) then
+            ar_secrets = true
+            break
+        end
+    end
+    for stage_id, level in pairs(COURSE_MAPPING) do
+        if SLOT_DATA["AreaRando"][stage_id] ~= tonumber(stage_id) then
+            ar_courses = true
+            break
+        end
+    end
+
+    if not ar_courses and not ar_secrets then
+        DefaultAll()
+    elseif not ar_secrets then
+        DefaultSecrets()
     end
 
     -- Disable 100 if not present

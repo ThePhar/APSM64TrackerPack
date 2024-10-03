@@ -120,6 +120,11 @@ function NoAreaRando()
     return true
 end
 
+---@return boolean
+function AreaRando()
+    return not NoAreaRando()
+end
+
 ---@param area string The area that could be accessible.
 ---@return boolean Returns true if player can access this area.
 function CanAccess(area)
