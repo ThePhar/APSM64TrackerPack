@@ -145,3 +145,4 @@ $RECYCLE.BIN/
 
 # Node
 node_modules/
+/build/

@@ -1,14 +1,10 @@
 {
-    "name": "apsm64-poptracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "name": "pharware-sm64-pack",
+    "description": "Phar's SM64 Archipelago Randomizer Pack",
+    "version": "1.3.2-pre+1727924796",
+    "main": "Phakager.ts",
     "type": "module",
-    "scripts": {
-        "compile": "tstl"
-    },
-    "keywords": [],
-    "author": "",
+    "author": "Zach Parks <zach@alliware.com>",
     "license": "MIT",
     "devDependencies": {
         "@eslint/js": "^9.11.0",
@@ -19,11 +15,13 @@
         "eslint": "^9.11.0",
         "eslint-plugin-simple-import-sort": "^12.1.1",
         "typescript": "^5.6.2",
-        "typescript-eslint": "^8.6.0",
-        "typescript-to-lua": "^1.26.2"
+        "typescript-eslint": "^8.6.0"
     },
     "dependencies": {
         "dedent": "^1.5.3",
-        "yaml": "^2.5.1"
-    }
+        "rimraf": "^6.0.1",
+        "yaml": "^2.5.1",
+        "zip-a-folder": "^3.1.7"
+    },
+    "private": true
 }

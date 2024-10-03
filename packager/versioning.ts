@@ -31,3 +31,12 @@ export class ManifestVersion {
         return version;
     }
 }
+
+export interface VersionsJSON {
+    versions: {
+        package_version: string
+        download_url: string
+        sha256: string
+        changelog: string[]
+    }[]
+}
