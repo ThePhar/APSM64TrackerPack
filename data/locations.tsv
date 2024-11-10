@@ -121,7 +121,7 @@ Get a Hand	TTC:Lower	3626093	Star
 Stomp on the Thwomp	TTC:Top	3626094	Star
 Timed Jumps on Moving Bars	TTC:Upper	3626095	Star
 Stop Time for Red Coins	TTC	3626096	RedCoins	NAR | LG/TJ/SF/BF/WK
-100 Coins Star	TTC	3626097	100Coins	GP
+100 Coins Star	TTC:Top	3626097	100Coins	GP
 1-Up Block Midway Up	TTC:Top	3626231	MushBlock
 1-Up Block at the Top	TTC:Top	3626232	MushBlock
 Cruiser Crossing the Rainbow	RR:Cruiser	3626098	Star
