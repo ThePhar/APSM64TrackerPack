@@ -15,7 +15,6 @@ data:
                         - __setting_SN
                     -   - __setting_1UB
                         - __setting_SC
-                    -   - __setting_BB
-                        - __setting_SM
                     -   - __setting_MV
+                        - __setting_SM
                     -   - __setting_GOAL

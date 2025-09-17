@@ -166,7 +166,8 @@ function ShowCoinStars()
 end
 
 function ShowBuddies()
-    return Tracker:FindObjectForCode("__setting_BB").Active
+    -- return Tracker:FindObjectForCode("__setting_BB").Active
+    return true
 end
 
 function ShowMushBlocks()
