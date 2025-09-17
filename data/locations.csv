@@ -138,16 +138,17 @@ Bob-omb Buddy,RR,3626214,Buddy,WK | MOVELESS LG
 End of the Slide Block,PSS,3626126,Star,
 Finish under 21 Seconds,PSS,3626127,Star,
 The Aquarium Red Coins,SA,3626161,RedCoins,
-First Bowser's Key,BitDW,3626178,BowserKey,
+Defeat Bowser I,BitDW,3626178,BowserKey,
 Dark World Red Coins,BitDW,3626105,RedCoins,
 1-Up Block on the Tower,BitDW,3626236,MushBlock,
 1-Up Block Near the Goombas,BitDW,3626237,MushBlock,
-Second Bowser's Key,BitFS:Upper,3626179,BowserKey,
+Defeat Bowser II,BitFS:Upper,3626179,BowserKey,
 Fire Sea Red Coins,BitFS:Upper,3626112,RedCoins,LG/WK
 1-Up Block on the Swaying Stairs,BitFS:Upper,3626238,MushBlock
 1-Up Block Near the Poles,BitFS:Upper,3626239,MushBlock,LG/WK
 Sky Red Coins,BitS:Top,3626119,RedCoins,
 1-Up Block on the Rotating Platform,BitS,3626240,MushBlock,
+Defeat Bowser III,BitS:Top,-1,BowserKey,
 Wing Cap Switch,TotWC,3626181,RedSwitch,
 Tower Red Coins,TotWC,3626140,RedCoins,
 Metal Cap Switch,CotMC,3626182,GreenSwitch,

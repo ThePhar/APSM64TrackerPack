@@ -191,7 +191,7 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
                     x: entrance.coords[0] + 17,
                     y: entrance.coords[1] + 16,
                     size: 16,
-                    shape: "diamond",
+                    shape: "trapezoid",
                 }],
                 sections: [{
                     name: "Green: Accessible\n"

@@ -21,7 +21,7 @@ data:
                 map_locations:
                     -   map: map_castle
                         x: 1166
-                        "y": 794
+                        y: 794
                         size: 16
             -   name: Basement Toad
                 access_rules:
@@ -32,7 +32,7 @@ data:
                 map_locations:
                     -   map: map_castle
                         x: 1404
-                        "y": 788
+                        y: 788
                         size: 16
             -   name: Second Floor Toad
                 access_rules:
@@ -43,7 +43,7 @@ data:
                 map_locations:
                     -   map: map_castle
                         x: 1401
-                        "y": 404
+                        y: 404
                         size: 16
             -   name: Third Floor Toad
                 access_rules:
@@ -54,5 +54,5 @@ data:
                 map_locations:
                     -   map: map_castle
                         x: 1462
-                        "y": 130
+                        y: 130
                         size: 16

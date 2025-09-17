@@ -74,7 +74,7 @@ if (Object.keys(args).length === 0 || args.help) {
 }
 
 const GAME_NAME = "Super Mario 64";
-const MINIMUM_POPTRACKER_VERSION = "0.29.0";
+const MINIMUM_POPTRACKER_VERSION = "0.32.0";
 const VERSIONS_URL = "https://raw.githubusercontent.com/ThePhar/APSM64TrackerPack/main/versions.json";
 
 // Track run time.
