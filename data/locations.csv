@@ -1,0 +1,165 @@
+LOCATION,REGION,ADDRESS,TYPE,RULES
+Big Bob-omb on the Summit,BoB,3626000,Star,
+Footrace with Koopa the Quick,BoB,3626001,Star,
+Shoot to the Island in the Sky,BoB:Island,3626002,Star,
+Find the 8 Red Coins,BoB:Island,3626003,RedCoins,
+Mario Wings to the Sky,BoB,3626004,Star,CANN WC | CAPLESS CANN
+Behind Chain Chomp's Gate,BoB,3626005,Star,GP | MOVELESS
+100 Coins Star,BoB,3626006,100Coins,CANN WC | CANNLESS WC TJ
+Bob-omb Buddy,BoB,3626200,Buddy,
+Chip off Whomp's Block,WF,3626007,Star,GP
+To the Top of the Fortress,WF:Tower,3626008,Star,
+Shoot into the Wild Blue,WF,3626009,Star,WK TJ/SF | CANN
+Red Coins on the Floating Isle,WF,3626010,RedCoins,
+Fall onto the Caged Island,WF,3626011,Star,CL GP | MOVELESS TJ | MOVELESS LJ | MOVELESS CANN
+Blast Away the Wall,WF,3626012,Star,CANN | CANNLESS LG
+100 Coins Star,WF,3626013,100Coins,GP | MOVELESS
+Bob-omb Buddy,WF:Tower,3626201,Buddy,
+Plunder in the Sunken Ship,JRB,3626014,Star,
+Can the Eel Come out to Play?,JRB,3626015,Star,
+Treasure of the Ocean Cave,JRB,3626016,Star,
+Red Coins on the Ship Afloat,JRB:Upper,3626017,RedCoins,CANN | CL/TJ | MOVELESS BF/WK
+Blast to the Stone Pillar,JRB,3626018,Star,CANN CL | CANN MOVELESS | CANNLESS MOVELESS
+Through the Jet Stream,JRB,3626019,Star,MC | CAPLESS
+100 Coins Star,JRB:Upper,3626020,100Coins,GP
+Bob-omb Buddy,JRB,3626202,Buddy,
+Slip Slidin' Away,CCM,3626021,Star,
+Li'l Penguin Lost,CCM,3626022,Star,
+Big Penguin Race,CCM,3626023,Star,
+Frosty Slide for 8 Red Coins,CCM,3626024,RedCoins,
+Snowman's Lost his Head,CCM,3626025,Star,
+Wall Kicks will Work,CCM,3626026,Star,CANN TJ/WK | CANNLESS TJ/WK | MOVELESS
+100 Coins Star,CCM,3626027,100Coins,
+Bob-omb Buddy,CCM,3626203,Buddy,
+1-Up Block Near Snowman,CCM,3626215,MushBlock,
+1-Up Block Near Ice Pillar,CCM,3626216,MushBlock,
+1-Up Block in Secret Slide,CCM,3626217,MushBlock,
+Go on a Ghost Hunt,BBH,3626028,Star,
+Ride Big Boo's Merry-Go-Round,BBH,3626029,Star,
+Secret of the Haunted Books,BBH,3626030,Star,KI | MOVELESS
+Seek the 8 Red Coins,BBH,3626031,RedCoins,BF/WK/TJ/SF
+Big Boo's Balcony,BBH:Roof,3626032,Star,
+Eye to Eye in the Secret Room,BBH:ThirdFloor,3626033,Star,VC
+100 Coins Star,BBH,3626034,100Coins,
+1-Up Block on Top of the Mansion,BBH:Roof,3626218,MushBlock,
+Swimming Beast in the Cavern,HMC,3626035,Star,
+Elevate for 8 Red Coins,HMC:RedCoinArea,3626036,RedCoins,
+Metal-Head Mario Can Move!,HMC,3626037,Star,LJ MC | CAPLESS LJ TJ | CAPLESS MOVELESS LJ/TJ/WK
+Navigating the Toxic Maze,HMC,3626038,Star,WK/SF/BF/TJ
+A-Maze-Ing Emergency Exit,HMC:PitIslands,3626039,Star,
+Watch for Rolling Rocks,HMC,3626040,Star,WK
+100 Coins Star,HMC:RedCoinArea,3626041,100Coins,GP
+1-Up Block Above the Pit,HMC:PitIslands,3626219,MushBlock,
+1-Up Block Past Rolling Rocks,HMC,3626220,MushBlock,
+Boil the Big Bully,LLL,3626042,Star,
+Bully the Bullies,LLL,3626043,Star,
+8-Coin Puzzle with 15 Pieces,LLL,3626044,RedCoins,
+Red-Hot Log Rolling,LLL,3626045,Star,
+Hot-Foot-It into the Volcano,LLL:UpperVolcano,3626046,Star,
+Elevator Tour in the Volcano,LLL:UpperVolcano,3626047,Star,
+100 Coins Star,LLL,3626048,100Coins,
+In the Talons of the Big Bird,SSL,3626049,Star,
+Shining Atop the Pyramid,SSL,3626050,Star,
+Inside the Ancient Pyramid,SSL:UpperPyramid,3626051,Star,
+Stand Tall on the Four Pillars,SSL:UpperPyramid,3626052,Star,TJ WC GP | CANN WC GP | CAPLESS TJ/SF/BF | MOVELESS
+Free Flying for 8 Red Coins,SSL,3626053,RedCoins,TJ WC | CANN WC | CAPLESS TJ/SF/BF | CAPLESS MOVELESS
+Pyramid Puzzle,SSL:UpperPyramid,3626054,Star,
+100 Coins Star,SSL,3626055,100Coins,GP | CL TJ/BF/SF/LG | MOVELESS
+Bob-omb Buddy,SSL,3626207,Buddy,
+1-Up Block Outside Pyramid,SSL,3626221,MushBlock,
+1-Up Block in the Pyramid's Left Path,SSL,3626222,MushBlock,
+1-Up Block in the Pyramid's Back,SSL,3626223,MushBlock,
+Board Bowser's Sub,DDD,3626056,Star,
+Chests in the Current,DDD,3626057,Star,
+Pole-Jumping for Red Coins,DDD,3626058,RedCoins,CL BOWSER2 | MOVELESS TJ DV LG WK
+Through the Jet Stream,DDD,3626059,Star,MC | CAPLESS
+The Manta Ray's Reward,DDD,3626060,Star,
+Collect the Caps...,DDD,3626061,Star,VC MC | CAPLESS VC
+100 Coins Star,DDD,3626062,100Coins,CL GP BOWSER2 | MOVELESS TJ DV LG WK GP
+Snowman's Big Head,SL,3626063,Star,BF/SF/TJ | CANN
+Chill with the Bully,SL,3626064,Star,
+In the Deep Freeze,SL,3626065,Star,WK/SF/LG/BF/TJ | CANN
+Whirl from the Freezing Pond,SL,3626066,Star,
+Shell Shreddin' for Red Coins,SL,3626067,RedCoins,
+Into the Igloo,SL,3626068,Star,VC TJ/SF/BF/WK/LG | MOVELESS VC
+100 Coins Star,SL,3626069,100Coins,VC | CAPLESS
+Bob-omb Buddy,SL,3626209,Buddy,
+1-Up Block Near Moneybags,SL,3626224,MushBlock,
+1-Up Block Inside the Igloo,SL,3626225,MushBlock,
+Shocking Arrow Lifts!,WDW:Top,3626070,Star,
+Top o' the Town,WDW:Top,3626071,Star,
+Secrets in the Shallows Sky,WDW:Top,3626072,Star,
+Express Elevator--Hurry Up!,WDW,3626073,Star,
+Go to Town for Red Coins,WDW:Downtown,3626074,RedCoins,WK | MOVELESS TJ
+Quick Race Through Downtown!,WDW:Downtown,3626075,Star,VC WK/BF | VC TJ LG | MOVELESS VC TJ
+100 Coins Star,WDW:Top,3626076,100Coins,GP | NAR LG TJ/SF/BF | CANN | MOVELESS TJ DV
+Bob-omb Buddy,WDW:Top,3626210,Buddy,TJ | SF LG | NAR BF/SF
+1-Up Block in the Downtown,WDW:Downtown,3626226,MushBlock,
+Scale the Mountain,TTM:Top,3626077,Star,
+Mystery of the Monkey Cage,TTM:Top,3626078,Star,
+"Scary 'Shrooms\, Red Coins",TTM,3626079,RedCoins,
+Mysterious Mountainside,TTM:Top,3626080,Star,
+Breathtaking View from Bridge,TTM:Top,3626081,Star,
+Blast to the Lonely Mushroom,TTM,3626082,Star,CANN | CANNLESS LJ | MOVELESS CANNLESS
+100 Coins Star,TTM:Top,3626083,100Coins,
+Bob-omb Buddy,TTM,3626211,Buddy,
+1-Up Block on the Red Mushroom,TTM,3626227,MushBlock,
+Pluck the Piranha Flower,THI:Pipes,3626084,Star,
+The Tip Top of the Huge Island,THI:Pipes,3626085,Star,
+Rematch with Koopa the Quick,THI:Pipes,3626086,Star,
+Five Itty Bitty Secrets,THI:Pipes,3626087,Star,
+Wiggler's Red Coins,THI:Pipes,3626088,RedCoins,WK
+Make Wiggler Squirm,THI:LargeTop,3626089,Star,GP | MOVELESS DV
+100 Coins Star,THI:LargeTop,3626090,100Coins,GP
+Bob-omb Buddy,THI:Pipes,3626212,Buddy,
+1-Up Block Near Tiny Start,THI:Pipes,3626228,MushBlock,
+1-Up Block Near Huge Start,THI:Pipes,3626229,MushBlock,
+1-Up Block in the Windy Area,THI:Pipes,3626230,MushBlock,
+Roll into the Cage,TTC:Lower,3626091,Star,
+The Pit and the Pendulums,TTC:Upper,3626092,Star,
+Get a Hand,TTC:Lower,3626093,Star,
+Stomp on the Thwomp,TTC:Top,3626094,Star,
+Timed Jumps on Moving Bars,TTC:Upper,3626095,Star,
+Stop Time for Red Coins,TTC,3626096,RedCoins,NAR | LG/TJ/SF/BF/WK
+100 Coins Star,TTC:Top,3626097,100Coins,GP
+1-Up Block Midway Up,TTC:Top,3626231,MushBlock,
+1-Up Block at the Top,TTC:Top,3626232,MushBlock,
+Cruiser Crossing the Rainbow,RR:Cruiser,3626098,Star,
+The Big House in the Sky,RR:House,3626099,Star,
+Coins Amassed in a Maze,RR:Maze,3626100,RedCoins,
+Swingin' in the Breeze,RR,3626101,Star,LG/TJ/BF/SF | MOVELESS
+Tricky Triangles!,RR,3626102,Star,LG/TJ/BF/SF | MOVELESS
+Somewhere over the Rainbow,RR:Cruiser,3626103,Star,CANN
+100 Coins Star,RR:Maze,3626104,100Coins,GP WK
+Bob-omb Buddy,RR,3626214,Buddy,WK | MOVELESS LG
+1-Up Block Above the Red Coin Maze,RR,3626233,MushBlock,
+1-Up Block Under Fly Guy,RR,3626234,MushBlock,
+1-Up Block on the House in the Sky,RR:House,3626235,MushBlock,
+End of the Slide Block,PSS,3626126,Star,
+Finish under 21 Seconds,PSS,3626127,Star,
+The Aquarium Red Coins,SA,3626161,RedCoins,
+First Bowser's Key,BitDW,3626178,BowserKey,
+Dark World Red Coins,BitDW,3626105,RedCoins,
+1-Up Block on the Tower,BitDW,3626236,MushBlock,
+1-Up Block Near the Goombas,BitDW,3626237,MushBlock,
+Second Bowser's Key,BitFS:Upper,3626179,BowserKey,
+Fire Sea Red Coins,BitFS:Upper,3626112,RedCoins,LG/WK
+1-Up Block on the Swaying Stairs,BitFS:Upper,3626238,MushBlock
+1-Up Block Near the Poles,BitFS:Upper,3626239,MushBlock,LG/WK
+Sky Red Coins,BitS:Top,3626119,RedCoins,
+1-Up Block on the Rotating Platform,BitS,3626240,MushBlock,
+Wing Cap Switch,TotWC,3626181,RedSwitch,
+Tower Red Coins,TotWC,3626140,RedCoins,
+Metal Cap Switch,CotMC,3626182,GreenSwitch,
+Cavern Red Coins,CotMC,3626133,RedCoins,MC | CAPLESS
+1-Up Block Above the Rushing River,CotMC,3626241,MushBlock,
+Vanish Cap Switch,VCutM,3626183,BlueSwitch,WK/TJ/BF/SF/LG | MOVELESS
+Moat Red Coins,VCutM,3626147,RedCoins,WK/TJ/BF/SF/LG VC | CAPLESS WK
+1-Up Block on the Slope Platform,VCutM,3626242,MushBlock,
+Rainbow Red Coins,WMotR,3626154,RedCoins,WC TJ
+Rainbow 1-Up Block,WMotR,3626243,MushBlock,WC TJ
+Basement Toad's Gift,MKC,3626168,Star,ACCESS:B1 STARS:12
+Second Floor Toad's Gift,MKC,3626169,Star,ACCESS:F2 STARS:25
+Third Floor Toad's Gift,MKC,3626170,Star,ACCESS:F3 STARS:35
+MIPS the Rabbit,MKC,3626171,Star,ACCESS:B1 STARS:MIPS1
+MIPS the Rabbit II,MKC,3626172,Star,ACCESS:B1 STARS:MIPS2
