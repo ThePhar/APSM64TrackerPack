@@ -1,6 +1,20 @@
 {
     "versions": [
         {
+            "package_version": "1.4.0",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.0/pharware-sm64-pack_1.4.0.zip",
+            "sha256": "07a02c11736ed029cca21912ac4fead81b75aa463d9ca450e258614573ac4b79",
+            "changelog": [
+                "Removed logic for managing Bob-omb Buddies, they're now always visible. Temporary workaround for logic not taking them into account when they're not shuffled.",
+                "Updated images for moves, blocks, buddies, and settings.",
+                "Added a way to track Bowser III kill. Not tracked by AP (yet).",
+                "Changed entrance scout-ability shapes to the new trapezoid shape, and requires the newer version of PopTracker.",
+                "Fixed a logic bug for 2 locations in BitFS.",
+                "Swapped entrances for THI-H and THI-T (again).",
+                "Added scout logic for WMotR, TotWC, BitFS, and SA since TTC hands can now show up there."
+            ]
+        },
+        {
             "package_version": "1.3.3",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.3.3/pharware-sm64-pack_1.3.3.zip",
             "sha256": "86cf2fad3fcd091327fa0ccc967a22b3930b00941094caaa1aef1d5a1c2826d5",
