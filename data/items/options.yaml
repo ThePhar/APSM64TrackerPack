@@ -146,38 +146,72 @@ data:
                 inherit_codes: false
 
     # Entrances
-    -   name: Clear All Entrances
+    -   name: Clear Course Entrances
         type: progressive
-        codes: __er_clear
+        codes: __er_clear_courses
         allow_disabled: false
         initial_stage_idx: 0
         loop: true
         stages:
-            -   img: images/er_legend/er_clear.png
+            -   img: images/er_legend/meta/er_clr_courses.png
                 inherit_codes: false
-            -   img: images/er_legend/er_clear.png
+            -   img: images/er_legend/meta/er_clr_courses.png
                 inherit_codes: false
-    -   name: Reset All Entrances to Default
+    -   name: Clear Secret Entrances
+        type: progressive
+        codes: __er_clear_secrets
+        allow_disabled: false
+        initial_stage_idx: 0
+        loop: true
+        stages:
+            -   img: images/er_legend/meta/er_clr_secrets.png
+                inherit_codes: false
+            -   img: images/er_legend/meta/er_clr_secrets.png
+                inherit_codes: false
+    -   name: Clear All Entrances
+        type: progressive
+        codes: __er_clear_all
+        allow_disabled: false
+        initial_stage_idx: 0
+        loop: true
+        stages:
+            -   img: images/er_legend/meta/er_clr_all.png
+                inherit_codes: false
+            -   img: images/er_legend/meta/er_clr_all.png
+                inherit_codes: false
+
+    -   name: Reset Course Entrances to Vanilla
+        type: progressive
+        codes: __er_reset_courses
+        allow_disabled: false
+        initial_stage_idx: 0
+        loop: true
+        stages:
+            -   img: images/er_legend/meta/er_rst_courses.png
+                inherit_codes: false
+            -   img: images/er_legend/meta/er_rst_courses.png
+                inherit_codes: false
+    -   name: Reset Secret Entrances to Vanilla
+        type: progressive
+        codes: __er_reset_secrets
+        allow_disabled: false
+        initial_stage_idx: 0
+        loop: true
+        stages:
+            -   img: images/er_legend/meta/er_rst_secrets.png
+                inherit_codes: false
+            -   img: images/er_legend/meta/er_rst_secrets.png
+                inherit_codes: false
+    -   name: Reset All Entrances to Vanilla
         type: progressive
         codes: __er_reset_all
         allow_disabled: false
         initial_stage_idx: 0
         loop: true
         stages:
-            -   img: images/er_legend/er_reset_all.png
+            -   img: images/er_legend/meta/er_rst_all.png
                 inherit_codes: false
-            -   img: images/er_legend/er_reset_all.png
-                inherit_codes: false
-    -   name: Reset Secret Entrances to Default
-        type: progressive
-        codes: __er_reset_secret
-        allow_disabled: false
-        initial_stage_idx: 0
-        loop: true
-        stages:
-            -   img: images/er_legend/er_reset_secrets.png
-                inherit_codes: false
-            -   img: images/er_legend/er_reset_secrets.png
+            -   img: images/er_legend/meta/er_rst_all.png
                 inherit_codes: false
 
     # Settings

@@ -18,7 +18,7 @@ data:
                                 dock: bottom
                                 content:
                                     -   type: group
-                                        header: Items & Unlocks
+                                        header: Items
                                         dock: left
                                         margin: 0, 0, 3, 0
                                         content:
@@ -27,7 +27,7 @@ data:
                                             v_alignment: center
                                             key: items_grid
                                     -   type: group
-                                        header: Area Randomizer
+                                        header: Area Randomization
                                         dock: left
                                         margin: 0, 0, 3, 0
                                         content:
@@ -36,9 +36,9 @@ data:
                                             v_alignment: center
                                             key: entrances_grid
                                     -   type: group
-                                        header: Logic
+                                        header: Item Randomization
                                         dock: left
-                                        margin: 0, 0, 3, 0
+                                        margin: 0, 0
                                         content:
                                             type: layout
                                             h_alignment: center

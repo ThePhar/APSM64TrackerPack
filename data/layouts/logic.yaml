@@ -8,49 +8,53 @@ data:
         content:
             -   type: array
                 orientation: horizontal
-                margin: 4, 4
+                h_alignment: center
+                margin: 2, 2, 2, 12
                 content:
                     -   type: itemgrid
-                        item_margin: 0, 2
+                        item_margin: 0, 0
                         item_size: 120, 18
                         h_alignment: left
+                        item_h_alignment: right
                         rows:
-                            -   - __label_cannons
-                            -   - __label_caps
-                            -   - __label_moves
-                            -   - __label_goal
+                            -   - __label_100s
+                            -   - __label_1ups
+                            -   - __label_moves_r
                     -   type: itemgrid
-                        item_margin: 0, 2
+                        item_margin: 0, 0
                         item_size: 120, 18
                         h_alignment: left
+                        item_h_alignment: left
                         rows:
-                            -   - __setting_SN
-                            -   - __setting_SC
-                            -   - __setting_SM
-                            -   - __setting_GOAL
-
+                            -   - __setting_100
+                            -   - __setting_1UB
+                            -   - __setting_MV
             -   type: group
-                header: Randomization
-                h_alignment: right
-                margin: 4, 4
-                dock: left
+                header: Logic
+                h_alignment: center
                 content:
                     type: array
                     orientation: horizontal
                     content:
                         -   type: itemgrid
-                            item_margin: 0, 2
+                            item_margin: 0, 0
                             item_size: 120, 18
                             h_alignment: left
+                            item_h_alignment: right
                             rows:
-                                -   - __label_100s
-                                -   - __label_1ups
-                                -   - __label_moves_r
+                                -   - __label_cannons
+                                -   - __label_caps
+                                -   - __label_moves
+                                -   - __null
+                                -   - __label_goal
                         -   type: itemgrid
-                            item_margin: 0, 2
+                            item_margin: 0, 0
                             item_size: 120, 18
                             h_alignment: left
+                            item_h_alignment: left
                             rows:
-                                -   - __setting_100
-                                -   - __setting_1UB
-                                -   - __setting_MV
+                                -   - __setting_SN
+                                -   - __setting_SC
+                                -   - __setting_SM
+                                -   - __null
+                                -   - __setting_GOAL
