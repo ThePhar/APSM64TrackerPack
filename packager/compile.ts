@@ -179,16 +179,13 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
 
         const scoutNode = {
             name: "[Z] Entrance Accessibility",
-            access_rules:
-                entrance.acronym !== "TTC" && entrance.acronym !== "RR"
-                    ? entrance.accessRules
-                    : [...entrance.accessRules, "{$CanAccess|F3}"],
+            access_rules: [...entrance.accessRules, ...entrance.scoutRules.map((i) => `{${i}}`)],
             visibility_rules: ["$AreaRando"],
             children: [{
                 name: `Entrance Accessibility for ${entrance.name}`,
                 map_locations: [{
                     map: "map_castle",
-                    x: entrance.coords[0] + 17,
+                    x: entrance.coords[0] + 16,
                     y: entrance.coords[1] + 16,
                     size: 16,
                     shape: "trapezoid",
