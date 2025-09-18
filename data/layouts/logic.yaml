@@ -3,18 +3,54 @@ $schema: "../$schemas/layouts.json"
 data:
     logic_grid:
         type: array
-        orientation: horizontal
+        orientation: vertical
         margin: 0, 0
         content:
-            -   type: itemgrid
-                item_margin: 4, 4
-                item_size: 32
-                h_alignment: left
-                rows:
-                    -   - __setting_100
-                        - __setting_SN
-                    -   - __setting_1UB
-                        - __setting_SC
-                    -   - __setting_MV
-                        - __setting_SM
-                    -   - __setting_GOAL
+            -   type: array
+                orientation: horizontal
+                margin: 4, 4
+                content:
+                    -   type: itemgrid
+                        item_margin: 0, 2
+                        item_size: 120, 18
+                        h_alignment: left
+                        rows:
+                            -   - __label_cannons
+                            -   - __label_caps
+                            -   - __label_moves
+                            -   - __label_goal
+                    -   type: itemgrid
+                        item_margin: 0, 2
+                        item_size: 120, 18
+                        h_alignment: left
+                        rows:
+                            -   - __setting_SN
+                            -   - __setting_SC
+                            -   - __setting_SM
+                            -   - __setting_GOAL
+
+            -   type: group
+                header: Randomization
+                h_alignment: right
+                margin: 4, 4
+                dock: left
+                content:
+                    type: array
+                    orientation: horizontal
+                    content:
+                        -   type: itemgrid
+                            item_margin: 0, 2
+                            item_size: 120, 18
+                            h_alignment: left
+                            rows:
+                                -   - __label_100s
+                                -   - __label_1ups
+                                -   - __label_moves_r
+                        -   type: itemgrid
+                            item_margin: 0, 2
+                            item_size: 120, 18
+                            h_alignment: left
+                            rows:
+                                -   - __setting_100
+                                -   - __setting_1UB
+                                -   - __setting_MV

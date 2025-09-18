@@ -45,7 +45,7 @@ data:
                                             v_alignment: center
                                             key: logic_grid
                                     -   type: group
-                                        header: Star Requirements
+                                        header: Thresholds
                                         dock: left
                                         margin: 0, 0, 3, 0
                                         content:
