@@ -554,7 +554,7 @@ data:
         type: progressive
         codes: __setting_MIPS1_ones
         allow_disabled: false
-        initial_stage_idx: 3
+        initial_stage_idx: 6
         stages:
             -   inherit_codes: false
             -   img: images/num/0.png
