@@ -10,6 +10,21 @@ data:
                 orientation: horizontal
                 content:
                     type: itemgrid
+                    item_margin: 2, 2
+                    h_alignment: center
+                    item_h_alignment: center
+                    item_size: 140, 18
+                    rows:
+                        -   - __er_reset_courses
+                            - __er_reset_secrets
+                            - __er_reset_all
+                        -   - __er_clear_courses
+                            - __er_clear_secrets
+                            - __er_clear_all
+            -   type: array
+                orientation: horizontal
+                content:
+                    type: itemgrid
                     item_margin: 0, 0
                     h_alignment: left
                     item_h_alignment: center
@@ -63,18 +78,3 @@ data:
                             - __er_RR_dst
                             - __er_BitFS_ent
                             - __er_BitFS_dst
-            -   type: array
-                orientation: horizontal
-                content:
-                    type: itemgrid
-                    item_margin: 2, 2
-                    h_alignment: center
-                    item_h_alignment: center
-                    item_size: 140, 18
-                    rows:
-                        -   - __er_reset_courses
-                            - __er_reset_secrets
-                            - __er_reset_all
-                        -   - __er_clear_courses
-                            - __er_clear_secrets
-                            - __er_clear_all
