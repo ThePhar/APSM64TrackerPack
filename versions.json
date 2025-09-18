@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.4.1",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.1/pharware-sm64-pack_1.4.1.zip",
+            "sha256": "106bb0f373ed769aab0726c4a10b242c91f552935958d198f3dbfc8fa9107f7e",
+            "changelog": [
+                "MIPS I should default to 15 stars instead of 12 stars.",
+                "More tweaks to images and layouts.",
+                "Area Rando back in one screen again."
+            ]
+        },
+        {
             "package_version": "1.4.0",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.0/pharware-sm64-pack_1.4.0.zip",
             "sha256": "07a02c11736ed029cca21912ac4fead81b75aa463d9ca450e258614573ac4b79",
