@@ -7,6 +7,7 @@ export type EntranceData = [
     y: string,
     areaCode: string,
     rules: string,
+    scoutRules: string,
 ];
 
 export class Entrance {
@@ -16,18 +17,20 @@ export class Entrance {
     public readonly coords: [number, number];
     public readonly areaCode: number | null;
     public readonly accessRules: string[];
+    public readonly scoutRules: string[];
 
     public static create(data: EntranceData): void {
         const entrance = new Entrance(data);
         this.entrances.push(entrance);
     }
 
-    private constructor([acronym, order, x, y, areaCode, rules]: EntranceData) {
+    private constructor([acronym, order, x, y, areaCode, rules, scoutRules]: EntranceData) {
         this.acronym = acronym;
         this.order = parseInt(order);
         this.coords = [parseInt(x), parseInt(y)];
         this.areaCode = areaCode === "null" ? null : parseInt(areaCode);
         this.accessRules = buildRules(rules, this.acronym);
+        this.scoutRules = buildRules(scoutRules, this.acronym);
     }
 
     public toString(): string {

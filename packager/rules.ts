@@ -13,6 +13,7 @@ type AllowedTokenTypes =
     | "COMPLETED_SUB"
     | "BEATEN_BOWSER2"
     | "LITERAL"
+    | "ALLBOWSERS"
     | "EOL";
 
 const acceptedTokens: TokenMatcher[] = [
@@ -28,6 +29,7 @@ const acceptedTokens: TokenMatcher[] = [
     { expr: /STARS:\w+/, type: "STARS", extract: (match) => match.split(":")[1] },
     { expr: /NAR/, type: "NO_ER" },
     { expr: /ACCESS:\w+/, type: "ACCESS", extract: (match) => match.split(":")[1] },
+    { expr: /ALLBOWSERS/, type: "ALLBOWSERS" },
     { expr: /BOWSER2/, type: "BEATEN_BOWSER2" },
     { expr: /SUB/, type: "COMPLETED_SUB" },
     { expr: /\^?\$\w+/, type: "LITERAL", extract: (match) => match },
@@ -141,6 +143,10 @@ export function buildRules(input: string | undefined, stage: string): string[] {
 
                 break;
             }
+
+            case "ALLBOWSERS":
+                subrules.add("$AllBowsers");
+                break;
 
             case "NONSTRICT":
                 subrules.add(`^$StrictAccessibility|${token.value}`);

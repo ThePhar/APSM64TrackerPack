@@ -1,0 +1,9 @@
+[
+    "Removed logic for managing Bob-omb Buddies, they're now always visible. Temporary workaround for logic not taking them into account when they're not shuffled.",
+    "Updated images for moves, blocks, buddies, and settings.",
+    "Added a way to track Bowser III kill. Not tracked by AP (yet).",
+    "Changed entrance scout-ability shapes to the new trapezoid shape, and requires the newer version of PopTracker.",
+    "Fixed a logic bug for 2 locations in BitFS.",
+    "Swapped entrances for THI-H and THI-T (again).",
+    "Added scout logic for WMotR, TotWC, BitFS, and SA since TTC hands can now show up there."
+]

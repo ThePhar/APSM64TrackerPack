@@ -34,11 +34,15 @@ const areas = {
     MKC: "Mushroom Kingdom Castle",
 } as const;
 
-async function readTSV<T>(cwd: string, path: string): Promise<T[]> {
+async function readCSV<T>(cwd: string, path: string): Promise<T[]> {
     const buffer = await Bun.file(`${cwd}/${path}`).text();
     const rows: T[] = [];
     for (const row of buffer.trim().split("\n").slice(1)) {
-        rows.push(row.split("\t") as T);
+        rows.push(row
+            .split(/(?<!\\),/)
+            .map((d) => d.replaceAll("\\,", ","))
+            .map((d) => d.replaceAll("\"", "")) as T,
+        );
     }
 
     return rows;
@@ -175,19 +179,16 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
 
         const scoutNode = {
             name: "[Z] Entrance Accessibility",
-            access_rules:
-                entrance.acronym !== "TTC" && entrance.acronym !== "RR"
-                    ? entrance.accessRules
-                    : [...entrance.accessRules, "{$CanAccess|F3}"],
+            access_rules: [...entrance.accessRules, ...entrance.scoutRules.map((i) => `{${i}}`)],
             visibility_rules: ["$AreaRando"],
             children: [{
                 name: `Entrance Accessibility for ${entrance.name}`,
                 map_locations: [{
                     map: "map_castle",
-                    x: entrance.coords[0] + 17,
+                    x: entrance.coords[0] + 16,
                     y: entrance.coords[1] + 16,
                     size: 16,
-                    shape: "diamond",
+                    shape: "trapezoid",
                 }],
                 sections: [{
                     name: "Green: Accessible\n"
@@ -247,9 +248,9 @@ async function compileLocationMappingLua(cwd: string): Promise<void> {
 }
 
 export async function compileAll(cwd: string): Promise<void> {
-    const entrances = await readTSV<EntranceData>(cwd, "data/entrances.tsv");
-    const regions = await readTSV<RegionData>(cwd, "data/regions.tsv");
-    const locations = await readTSV<LocationData>(cwd, "data/locations.tsv");
+    const entrances = await readCSV<EntranceData>(cwd, "data/entrances.csv");
+    const regions = await readCSV<RegionData>(cwd, "data/regions.csv");
+    const locations = await readCSV<LocationData>(cwd, "data/locations.csv");
 
     // Pre-build entrances, regions, and locations.
     entrances.forEach((entrance) => Entrance.create(entrance));

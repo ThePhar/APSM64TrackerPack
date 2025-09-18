@@ -1,40 +1,80 @@
 ---
 $schema: "../$schemas/items.json"
 data:
+    # Labels
+    -   name: 1-Up Block Randomization
+        type: toggle
+        img: images/labels/label_1ups.png
+        disabled_img_mods: none
+        codes: __label_1ups
+    -   name: 100 Coin Star Randomization
+        type: toggle
+        img: images/labels/label_100s.png
+        disabled_img_mods: none
+        codes: __label_100s
+    -   name: Move Randomization
+        type: toggle
+        img: images/labels/label_moves.png
+        disabled_img_mods: none
+        codes: __label_moves_r
+    -   name: Logic - Cannons
+        type: toggle
+        img: images/labels/label_cannons.png
+        disabled_img_mods: none
+        codes: __label_cannons
+    -   name: Logic - Caps
+        type: toggle
+        img: images/labels/label_caps.png
+        disabled_img_mods: none
+        codes: __label_caps
+    -   name: Logic - Moves
+        type: toggle
+        img: images/labels/label_moves.png
+        disabled_img_mods: none
+        codes: __label_moves
+    -   name: Victory Condition
+        type: toggle
+        img: images/labels/label_defeat.png
+        disabled_img_mods: none
+        codes: __label_goal
+
     # Randomization
     -   name: Randomize Bob-omb Buddies
         type: toggle
         codes: __setting_BB
         img: images/buddy.png
         initial_active_state: true
-    -   name: Randomize 1-Up Blocks
+    -   name: 1-Up Block Randomization
         type: toggle
         codes: __setting_1UB
-        img: images/blocks/block_1up.png
-        disabled_img: images/blocks/block.png
-        initial_active_state: true
-    -   name: Randomize 100 Coin Stars
+        img: images/labels/option_shuffled.png
+        disabled_img: images/labels/option_vanilla.png
+        disabled_img_mods: none
+    -   name: 100 Coin Star Randomization
         type: toggle
         codes: __setting_100
-        img: images/star_coin.png
-        initial_active_state: true
-    -   name: Randomize Moves
+        img: images/labels/option_shuffled.png
+        disabled_img: images/labels/option_excluded.png
+        disabled_img_mods: none
+    -   name: Moves Randomization
         type: toggle
         codes: __setting_MV
-        img: images/mario.png
+        img: images/labels/option_shuffled.png
+        disabled_img: images/labels/option_vanilla.png
+        disabled_img_mods: none
 
     # Logic
-    -   name: Strict Cap Requirements
+    -   name: Logic - Caps
         type: progressive
         codes: __setting_SC
         allow_disabled: false
         initial_stage_idx: 0
         stages:
-            -   name: Strict Cap Requirements
-                img: images/settings/caps_on.png
+            -   name: Logic - Caps (Strict)
+                img: images/labels/option_strict.png
                 inherit_codes: false
-            -   name: Non-Strict Cap Requirements
-                img: images/settings/caps_strict.png
+            -   name: Logic - Caps (Non-Strict)
+                img: images/labels/option_nonstrict.png
                 inherit_codes: false
     -   name: Strict Cannon Requirements
         type: progressive
@@ -42,11 +82,11 @@ data:
         allow_disabled: false
         initial_stage_idx: 0
         stages:
-            -   name: Strict Cannon Requirements
-                img: images/settings/cannon_on.png
+            -   name: Logic - Cannons (Strict)
+                img: images/labels/option_strict.png
                 inherit_codes: false
-            -   name: Non-Strict Cannon Requirements
-                img: images/settings/cannon_strict.png
+            -   name: Logic - Cannons (Non-Strict)
+                img: images/labels/option_nonstrict.png
                 inherit_codes: false
     -   name: Strict Move Requirements
         type: progressive
@@ -54,11 +94,11 @@ data:
         allow_disabled: false
         initial_stage_idx: 0
         stages:
-            -   name: Strict Move Requirements
-                img: images/settings/move_on.png
+            -   name: Logic - Moves (Strict)
+                img: images/labels/option_strict.png
                 inherit_codes: false
-            -   name: Non-Strict Move Requirements
-                img: images/settings/move_strict.png
+            -   name: Logic - Moves (Non-Strict)
+                img: images/labels/option_nonstrict.png
                 inherit_codes: false
 
     # Requirements
@@ -99,10 +139,10 @@ data:
         initial_stage_idx: 0
         stages:
             -   name: Defeat Last Bowser
-                img: images/settings/bowser_final.png
+                img: images/labels/option_lastbowser.png
                 inherit_codes: false
             -   name: Defeat All Bowsers
-                img: images/settings/bowser_all.png
+                img: images/labels/option_allbowsers.png
                 inherit_codes: false
 
     # Entrances

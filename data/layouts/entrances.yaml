@@ -8,7 +8,7 @@ data:
         content:
             -   type: tabbed
                 tabs:
-                    -   title: "  Entrance Assignment  "
+                    -   title: "  Area Entrance Assignment  "
                         content:
                             type: itemgrid
                             item_margin: 2, 2

@@ -156,6 +156,15 @@ function Sub()
     return Tracker:FindObjectForCode("__location_item_3626056").Active
 end
 
+---@return boolean Returns true if all bowsers are required.
+function AllBowsers()
+    if Tracker:FindObjectForCode("__setting_GOAL").CurrentStage == 1 then
+        return true
+    else
+        return false
+    end
+end
+
 ---@return boolean Returns true if player has completed Bowser 2.
 function BeatBowser2()
     return Tracker:FindObjectForCode("__location_item_3626179").Active
@@ -166,7 +175,8 @@ function ShowCoinStars()
 end
 
 function ShowBuddies()
-    return Tracker:FindObjectForCode("__setting_BB").Active
+    -- return Tracker:FindObjectForCode("__setting_BB").Active
+    return true
 end
 
 function ShowMushBlocks()
