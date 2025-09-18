@@ -110,7 +110,7 @@ function ResetEntrances()
     ClearAll()
 end
 
-function ClearAll()
+function ClearCourses()
     SetStage("BoB", "unknown")
     SetStage("WF", "unknown")
     SetStage("JRB", "unknown")
@@ -127,6 +127,9 @@ function ClearAll()
     SetStage("THIt", "unknown")
     SetStage("TTC", "unknown")
     SetStage("RR", "unknown")
+end
+
+function ClearSecrets()
     SetStage("BitDW", "unknown")
     SetStage("BitFS", "unknown")
     SetStage("BitS", "BitS")
@@ -138,7 +141,12 @@ function ClearAll()
     SetStage("WMotR", "unknown")
 end
 
-function DefaultSecrets()
+function ClearAll()
+    ClearCourses()
+    ClearSecrets()
+end
+
+function ResetSecrets()
     SetStage("BitDW", "BitDW")
     SetStage("BitFS", "BitFS")
     SetStage("BitS", "BitS")
@@ -150,7 +158,7 @@ function DefaultSecrets()
     SetStage("WMotR", "WMotR")
 end
 
-function DefaultAll()
+function ResetCourses()
     SetStage("BoB", "BoB")
     SetStage("WF", "WF")
     SetStage("JRB", "JRB")
@@ -167,20 +175,19 @@ function DefaultAll()
     SetStage("THIt", "THIt")
     SetStage("TTC", "TTC")
     SetStage("RR", "RR")
-    SetStage("BitDW", "BitDW")
-    SetStage("BitFS", "BitFS")
-    SetStage("BitS", "BitS")
-    SetStage("TotWC", "TotWC")
-    SetStage("CotMC", "CotMC")
-    SetStage("VCutM", "VCutM")
-    SetStage("PSS", "PSS")
-    SetStage("SA", "SA")
-    SetStage("WMotR", "WMotR")
 end
 
-ScriptHost:AddWatchForCode("Clear All", "__er_clear", ClearAll)
-ScriptHost:AddWatchForCode("Default All", "__er_reset_all", DefaultAll)
-ScriptHost:AddWatchForCode("Default Secrets", "__er_reset_secret", DefaultSecrets)
+function ResetAll()
+    ResetCourses()
+    ResetSecrets()
+end
+
+ScriptHost:AddWatchForCode("Clear ER All", "__er_clear_all", ClearAll)
+ScriptHost:AddWatchForCode("Clear ER Courses", "__er_clear_courses", ClearCourses)
+ScriptHost:AddWatchForCode("Clear ER Secrets", "__er_clear_secrets", ClearSecrets)
+ScriptHost:AddWatchForCode("Reset ER All", "__er_reset_all", ResetAll)
+ScriptHost:AddWatchForCode("Reset ER Courses", "__er_reset_courses", ResetCourses)
+ScriptHost:AddWatchForCode("Reset ER Secrets", "__er_reset_secrets", ResetSecrets)
 
 ScriptHost:AddWatchForCode("AP Change Entrance Spoil", "__setting_auto_ent", function()
     if SLOT_DATA ~= nil then
