@@ -54,6 +54,7 @@ data:
     -   name: 100 Coin Star Randomization
         type: toggle
         codes: __setting_100
+        initial_active_state: true
         img: images/labels/option_shuffled.png
         disabled_img: images/labels/option_excluded.png
         disabled_img_mods: none

@@ -42,8 +42,8 @@ data:
                             h_alignment: left
                             item_h_alignment: right
                             rows:
-                                -   - __label_cannons
                                 -   - __label_caps
+                                -   - __label_cannons
                                 -   - __label_moves
                                 -   - __null
                                 -   - __label_goal
@@ -53,8 +53,8 @@ data:
                             h_alignment: left
                             item_h_alignment: left
                             rows:
-                                -   - __setting_SN
                                 -   - __setting_SC
+                                -   - __setting_SN
                                 -   - __setting_SM
                                 -   - __null
                                 -   - __setting_GOAL
