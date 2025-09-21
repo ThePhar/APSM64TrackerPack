@@ -65,14 +65,18 @@ function increment(code)
     prev_tens = current_vals[code][1]
     prev_ones = current_vals[code][2]
 
-    if prev_tens == -2 or prev_ones == -2 then
+    if Tracker.BulkUpdate then
+        -- Update previous values and return.
+        current_vals[code][1] = tens_value
+        current_vals[code][2] = ones_value
+
         return
     end
 
     -- Initial wrap.
-    if ones_value >= 0 and prev_ones < 0 then
+    if ones_value >= 0 and prev_ones == -1 then
         tens_value = 0
-    elseif tens_value >= 0 and prev_tens < 0 then
+    elseif tens_value >= 0 and prev_tens == -1 then
         ones_value = 0
     end
 
@@ -83,7 +87,7 @@ function increment(code)
     end
 
     -- Decrement ones.
-    if ones_value < 0 and prev_ones >= 0 then
+    if ones_value == -1 and prev_ones >= 0 then
         if tens_value > 0 then
             tens_value = tens_value - 1
             ones_value = 9
@@ -93,7 +97,7 @@ function increment(code)
     end
 
     -- Decrement tens.
-    if tens_value < 0 and prev_tens >= 0 then
+    if tens_value == -1 and prev_tens >= 0 then
         if ones_value > 0 then
             tens_value = 0
             ones_value = 0
@@ -109,6 +113,8 @@ function increment(code)
     end
 
     update_ui(code, tens_value, ones_value)
+
+--     print(dump_table({ ["tens"] = tens_value, ["ones"] = ones_value, ["p_tens"] = prev_tens, ["p_ones"] = prev_ones }))
 
 --     local disable = tens <= 0 and ones <= 0
 
@@ -201,7 +207,7 @@ ScriptHost:AddWatchForCode("__setting_F3_ones", "__setting_F3_ones", increment)
 ScriptHost:AddWatchForCode("__setting_MIPS1_ones", "__setting_MIPS1_ones", increment)
 ScriptHost:AddWatchForCode("__setting_MIPS2_ones", "__setting_MIPS2_ones", increment)
 
--- Watch for previous value changes.
+-- -- Watch for previous value changes.
 populate_vals("F1")
 populate_vals("B1")
 populate_vals("F2")
