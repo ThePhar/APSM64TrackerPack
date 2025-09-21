@@ -1,0 +1,4 @@
+[
+    "Add missing logic to MIPS 1 and 2.",
+    "Fix logic issue with stages getting reset on state load."
+]

@@ -198,6 +198,14 @@ function UnknownStarRequirement(area)
     return tens == 0 and ones == 0
 end
 
+function MIPS1Defined()
+    if Tracker:FindObjectForCode("__location_item_3626172").Active then
+        return true
+    end
+
+    return false
+end
+
 ---@param entrance string Entrance code
 ---@return boolean
 function IsUnknownDestination(entrance)

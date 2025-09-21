@@ -105,12 +105,11 @@ function SetStage(entrance, stage)
     ScriptHost:AddWatchForCode("Update Accessibility for " .. entrance, code, UpdateAccessibility)
 end
 
-function ResetEntrances()
-    DefaultAll()
-    ClearAll()
-end
-
 function ClearCourses()
+    if Tracker.BulkUpdate then
+        return
+    end
+
     SetStage("BoB", "unknown")
     SetStage("WF", "unknown")
     SetStage("JRB", "unknown")
@@ -130,6 +129,10 @@ function ClearCourses()
 end
 
 function ClearSecrets()
+    if Tracker.BulkUpdate then
+        return
+    end
+
     SetStage("BitDW", "unknown")
     SetStage("BitFS", "unknown")
     SetStage("BitS", "BitS")
@@ -147,6 +150,10 @@ function ClearAll()
 end
 
 function ResetSecrets()
+    if Tracker.BulkUpdate then
+        return
+    end
+
     SetStage("BitDW", "BitDW")
     SetStage("BitFS", "BitFS")
     SetStage("BitS", "BitS")
@@ -159,6 +166,10 @@ function ResetSecrets()
 end
 
 function ResetCourses()
+    if Tracker.BulkUpdate then
+        return
+    end
+
     SetStage("BoB", "BoB")
     SetStage("WF", "WF")
     SetStage("JRB", "JRB")

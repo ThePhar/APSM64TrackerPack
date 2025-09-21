@@ -11,11 +11,13 @@ data:
                     -   name: MIPS the Rabbit's First Star
                         hosted_item: __location_item_3626171
                         access_rules:
+                            - "{$UnknownStarRequirement|MIPS1}"
                             - "$HasStars|MIPS1,$Has|DV"
                             - "$HasStars|MIPS1,^$StrictAccessibility|MOVELESS"
                     -   name: MIPS the Rabbit's Second Star
                         hosted_item: __location_item_3626172
                         access_rules:
+                            - "{$UnknownStarRequirement|MIPS2,$MIPS1Defined}"
                             - "$HasStars|MIPS2,$Has|DV"
                             - "$HasStars|MIPS2,^$StrictAccessibility|MOVELESS"
                 map_locations:
