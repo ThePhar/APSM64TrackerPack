@@ -105,7 +105,15 @@ function HasStars(qty)
     -- Special keyword
     local tens = (Tracker:FindObjectForCode("__setting_" .. qty .. "_tens").CurrentStage - 1) * 10
     local ones = (Tracker:FindObjectForCode("__setting_" .. qty .. "_ones").CurrentStage - 1)
-    return Tracker:ProviderCountForCode("item__star") >= tens + ones
+    if tens < 0 or ones < 0 then
+        return false
+    else
+        return Tracker:ProviderCountForCode("item__star") >= tens + ones
+    end
+end
+
+function NotHasStars(qty)
+    return not HasStars(qty)
 end
 
 ---@return boolean
@@ -181,6 +189,13 @@ end
 
 function ShowMushBlocks()
     return Tracker:FindObjectForCode("__setting_1UB").Active
+end
+
+function UnknownStarRequirement(area)
+    tens = Tracker:FindObjectForCode("__setting_" .. area .. "_tens").CurrentStage
+    ones = Tracker:FindObjectForCode("__setting_" .. area .. "_ones").CurrentStage
+
+    return tens == 0 and ones == 0
 end
 
 ---@param entrance string Entrance code

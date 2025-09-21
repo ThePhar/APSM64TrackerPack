@@ -56,3 +56,61 @@ data:
                         x: 1462
                         y: 130
                         size: 16
+
+            # Door Requirements
+            -   name: Lobby Star Door
+                access_rules:
+                    - "{$UnknownStarRequirement|F1}"
+                visibility_rules:
+                    - "$NotHasStars|F1"
+                sections:
+                    -   name: Set Star Requirement for Access
+                        hosted_item: __location_item_null
+                map_locations:
+                    -   map: map_castle
+                        x: 323
+                        y: 612
+                        size: 24
+                        shape: diamond
+            -   name: Basement Star Door
+                access_rules:
+                    - "{$UnknownStarRequirement|B1}"
+                visibility_rules:
+                    - "$NotHasStars|B1"
+                sections:
+                    -   name: Set Star Requirement for Access
+                        hosted_item: __location_item_null
+                map_locations:
+                    -   map: map_castle
+                        x: 1292
+                        y: 992
+                        size: 24
+                        shape: diamond
+            -   name: Upstairs Star Door
+                access_rules:
+                    - "{$UnknownStarRequirement|F2}"
+                visibility_rules:
+                    - "$NotHasStars|F2"
+                sections:
+                    -   name: Set Star Requirement for Access
+                        hosted_item: __location_item_null
+                map_locations:
+                    -   map: map_castle
+                        x: 1366
+                        y: 207
+                        size: 24
+                        shape: diamond
+            -   name: Infinite Staircase Star Door
+                access_rules:
+                    - "{$UnknownStarRequirement|F3}"
+                visibility_rules:
+                    - "$NotHasStars|F3"
+                sections:
+                    -   name: Set Star Requirement for Access
+                        hosted_item: __location_item_null
+                map_locations:
+                    -   map: map_castle
+                        x: 1366
+                        y: 257
+                        size: 24
+                        shape: diamond

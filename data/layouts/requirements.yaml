@@ -7,9 +7,9 @@ data:
         margin: 0, 0
         content:
             -   type: itemgrid
-                item_margin: 2, 4
+                item_margin: 0, 4
                 h_alignment: left
-                item_size: 26
+                item_size: 32
                 rows:
                     -   - __setting_F1
                     -   - __setting_B1
@@ -18,8 +18,8 @@ data:
                     -   - __setting_MIPS1
                     -   - __setting_MIPS2
             -   type: itemgrid
-                item_margin: 0, 4
-                item_size: 19, 26
+                item_margin: 2, 4
+                item_size: 24, 32
                 h_alignment: left
                 rows:
                     -   - __setting_F1_tens

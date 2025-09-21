@@ -27,6 +27,14 @@ data:
                                             v_alignment: center
                                             key: items_grid
                                     -   type: group
+                                        dock: left
+                                        margin: 0, 0, 3, 0
+                                        content:
+                                            type: layout
+                                            h_alignment: center
+                                            v_alignment: center
+                                            key: requirements_grid
+                                    -   type: group
                                         header: Area Randomization
                                         dock: left
                                         margin: 0, 0, 3, 0
@@ -44,15 +52,6 @@ data:
                                             h_alignment: center
                                             v_alignment: center
                                             key: logic_grid
-                                    -   type: group
-                                        header: Thresholds
-                                        dock: left
-                                        margin: 0, 0, 3, 0
-                                        content:
-                                            type: layout
-                                            h_alignment: center
-                                            v_alignment: center
-                                            key: requirements_grid
                             -   type: map
                                 maps: ["map_castle"]
 

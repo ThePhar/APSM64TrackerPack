@@ -260,10 +260,10 @@ data:
         type: progressive
         codes: __setting_F1_tens
         allow_disabled: false
-        initial_stage_idx: 1
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -289,9 +289,9 @@ data:
         type: progressive
         codes: __setting_F1_ones
         allow_disabled: false
-        initial_stage_idx: 9
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
@@ -326,10 +326,10 @@ data:
         type: progressive
         codes: __setting_B1_tens
         allow_disabled: false
-        initial_stage_idx: 4
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -355,9 +355,9 @@ data:
         type: progressive
         codes: __setting_B1_ones
         allow_disabled: false
-        initial_stage_idx: 1
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
@@ -393,10 +393,10 @@ data:
         type: progressive
         codes: __setting_F2_tens
         allow_disabled: false
-        initial_stage_idx: 6
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -422,9 +422,9 @@ data:
         type: progressive
         codes: __setting_F2_ones
         allow_disabled: false
-        initial_stage_idx: 1
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
@@ -460,10 +460,10 @@ data:
         type: progressive
         codes: __setting_F3_tens
         allow_disabled: false
-        initial_stage_idx: 8
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -485,13 +485,15 @@ data:
                 inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
+            -   img: images/num/10.png
+                inherit_codes: false
     -   name: Infinite Staircase Door - Star Requirement Ones Place
         type: progressive
         codes: __setting_F3_ones
         allow_disabled: false
-        initial_stage_idx: 1
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
@@ -527,10 +529,10 @@ data:
         type: progressive
         codes: __setting_MIPS1_tens
         allow_disabled: false
-        initial_stage_idx: 2
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -556,9 +558,9 @@ data:
         type: progressive
         codes: __setting_MIPS1_ones
         allow_disabled: false
-        initial_stage_idx: 6
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
@@ -594,10 +596,10 @@ data:
         type: progressive
         codes: __setting_MIPS2_tens
         allow_disabled: false
-        initial_stage_idx: 6
         stages:
-            -   inherit_codes: false
-            -   img: images/num/0_dim.png
+            -   img: images/num/unknown.png
+                inherit_codes: false
+            -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
                 inherit_codes: false
@@ -623,9 +625,9 @@ data:
         type: progressive
         codes: __setting_MIPS2_ones
         allow_disabled: false
-        initial_stage_idx: 1
         stages:
-            -   inherit_codes: false
+            -   img: images/num/unknown.png
+                inherit_codes: false
             -   img: images/num/0.png
                 inherit_codes: false
             -   img: images/num/1.png
