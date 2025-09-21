@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.4.3",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.3/pharware-sm64-pack_1.4.3.zip",
+            "sha256": "bc8fe9b060ac4d8204f1e7731381605a89b82fc055d325e069d402b1d7ce0351",
+            "changelog": [
+                "Fixed issue with THI-t and THI-h ordering.",
+                "Added separate tracking for Bowser defeats and key collection.",
+                "Moved threshold tracking to left side, near items.",
+                "Added unknown values for thresholds and set them as defaults."
+            ]
+        },
+        {
             "package_version": "1.4.2",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.2/pharware-sm64-pack_1.4.2.zip",
             "sha256": "ec7f4311eb38b18d517e51c686e10ca64826f94df59d686f9d7a2606d8a47a01",

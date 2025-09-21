@@ -1,7 +1,7 @@
 {
     "name": "pharware-sm64-pack",
     "description": "Phar's SM64 Archipelago Randomizer Pack",
-    "version": "1.4.3-pre+1758454339",
+    "version": "1.4.3",
     "main": "Phakager.ts",
     "type": "module",
     "author": "Zach Parks <zach@alliware.com>",
