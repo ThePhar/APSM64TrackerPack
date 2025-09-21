@@ -221,6 +221,30 @@ async function compileCastleMapEntranceLocations(cwd: string): Promise<void> {
                 });
             }
 
+            // Bowser logic.
+            if (acronym === "BitDW") {
+                locationNode.sections.push({
+                    name: "Defeat Bowser I",
+                    hosted_item: "item__bowser_1",
+                    access_rules: Location.locations.find((l) => l.name === "Basement Key")?.accessRules,
+                    visibility_rules: Location.locations.find((l) => l.name === "Basement Key")?.visibilityRules,
+                });
+            } else if (acronym === "BitFS") {
+                locationNode.sections.push({
+                    name: "Defeat Bowser II",
+                    hosted_item: "item__bowser_2",
+                    access_rules: Location.locations.find((l) => l.name === "Upstairs Key")?.accessRules,
+                    visibility_rules: Location.locations.find((l) => l.name === "Upstairs Key")?.visibilityRules,
+                });
+            } else if (acronym === "BitS") {
+                locationNode.sections.push({
+                    name: "Defeat Bowser III",
+                    hosted_item: "item__bowser_3",
+                    access_rules: Location.locations.find((l) => l.name === "Sky Red Coins")?.accessRules,
+                    visibility_rules: Location.locations.find((l) => l.name === "Sky Red Coins")?.visibilityRules,
+                });
+            }
+
             entranceNode.children.push(locationNode);
         }
 

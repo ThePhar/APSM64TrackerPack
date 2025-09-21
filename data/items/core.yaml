@@ -8,15 +8,11 @@ data:
         max_quantity: 120
         codes: item__star
 
-    # Mushrooms
-    #  - name: 1-Up Mushrooms
-    #    type: consumable
-    #    img: images/1up.png
-    #    codes: item__mushroom
-    #  - name: Go Mode
-    #    type: toggle
-    #    img: images/gomode.png
-    #    codes: item__gomode
+#     Mushrooms
+    -   name: 1-Up Mushrooms
+        type: consumable
+        img: images/1up.png
+        codes: item__mushroom
 
     # Keys
     -   name: Keys
@@ -144,3 +140,17 @@ data:
         type: toggle
         img: images/moves/ledge_grab.png
         codes: item__cm_lg
+
+    # Bowsers
+    -   name: Defeated Bowser I
+        type: toggle
+        img: images/bowser/bowser_1.png
+        codes: item__bowser_1
+    -   name: Defeated Bowser II
+        type: toggle
+        img: images/bowser/bowser_2.png
+        codes: item__bowser_2
+    -   name: Defeated Bowser III
+        type: toggle
+        img: images/bowser/bowser_3.png
+        codes: item__bowser_3

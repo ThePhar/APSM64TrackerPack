@@ -1,0 +1,6 @@
+[
+    "Fixed issue with THI-t and THI-h ordering.",
+    "Added separate tracking for Bowser defeats and key collection.",
+    "Moved threshold tracking to left side, near items.",
+    "Added unknown values for thresholds and set them as defaults."
+]
