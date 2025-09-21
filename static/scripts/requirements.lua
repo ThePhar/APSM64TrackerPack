@@ -7,6 +7,51 @@ local maximum_qty = {
     ["MIPS2"] = 84,
 }
 
+local current_vals = {
+    ["F1"] = {-2, -2},
+    ["B1"] = {-2, -2},
+    ["F2"] = {-2, -2},
+    ["F3"] = {-2, -2},
+    ["MIPS1"] = {-2, -2},
+    ["MIPS2"] = {-2, -2},
+}
+
+function populate_vals(code)
+    tens_value = Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage - 1
+    ones_value = Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage - 1
+
+    current_vals[code][1] = tens_value
+    current_vals[code][2] = ones_value
+end
+
+function update_ui(code, tens_value, ones_value)
+    -- Disable the check while we change the value.
+    ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+    ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+
+    if tens_value < 0 then
+        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = 0
+    else
+        -- Need an offset of 1, since the first index is the ?? value.
+        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = tens_value + 1
+    end
+
+    if ones_value < 0 then
+        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = 0
+    else
+        -- Need an offset of 1, since the first index is the ?? value.
+        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones_value + 1
+    end
+
+    -- Update previous values.
+    current_vals[code][1] = tens_value
+    current_vals[code][2] = ones_value
+
+    -- Re-enable the check.
+    ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+    ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+end
+
 ---@param code string
 function increment(code)
     -- Extract code
@@ -14,51 +59,124 @@ function increment(code)
     code = code:sub(i + 1)
     code = code:sub(1, -6)
 
-    local tens = (Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage - 1) * 10
-    local ones = (Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage - 1)
-    if ones == 10 then
-        tens = tens + 10
-        ones = 0
+    tens_value = Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage - 1
+    ones_value = Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage - 1
 
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
-        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (tens + 10) / 10
-        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones + 1
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+    prev_tens = current_vals[code][1]
+    prev_ones = current_vals[code][2]
+
+    if prev_tens == -2 or prev_ones == -2 then
+        return
     end
 
-    if ones == -1 then
-        tens = tens - 10
-        ones = 9
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
-        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (tens + 10) / 10
-        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones + 1
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+    -- Initial wrap.
+    if ones_value >= 0 and prev_ones < 0 then
+        tens_value = 0
+    elseif tens_value >= 0 and prev_tens < 0 then
+        ones_value = 0
     end
 
-    if tens == -10 then
-        tens = 0
-        ones = 0
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
-        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (tens + 10) / 10
-        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones + 1
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+    -- Increment ones.
+    if ones_value >= 10 then
+        ones_value = 0
+        tens_value = tens_value + 1
     end
 
-    local count = tens + ones
+    -- Decrement ones.
+    if ones_value < 0 and prev_ones >= 0 then
+        if tens_value > 0 then
+            tens_value = tens_value - 1
+            ones_value = 9
+        else
+            tens_value = -1
+        end
+    end
+
+    -- Decrement tens.
+    if tens_value < 0 and prev_tens >= 0 then
+        if ones_value > 0 then
+            tens_value = 0
+            ones_value = 0
+        else
+            ones_value = -1
+        end
+    end
+
+    local count = tens_value * 10 + ones_value
     if count > maximum_qty[code] then
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
-        ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
-        Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (GetDigit(maximum_qty[code], 2) + 1) + (GetDigit(maximum_qty[code], 3) * 10)
-        Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = GetDigit(maximum_qty[code], 1) + 1
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
-        ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+        ones_value = maximum_qty[code] % 10
+        tens_value = (maximum_qty[code] - ones_value) / 10
     end
+
+    update_ui(code, tens_value, ones_value)
+
+--     local disable = tens <= 0 and ones <= 0
+
+    -- Check to ensure we don't need to disable things.
+--     if disable then
+--         updateStage("__setting_" .. code .. "_tens", 0)
+--         updateStage("__setting_" .. code .. "_ones", 0)
+--         return
+--     end
+
+--     if ones >= 0 and tens < 0 then
+--         tens = 0
+--
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = 1
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+--     end
+--
+--     if ones == 10 then
+--         tens = tens + 10
+--         ones = 0
+--
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (tens + 10) / 10
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones + 1
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+--     end
+--
+--     if tens >= 0 and ones < 0 then
+--         ones = 0
+--
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = 1
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+--     end
+--
+--     if ones == -1 then
+--         tens = tens - 10
+--         ones = 9
+--
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (tens + 10) / 10
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = ones + 1
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+--     end
+--
+--     if tens == -10 then
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = 0
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = 0
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+--     end
+--
+--     local count = tens + ones
+--     if count > maximum_qty[code] then
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_tens")
+--         ScriptHost:RemoveWatchForCode("__setting_" .. code .. "_ones")
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_tens").CurrentStage = (GetDigit(maximum_qty[code], 2) + 1) + (GetDigit(maximum_qty[code], 3) * 10)
+--         Tracker:FindObjectForCode("__setting_" .. code .. "_ones").CurrentStage = GetDigit(maximum_qty[code], 1) + 1
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_tens", "__setting_" .. code .. "_tens", increment)
+--         ScriptHost:AddWatchForCode("__setting_" .. code .. "_ones", "__setting_" .. code .. "_ones", increment)
+--     end
 end
 
 function SetStarReq(code, qty)
@@ -82,6 +200,14 @@ ScriptHost:AddWatchForCode("__setting_F2_ones", "__setting_F2_ones", increment)
 ScriptHost:AddWatchForCode("__setting_F3_ones", "__setting_F3_ones", increment)
 ScriptHost:AddWatchForCode("__setting_MIPS1_ones", "__setting_MIPS1_ones", increment)
 ScriptHost:AddWatchForCode("__setting_MIPS2_ones", "__setting_MIPS2_ones", increment)
+
+-- Watch for previous value changes.
+populate_vals("F1")
+populate_vals("B1")
+populate_vals("F2")
+populate_vals("F3")
+populate_vals("MIPS1")
+populate_vals("MIPS2")
 
 function GetDigit(num, digit)
     local n = 10 ^ digit
