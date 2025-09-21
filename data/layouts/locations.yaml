@@ -553,7 +553,7 @@ data:
                                 orientation: vertical
                                 content:
                                     -   type: text
-                                        text: "  SA           "
+                                        text: "  SA              "
                                         margin: 4, 4
                                     -   type: array
                                         dock: left
@@ -612,7 +612,7 @@ data:
                                 orientation: vertical
                                 content:
                                     -   type: text
-                                        text: "  Cavern                          "
+                                        text: "  Cavern                                "
                                         margin: 4, 4
                                     -   type: array
                                         dock: left
@@ -633,11 +633,11 @@ data:
                                 content:
                                     -   type: text
                                         text: "  Moat"
-                                        margin: 6, 4
+                                        margin: 2, 4
                                     -   type: array
                                         dock: left
                                         orientation: horizontal
-                                        margin: 6, 0
+                                        margin: 2, 0
                                         content:
                                             -   type: array
                                                 dock: left
@@ -672,6 +672,7 @@ data:
                                                                 - __location_item_3626105
                                                                 - __location_item_3626236
                                                                 - __location_item_3626237
+                                                                - item__bowser_1
                             -   type: array
                                 orientation: vertical
                                 content:
@@ -693,6 +694,7 @@ data:
                                                                 - __location_item_3626112
                                                                 - __location_item_3626238
                                                                 - __location_item_3626239
+                                                                - item__bowser_2
                             -   type: array
                                 orientation: vertical
                                 content:
@@ -712,3 +714,4 @@ data:
                                                         rows:
                                                             -   - __location_item_3626119
                                                                 - __location_item_3626240
+                                                                - item__bowser_3

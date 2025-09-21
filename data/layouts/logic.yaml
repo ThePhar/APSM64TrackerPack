@@ -46,6 +46,7 @@ data:
                                 -   - __label_cannons
                                 -   - __label_moves
                                 -   - __null
+                                -   - __null
                                 -   - __label_goal
                         -   type: itemgrid
                             item_margin: 0, 0
@@ -56,5 +57,6 @@ data:
                                 -   - __setting_SC
                                 -   - __setting_SN
                                 -   - __setting_SM
+                                -   - __null
                                 -   - __null
                                 -   - __setting_GOAL
