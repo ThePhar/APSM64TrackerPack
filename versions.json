@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.4.4",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.4/pharware-sm64-pack_1.4.4.zip",
+            "sha256": "1222cf3a84a76bd0275da3dadd83f55ba48b858e6bf367a7258ff3a93c695a21",
+            "changelog": [
+                "Add missing logic to MIPS 1 and 2.",
+                "Fix logic issue with stages getting reset on state load."
+            ]
+        },
+        {
             "package_version": "1.4.3",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.3/pharware-sm64-pack_1.4.3.zip",
             "sha256": "bc8fe9b060ac4d8204f1e7731381605a89b82fc055d325e069d402b1d7ce0351",
