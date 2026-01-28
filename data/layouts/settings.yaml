@@ -2,15 +2,68 @@
 $schema: "../$schemas/layouts.json"
 data:
     settings_popup:
-        type: group
-        margin: 0, 0
-        header: Archipelago Settings
+        type: array
+        orientation: vertical
         content:
-            -   type: itemgrid
-                item_margin: 4, 4
-                item_size: 240, 28
-                rows:
-                    -   - __setting_spoil_reqs_txt
-                        - __setting_spoil_reqs
-                    -   - __setting_auto_ent_txt
-                        - __setting_auto_ent
+            -   type: group
+                margin: 0, 0
+                header: Logic Settings
+                content:
+                    -   type: array
+                        orientation: horizontal
+                        margin: 0, 0
+                        content:
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 198, 18
+                                rows:
+                                    -   - __label_caps
+                                    -   - __label_cannons
+                                    -   - __label_moves
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 108, 18
+                                rows:
+                                    -   - __setting_SC
+                                    -   - __setting_SN
+                                    -   - __setting_SM
+            -   type: group
+                margin: 0, 0
+                header: Location Settings
+                content:
+                    -   type: array
+                        orientation: horizontal
+                        margin: 0, 0
+                        content:
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 198, 18
+                                rows:
+                                    -   - __label_100s
+                                    -   - __label_1ups
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 108, 18
+                                rows:
+                                    -   - __setting_100
+                                    -   - __setting_1UB
+            -   type: group
+                margin: 0, 0
+                header: Archipelago (AP) Mode Settings
+                content:
+                    -   type: array
+                        orientation: horizontal
+                        margin: 0, 0
+                        content:
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 198, 18
+                                rows:
+                                    -   - __setting_spoil_reqs_txt
+                                    -   - __setting_auto_ent_txt
+                            -   type: itemgrid
+                                item_margin: 0, 2
+                                item_size: 108, 18
+                                rows:
+                                    -   - __setting_spoil_reqs
+                                    -   - __setting_auto_ent

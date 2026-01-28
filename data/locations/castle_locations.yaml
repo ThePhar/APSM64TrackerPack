@@ -73,7 +73,7 @@ data:
                         x: 323
                         y: 612
                         size: 24
-                        shape: diamond
+                        shape: trapezoid
             -   name: Basement Star Door
                 access_rules:
                     - "{$UnknownStarRequirement|B1,$CanAccess|B1}"
@@ -87,7 +87,7 @@ data:
                         x: 1292
                         y: 992
                         size: 24
-                        shape: diamond
+                        shape: trapezoid
             -   name: Upstairs Star Door
                 access_rules:
                     - "{$UnknownStarRequirement|F2,$CanAccess|F2}"
@@ -101,7 +101,7 @@ data:
                         x: 1366
                         y: 207
                         size: 24
-                        shape: diamond
+                        shape: trapezoid
             -   name: Infinite Staircase Star Door
                 access_rules:
                     - "{$UnknownStarRequirement|F3,$CanAccess|F3}"
@@ -115,4 +115,4 @@ data:
                         x: 1366
                         y: 257
                         size: 24
-                        shape: diamond
+                        shape: trapezoid

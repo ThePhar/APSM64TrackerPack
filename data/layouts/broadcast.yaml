@@ -3,8 +3,45 @@ $schema: "../$schemas/layouts.json"
 data:
     tracker_broadcast:
         type: array
+        background: "#00382F"
         orientation: horizontal
         margin: 4, 4
         content:
             -   type: layout
                 key: items_grid
+            -   type: array
+                orientation: horizontal
+                margin: 0, 4
+                content:
+                    -   type: itemgrid
+                        item_size: 70, 18
+                        item_margin: 0, 2
+                        margin: 0, 0
+                        rows:
+                            -   - __er_WF_ent
+                            -   - __er_JRB_ent
+                            -   - __er_CCM_ent
+                            -   - __er_LLL_ent
+                            -   - __er_SSL_ent
+                            -   - __er_DDD_ent
+                            -   - __er_SL_ent
+                            -   - __er_WDW_ent
+                            -   - __er_TTM_ent
+                            -   - __er_THI_ent
+                            -   - __er_TTC_ent
+                    -   type: itemgrid
+                        item_size: 16, 18
+                        item_margin: 0, 2
+                        margin: 0, 0
+                        rows:
+                            -   - item__painting_wf
+                            -   - item__painting_jrb
+                            -   - item__painting_ccm
+                            -   - item__painting_lll
+                            -   - item__painting_ssl
+                            -   - item__painting_ddd
+                            -   - item__painting_sl
+                            -   - item__painting_wdw
+                            -   - item__painting_ttm
+                            -   - item__painting_thi
+                            -   - item__painting_ttc

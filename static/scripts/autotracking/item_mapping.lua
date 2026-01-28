@@ -37,4 +37,17 @@ ITEM_MAPPING = {
     [3626178] = {"item__key", 1},
     [3626179] = {"item__key", 2},
     [3626180] = {"item__key", 0},
+
+    -- Locked Paintings
+    [3626231] = {"item__painting_wf", "toggle"},
+    [3626232] = {"item__painting_jrb", "toggle"},
+    [3626233] = {"item__painting_ccm", "toggle"},
+    [3626236] = {"item__painting_lll", "toggle"},
+    [3626237] = {"item__painting_ssl", "toggle"},
+    [3626238] = {"item__painting_ddd", "toggle"},
+    [3626239] = {"item__painting_sl", "toggle"},
+    [3626240] = {"item__painting_wdw", "toggle"},
+    [3626241] = {"item__painting_ttm", "toggle"},
+    [3626242] = {"item__painting_thi", "toggle"},
+    [3626243] = {"item__painting_ttc", "toggle"},
 }

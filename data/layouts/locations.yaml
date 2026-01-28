@@ -672,7 +672,7 @@ data:
                                                                 - __location_item_3626105
                                                                 - __location_item_3626236
                                                                 - __location_item_3626237
-                                                                - item__bowser_1
+                                                                - item__bowser_1i
                             -   type: array
                                 orientation: vertical
                                 content:
@@ -694,7 +694,7 @@ data:
                                                                 - __location_item_3626112
                                                                 - __location_item_3626238
                                                                 - __location_item_3626239
-                                                                - item__bowser_2
+                                                                - item__bowser_2i
                             -   type: array
                                 orientation: vertical
                                 content:
@@ -714,4 +714,4 @@ data:
                                                         rows:
                                                             -   - __location_item_3626119
                                                                 - __location_item_3626240
-                                                                - item__bowser_3
+                                                                - item__bowser_3i

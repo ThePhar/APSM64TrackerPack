@@ -3,32 +3,37 @@
 This is a [PopTracker](https://github.com/black-sliver/PopTracker) pack for the **Archipelago Super Mario 64 Randomizer**.
 
 ![Example 1 of SM64 Pack](docs/example.png)
-![Example 2 of SM64 Pack](docs/example2.png)
 
 ## Features
 
 - Full Location and Item Tracking
 - Star Counts
+- Painting Locks
+- Bowser Defeats
 - Cap Tracking and Logic
 - Cannon Tracking and Logic
 - Move Tracking and Logic
 - Area Tracking (ER) and Logic
 - Map for Visualizing Entrances; Is ER Aware
-- Broadcast View for Items and Entrances
-- Displays all locations in a tab for quick reference of checked/missing locations.
+- Broadcast View for Items
 - Auto-Tracking via Archipelago
   - Automatically tracks completed locations and collected items.
   - Automatically tracks Area Randomization if Entrance is Accessible (if enabled)
   - Automatically enables Move Randomization, if enabled.
   - Automatically enables Area Randomization, if enabled.
+  - Automatically tracks (un)locked paintings.
   - Automatically displays required star requirements for doors and MIPS (if enabled).
-  - Automatically displays required goal requirement.
+  - ~~Automatically displays required goal requirement.~~
+    - Temporarily disabled until a future version that tracks Bowser defeats automatically.
   - Automatically toggles 100 Coin Stars if enabled/disabled.
   - Handles progressive and non-progressive keys automatically.
 
 ## Planned Features
 
-- Auto-Tracking Settings for Bob-omb Buddies and 1-Up Blocks
+- Auto-Tracking for the following settings:
+  - Bob-omb Buddies
+  - 1-Up Blocks
+  - Bowser Defeats
 - Additional Maps for each Course and Secret Area.
 - _Potentially more..._
 

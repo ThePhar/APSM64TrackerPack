@@ -12,11 +12,11 @@ data:
         img: images/labels/label_100s.png
         disabled_img_mods: none
         codes: __label_100s
-    -   name: Move Randomization
-        type: toggle
-        img: images/labels/label_moves.png
-        disabled_img_mods: none
-        codes: __label_moves_r
+#    -   name: Move Randomization
+#        type: toggle
+#        img: images/labels/label_moves.png
+#        disabled_img_mods: none
+#        codes: __label_moves_r
     -   name: Logic - Cannons
         type: toggle
         img: images/labels/label_cannons.png
@@ -47,23 +47,21 @@ data:
     -   name: 1-Up Block Randomization
         type: toggle
         codes: __setting_1UB
-        initial_active_state: true
         img: images/labels/option_shuffled.png
         disabled_img: images/labels/option_excluded.png
         disabled_img_mods: none
     -   name: 100 Coin Star Randomization
         type: toggle
         codes: __setting_100
-        initial_active_state: true
         img: images/labels/option_shuffled.png
         disabled_img: images/labels/option_excluded.png
         disabled_img_mods: none
-    -   name: Moves Randomization
-        type: toggle
-        codes: __setting_MV
-        img: images/labels/option_shuffled.png
-        disabled_img: images/labels/option_vanilla.png
-        disabled_img_mods: none
+#    -   name: Move Randomization
+#        type: toggle
+#        codes: __setting_MV
+#        img: images/labels/option_shuffled.png
+#        disabled_img: images/labels/option_vanilla.png
+#        disabled_img_mods: none
 
     # Logic
     -   name: Logic - Caps
@@ -220,11 +218,11 @@ data:
     -   name: Spoil Star Requirements
         type: static
         codes: __setting_spoil_reqs_txt
-        img: images/settings/spoil_requirements.png
+        img: images/labels/label_spoil_requirements.png
     -   name: Auto-set Entrances
         type: static
         codes: __setting_auto_ent_txt
-        img: images/settings/autoset_entrances.png
+        img: images/labels/label_autoset_entrances.png
     -   name: Spoil Star Requirements
         type: progressive
         codes: __setting_spoil_reqs
@@ -232,11 +230,11 @@ data:
         initial_stage_idx: 0
         loop: true
         stages:
-            -   name: Spoil Star Requirements - Disabled
-                img: images/settings/no.png
+            -   name: Spoil Star Requirements - No
+                img: images/labels/option_no.png
                 inherit_codes: false
-            -   name: Spoil Star Requirements - Enabled
-                img: images/settings/yes.png
+            -   name: Spoil Star Requirements - Yes
+                img: images/labels/option_yes.png
                 inherit_codes: false
     -   name: Auto-set Entrances
         type: progressive
@@ -245,11 +243,11 @@ data:
         initial_stage_idx: 0
         loop: true
         stages:
-            -   name: Auto-set Entrances - Disabled
-                img: images/settings/no.png
+            -   name: Auto-set Entrances - No
+                img: images/labels/option_no.png
                 inherit_codes: false
             -   name: Auto-set Entrances - If Logically Accessible
-                img: images/settings/logical_access.png
+                img: images/labels/option_iflogical.png
                 inherit_codes: false
     #      - name: Auto-set Entrances - If Collected
     #        img: images/settings/collected.png
@@ -261,29 +259,29 @@ data:
         codes: __setting_F1_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: Lobby Star Door - Star Requirement Ones Place
         type: progressive
@@ -312,14 +310,6 @@ data:
                 inherit_codes: false
             -   img: images/num/9.png
                 inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
-                inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
     -   name: Basement Star Door - Star Requirement Tens Place
@@ -327,29 +317,29 @@ data:
         codes: __setting_B1_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: Basement Star Door - Star Requirement Ones Place
         type: progressive
@@ -378,14 +368,6 @@ data:
                 inherit_codes: false
             -   img: images/num/9.png
                 inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
-                inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
 
@@ -394,29 +376,29 @@ data:
         codes: __setting_F2_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: Upstairs Star Door - Star Requirement Ones Place
         type: progressive
@@ -445,14 +427,6 @@ data:
                 inherit_codes: false
             -   img: images/num/9.png
                 inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
-                inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
 
@@ -461,31 +435,29 @@ data:
         codes: __setting_F3_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
-                inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: Infinite Staircase Door - Star Requirement Ones Place
         type: progressive
@@ -514,14 +486,6 @@ data:
                 inherit_codes: false
             -   img: images/num/9.png
                 inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
-                inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
 
@@ -530,29 +494,29 @@ data:
         codes: __setting_MIPS1_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: MIPS I - Star Requirement Ones Place
         type: progressive
@@ -581,14 +545,6 @@ data:
                 inherit_codes: false
             -   img: images/num/9.png
                 inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
-                inherit_codes: false
             -   img: images/num/10.png
                 inherit_codes: false
 
@@ -597,29 +553,29 @@ data:
         codes: __setting_MIPS2_tens
         allow_disabled: false
         stages:
-            -   img: images/num/unknown.png
+            -   img: images/num/unknown_w.png
                 inherit_codes: false
-            -   img: images/num/0.png
+            -   img: images/num/0_w.png
                 inherit_codes: false
-            -   img: images/num/1.png
+            -   img: images/num/1_w.png
                 inherit_codes: false
-            -   img: images/num/2.png
+            -   img: images/num/2_w.png
                 inherit_codes: false
-            -   img: images/num/3.png
+            -   img: images/num/3_w.png
                 inherit_codes: false
-            -   img: images/num/4.png
+            -   img: images/num/4_w.png
                 inherit_codes: false
-            -   img: images/num/5.png
+            -   img: images/num/5_w.png
                 inherit_codes: false
-            -   img: images/num/6.png
+            -   img: images/num/6_w.png
                 inherit_codes: false
-            -   img: images/num/7.png
+            -   img: images/num/7_w.png
                 inherit_codes: false
-            -   img: images/num/8.png
+            -   img: images/num/8_w.png
                 inherit_codes: false
-            -   img: images/num/9.png
+            -   img: images/num/9_w.png
                 inherit_codes: false
-            -   img: images/num/10.png
+            -   img: images/num/10_w.png
                 inherit_codes: false
     -   name: MIPS II - Star Requirement Ones Place
         type: progressive
@@ -639,14 +595,6 @@ data:
             -   img: images/num/4.png
                 inherit_codes: false
             -   img: images/num/5.png
-                inherit_codes: false
-            -   img: images/num/6.png
-                inherit_codes: false
-            -   img: images/num/7.png
-                inherit_codes: false
-            -   img: images/num/8.png
-                inherit_codes: false
-            -   img: images/num/9.png
                 inherit_codes: false
             -   img: images/num/6.png
                 inherit_codes: false

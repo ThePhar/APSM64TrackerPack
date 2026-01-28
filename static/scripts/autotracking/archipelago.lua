@@ -63,7 +63,6 @@ function onClear(slot_data)
 
     -- Set Slot Data
     Tracker:FindObjectForCode("__setting_GOAL").CurrentStage = SLOT_DATA["CompletionType"]
-    Tracker:FindObjectForCode("__setting_MV").Active = SLOT_DATA["MoveRandoVec"] ~= 0
 
     if Tracker:FindObjectForCode("__setting_spoil_reqs").CurrentStage == 1 then
         SetStarReq("F1", SLOT_DATA["FirstBowserDoorCost"])
@@ -74,19 +73,17 @@ function onClear(slot_data)
         SetStarReq("MIPS2", SLOT_DATA["MIPS2Cost"])
     end
 
-    -- Set Moves to Enabled if in Move Rando and they're not shuffled.
-    if Tracker:FindObjectForCode("__setting_MV").Active then
-        Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
-        Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
-        Tracker:FindObjectForCode("item__cm_bf").Active = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
-        Tracker:FindObjectForCode("item__cm_sf").Active = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
-        Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
-        Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
-        Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
-        Tracker:FindObjectForCode("item__cm_ki").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
-        Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
-        Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
-    end
+    -- Set Moves to Enabled
+    Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
+    Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4
+    Tracker:FindObjectForCode("item__cm_bf").Active = SLOT_DATA["MoveRandoVec"] & 8    ~= 8
+    Tracker:FindObjectForCode("item__cm_sf").Active = SLOT_DATA["MoveRandoVec"] & 16   ~= 16
+    Tracker:FindObjectForCode("item__cm_wk").Active = SLOT_DATA["MoveRandoVec"] & 32   ~= 32
+    Tracker:FindObjectForCode("item__cm_dv").Active = SLOT_DATA["MoveRandoVec"] & 64   ~= 64
+    Tracker:FindObjectForCode("item__cm_gp").Active = SLOT_DATA["MoveRandoVec"] & 128  ~= 128
+    Tracker:FindObjectForCode("item__cm_ki").Active = SLOT_DATA["MoveRandoVec"] & 256  ~= 256
+    Tracker:FindObjectForCode("item__cm_cl").Active = SLOT_DATA["MoveRandoVec"] & 512  ~= 512
+    Tracker:FindObjectForCode("item__cm_lg").Active = SLOT_DATA["MoveRandoVec"] & 1024 ~= 1024
 
     -- Check Area Rando
     local ar_secrets = false

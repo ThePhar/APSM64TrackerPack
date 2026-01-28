@@ -141,16 +141,113 @@ data:
         img: images/moves/ledge_grab.png
         codes: item__cm_lg
 
-    # Bowsers
+    # Paintings
+    -   name: Painting Unlock (Whomp's Fortress)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_wf
+    -   name: Painting Unlock (Jolly Roger Bay)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_jrb
+    -   name: Painting Unlock (Cool Cool Mountain)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_ccm
+    -   name: Painting Unlock (Lethal Lava Land)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_lll
+    -   name: Painting Unlock (Shifting Sand Land)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_ssl
+    -   name: Painting Unlock (Dire, Dire Docks)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_ddd
+    -   name: Painting Unlock (Snowman's Land)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_sl
+    -   name: Painting Unlock (Wet-Dry World)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_wdw
+    -   name: Painting Unlock (Tall, Tall Mountain)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_ttm
+    -   name: Painting Unlock (Tiny-Huge Island)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_thi
+    -   name: Painting Unlock (Tick Tock Clock)
+        type: toggle
+        img: images/unlock.png
+        disabled_img: images/lock.png
+        disabled_img_mods: none
+        codes: item__painting_ttc
+    -   name: THI painting label (internal use)
+        type: static
+        img: images/er_legend/er_thi_ent.png
+        codes: __er_THI_ent
+
+    # Bowsers (Item Versions)
     -   name: Defeated Bowser I
         type: toggle
         img: images/bowser/bowser_1.png
-        codes: item__bowser_1
+        disabled_img: images/bowser/bowser_1d.png
+        disabled_img_mods: none
+        codes: item__bowser_1i
     -   name: Defeated Bowser II
         type: toggle
         img: images/bowser/bowser_2.png
-        codes: item__bowser_2
+        disabled_img: images/bowser/bowser_2d.png
+        disabled_img_mods: none
+        codes: item__bowser_2i
     -   name: Defeated Bowser III
         type: toggle
         img: images/bowser/bowser_3.png
-        codes: item__bowser_3
+        disabled_img: images/bowser/bowser_3d.png
+        disabled_img_mods: none
+        codes: item__bowser_3i
+    # Bowsers (Map Versions)
+    -   name: Defeat Bowser I
+        type: toggle
+        img: images/bowser/bowser_1d.png
+        disabled_img: images/bowser/bowser_1.png
+        disabled_img_mods: none
+        codes: item__bowser_1m
+    -   name: Defeat Bowser II
+        type: toggle
+        img: images/bowser/bowser_2d.png
+        disabled_img: images/bowser/bowser_2.png
+        disabled_img_mods: none
+        codes: item__bowser_2m
+    -   name: Defeat Bowser III
+        type: toggle
+        img: images/bowser/bowser_3d.png
+        disabled_img: images/bowser/bowser_3.png
+        disabled_img_mods: none
+        codes: item__bowser_3m

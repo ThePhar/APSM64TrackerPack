@@ -14,6 +14,7 @@ type AllowedTokenTypes =
     | "BEATEN_BOWSER2"
     | "LITERAL"
     | "ALLBOWSERS"
+    | "PAINTING"
     | "EOL";
 
 const acceptedTokens: TokenMatcher[] = [
@@ -32,6 +33,7 @@ const acceptedTokens: TokenMatcher[] = [
     { expr: /ALLBOWSERS/, type: "ALLBOWSERS" },
     { expr: /BOWSER2/, type: "BEATEN_BOWSER2" },
     { expr: /SUB/, type: "COMPLETED_SUB" },
+    { expr: /PAINTING:\w+/, type: "PAINTING", extract: (match) => match.split(":")[1].toLowerCase() },
     { expr: /\^?\$\w+/, type: "LITERAL", extract: (match) => match },
 ];
 
@@ -166,6 +168,10 @@ export function buildRules(input: string | undefined, stage: string): string[] {
 
             case "LITERAL":
                 subrules.add(token.value as string);
+                break;
+
+            case "PAINTING":
+                subrules.add(`$PaintingLock|${token.value}`);
                 break;
 
             case "EOL":

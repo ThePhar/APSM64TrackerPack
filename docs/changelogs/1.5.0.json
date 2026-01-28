@@ -1,0 +1,12 @@
+[
+    "Added support for locked paintings, a new setting coming in a future Archipelago release.",
+    "Clarified bowser defeats a bit better by flipping the disabled graphic on the map view.",
+    "Removed Location overview page. Needs rework.",
+    "Moved all logic and location settings to the settings popout.",
+    "Removed Bowser defeat tracking. Will be re-added when auto-tracking for Bowser defeats is added.",
+    "Updated some images.",
+    "Included locked paintings to broadcast view.",
+    "Updated '100' graphic from 'A0' to '100' as the game no longer shows the A character for 10.",
+    "Changed doors from diamond shapes to trapezoids.",
+    "Removed setting for move rando enabling. Can easily be bypassed by giving all move items anyway."
+]

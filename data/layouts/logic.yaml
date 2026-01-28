@@ -19,7 +19,7 @@ data:
                         rows:
                             -   - __label_100s
                             -   - __label_1ups
-                            -   - __label_moves_r
+#                            -   - __label_moves_r
                     -   type: itemgrid
                         item_margin: 0, 0
                         item_size: 120, 18
@@ -28,7 +28,7 @@ data:
                         rows:
                             -   - __setting_100
                             -   - __setting_1UB
-                            -   - __setting_MV
+#                            -   - __setting_MV
             -   type: group
                 header: Logic
                 h_alignment: center

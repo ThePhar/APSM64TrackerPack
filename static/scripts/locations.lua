@@ -81,3 +81,27 @@ ScriptHost:AddWatchForCode("Toggle 1-Ups", "__setting_1UB", function()
         Tracker:FindObjectForCode(location).Active = not is_active
     end
 end)
+
+-- Toggle Bowser Items (i hate this)
+function ToggleBowserItem(code)
+    this_type = string.sub(code, -1)
+    num = string.sub(code, -2):sub(1, 1)
+
+    comp_type = this_type == "i" and "m" or "i"
+
+    ScriptHost:RemoveWatchForCode("BowserItemsToggle_" .. num .. this_type)
+    ScriptHost:RemoveWatchForCode("BowserItemsToggle_" .. num .. comp_type)
+
+    new_active = Tracker:FindObjectForCode(code).Active
+    Tracker:FindObjectForCode("item__bowser_" .. num .. comp_type).Active = new_active
+
+    ScriptHost:AddWatchForCode("BowserItemsToggle_" .. num .. this_type, "item__bowser_" .. num .. this_type, ToggleBowserItem)
+    ScriptHost:AddWatchForCode("BowserItemsToggle_" .. num .. comp_type, "item__bowser_" .. num .. comp_type, ToggleBowserItem)
+end
+
+ScriptHost:AddWatchForCode("BowserItemsToggle_1i", "item__bowser_1i", ToggleBowserItem)
+ScriptHost:AddWatchForCode("BowserItemsToggle_2i", "item__bowser_2i", ToggleBowserItem)
+ScriptHost:AddWatchForCode("BowserItemsToggle_3i", "item__bowser_3i", ToggleBowserItem)
+ScriptHost:AddWatchForCode("BowserItemsToggle_1m", "item__bowser_1m", ToggleBowserItem)
+ScriptHost:AddWatchForCode("BowserItemsToggle_2m", "item__bowser_2m", ToggleBowserItem)
+ScriptHost:AddWatchForCode("BowserItemsToggle_3m", "item__bowser_3m", ToggleBowserItem)

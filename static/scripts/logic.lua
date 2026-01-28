@@ -25,6 +25,12 @@ function StrictAccessibility(type)
     return AccessibilityLevel.None
 end
 
+function PaintingLock(stage)
+    code = "item__painting_" .. stage
+
+    return Tracker:FindObjectForCode(code).Active
+end
+
 ---@param items string A string of moves/caps, delimited by `/` characters.
 ---@return boolean Returns true if any given item is acquired.
 function Has(items)
@@ -47,12 +53,9 @@ function Has(items)
         ["VC"] = "item__cm_vc", -- Vanish Cap
     }
 
-    local move_rando = Tracker:FindObjectForCode("__setting_MV").Active
     for item in items:gmatch("([^/]+)/?") do
         if move_code_lookup[item] ~= nil then
-            if not move_rando then
-                return true
-            elseif Tracker:FindObjectForCode(move_code_lookup[item]).Active then
+            if Tracker:FindObjectForCode(move_code_lookup[item]).Active then
                 return true
             end
         else
