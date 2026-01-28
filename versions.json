@@ -1,6 +1,23 @@
 {
     "versions": [
         {
+            "package_version": "1.5.0",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.5.0/pharware-sm64-pack_1.5.0.zip",
+            "sha256": "d257b5da056dbd71965c349b9709f3f6b9908bddcb005d789a39b35d677298c1",
+            "changelog": [
+                "Added support for locked paintings, a new setting coming in a future Archipelago release.",
+                "Clarified bowser defeats a bit better by flipping the disabled graphic on the map view.",
+                "Removed Location overview page. Needs rework.",
+                "Moved all logic and location settings to the settings popout.",
+                "Removed Bowser defeat tracking. Will be re-added when auto-tracking for Bowser defeats is added.",
+                "Updated some images.",
+                "Included locked paintings to broadcast view.",
+                "Updated '100' graphic from 'A0' to '100' as the game no longer shows the A character for 10.",
+                "Changed doors from diamond shapes to trapezoids.",
+                "Removed setting for move rando enabling. Can easily be bypassed by giving all move items anyway."
+            ]
+        },
+        {
             "package_version": "1.4.4",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.4.4/pharware-sm64-pack_1.4.4.zip",
             "sha256": "1222cf3a84a76bd0275da3dadd83f55ba48b858e6bf367a7258ff3a93c695a21",
