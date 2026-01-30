@@ -73,6 +73,21 @@ function onClear(slot_data)
         SetStarReq("MIPS2", SLOT_DATA["MIPS2Cost"])
     end
 
+    -- Unlocks all paintings if no painting rando.
+    if SLOT_DATA["PaintingRando"] == nil or SLOT_DATA["PaintingRando"] == 0 then
+        Tracker:FindObjectForCode("item__painting_wf").Active = true
+        Tracker:FindObjectForCode("item__painting_jrb").Active = true
+        Tracker:FindObjectForCode("item__painting_ccm").Active = true
+        Tracker:FindObjectForCode("item__painting_lll").Active = true
+        Tracker:FindObjectForCode("item__painting_ssl").Active = true
+        Tracker:FindObjectForCode("item__painting_ddd").Active = true
+        Tracker:FindObjectForCode("item__painting_sl").Active = true
+        Tracker:FindObjectForCode("item__painting_wdw").Active = true
+        Tracker:FindObjectForCode("item__painting_ttm").Active = true
+        Tracker:FindObjectForCode("item__painting_thi").Active = true
+        Tracker:FindObjectForCode("item__painting_ttc").Active = true
+    end
+
     -- Set Moves to Enabled
     Tracker:FindObjectForCode("item__cm_tj").Active = SLOT_DATA["MoveRandoVec"] & 2    ~= 2
     Tracker:FindObjectForCode("item__cm_lj").Active = SLOT_DATA["MoveRandoVec"] & 4    ~= 4

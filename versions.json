@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.5.1",
+            "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.5.1/pharware-sm64-pack_1.5.1.zip",
+            "sha256": "12e9ef00c94f1059fabf8b31cf152fe37535c479b663fbbdc70a823d9efa6852",
+            "changelog": [
+                "Auto-detect if painting rando is disabled (or not supported by generation) and unlock all paintings accordingly.",
+                "Set 1-up blocks back to shuffled by default. Workaround for my bad code I need to refactor."
+            ]
+        },
+        {
             "package_version": "1.5.0",
             "download_url": "https://github.com/ThePhar/APSM64TrackerPack/releases/download/1.5.0/pharware-sm64-pack_1.5.0.zip",
             "sha256": "d257b5da056dbd71965c349b9709f3f6b9908bddcb005d789a39b35d677298c1",

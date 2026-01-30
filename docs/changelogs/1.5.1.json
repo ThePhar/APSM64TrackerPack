@@ -1,0 +1,4 @@
+[
+    "Auto-detect if painting rando is disabled (or not supported by generation) and unlock all paintings accordingly.",
+    "Set 1-up blocks back to shuffled by default. Workaround for my bad code I need to refactor."
+]
